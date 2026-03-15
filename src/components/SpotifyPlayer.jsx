@@ -1,5 +1,48 @@
 import { useState, useEffect, useRef } from 'react'
 
+// SVG Icons — crisp at any size, no system font dependency
+const PlayIcon = ({ size = 24, color = '#000' }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+    <path d="M8 5.14v13.72a1 1 0 0 0 1.5.86l11.04-6.86a1 1 0 0 0 0-1.72L9.5 4.28a1 1 0 0 0-1.5.86z" fill={color} />
+  </svg>
+)
+
+const PauseIcon = ({ size = 24, color = '#000' }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+    <rect x="6" y="4" width="4" height="16" rx="1" fill={color} />
+    <rect x="14" y="4" width="4" height="16" rx="1" fill={color} />
+  </svg>
+)
+
+const RestartIcon = ({ size = 24, color = '#000' }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+    <rect x="4" y="4" width="3.5" height="16" rx="1" fill={color} />
+    <path d="M10 5.14v13.72a1 1 0 0 0 1.5.86l9.04-6.86a1 1 0 0 0 0-1.72L11.5 4.28a1 1 0 0 0-1.5.86z" fill={color} />
+  </svg>
+)
+
+const SeekBackIcon = ({ size = 24, color = '#000' }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+    <path d="M12.5 3a9 9 0 1 0 6.36 2.64" stroke={color} strokeWidth="2" strokeLinecap="round" />
+    <polyline points="12.5 3 8 3 12.5 7" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+    <text x="12" y="15.5" textAnchor="middle" fontSize="7.5" fontWeight="700" fontFamily="system-ui, sans-serif" fill={color}>10</text>
+  </svg>
+)
+
+const SeekForwardIcon = ({ size = 24, color = '#000' }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+    <path d="M11.5 3a9 9 0 1 1-6.36 2.64" stroke={color} strokeWidth="2" strokeLinecap="round" />
+    <polyline points="11.5 3 16 3 11.5 7" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+    <text x="12" y="15.5" textAnchor="middle" fontSize="7.5" fontWeight="700" fontFamily="system-ui, sans-serif" fill={color}>10</text>
+  </svg>
+)
+
+const CloseIcon = ({ size = 14, color = 'currentColor' }) => (
+  <svg width={size} height={size} viewBox="0 0 14 14" fill="none">
+    <path d="M3 3l8 8M11 3l-8 8" stroke={color} strokeWidth="1.5" strokeLinecap="round" />
+  </svg>
+)
+
 export default function SpotifyPlayer({ song, token, player, isConnected, isMobile, onLogin, onLogout, onPlay, onPause, onResume, onSeekRelative, getPlaybackState }) {
   const [isPlaying, setIsPlaying] = useState(false)
   const [hasStarted, setHasStarted] = useState(false)
@@ -53,9 +96,26 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
     onSeekRelative(10000)
   }
 
+  // Shared round button style
+  const roundBtn = (size, extra = {}) => ({
+    background: 'var(--color-primary)',
+    color: '#000',
+    padding: '0',
+    border: 'none',
+    borderRadius: '50%',
+    width: `${size}px`,
+    height: `${size}px`,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexShrink: 0,
+    cursor: 'pointer',
+    transition: 'opacity 0.2s',
+    ...extra,
+  })
+
   // --- Not authenticated ---
   if (!token) {
-    // Mobile: show connect as a compact fixed bottom bar
     if (isMobile) {
       return (
         <div
@@ -96,7 +156,6 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
         </div>
       )
     }
-    // Desktop: inline
     return (
       <div className="text-center py-4 border-b border-white/10" style={{ background: 'var(--color-surface)' }}>
         <p className="text-sm mb-3" style={{ color: 'var(--color-text-muted)' }}>
@@ -171,118 +230,51 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
       >
         {song.spotifyTrackUri ? (
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px', maxWidth: '420px', margin: '0 auto' }}>
-            {/* Rewind 10s */}
             <button
               onClick={handleSeekBack}
               disabled={!hasStarted}
-              className="border-none cursor-pointer"
-              style={{
-                background: 'var(--color-primary)',
-                color: '#000',
-                fontSize: '13px',
-                fontWeight: 700,
-                padding: '0',
-                borderRadius: '50%',
-                width: '44px',
-                height: '44px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                opacity: hasStarted ? 1 : 0.3,
-                transition: 'opacity 0.2s',
-                flexShrink: 0,
-              }}
+              style={roundBtn(44, { opacity: hasStarted ? 1 : 0.3 })}
             >
-              -10
+              <SeekBackIcon size={22} />
             </button>
 
-            {/* Play from beginning */}
             <button
               onClick={handlePlay}
-              className="border-none cursor-pointer"
-              style={{
-                background: 'var(--color-primary)',
-                color: '#000',
-                fontSize: '16px',
-                lineHeight: 1,
-                padding: '0',
-                borderRadius: '50%',
-                width: '44px',
-                height: '44px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                flexShrink: 0,
-                transition: 'opacity 0.2s',
-              }}
+              style={roundBtn(44)}
               title="Play from beginning"
             >
-              ⏮
+              <RestartIcon size={20} />
             </button>
 
-            {/* Play/Pause toggle */}
             <button
               onClick={hasStarted ? handleToggle : handlePlay}
-              className="border-none cursor-pointer"
-              style={{
-                background: 'var(--color-primary)',
-                color: '#000',
-                fontSize: '24px',
-                lineHeight: 1,
-                padding: '0',
-                borderRadius: '50%',
-                width: '56px',
-                height: '56px',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                flexShrink: 0,
-                boxShadow: '0 2px 12px rgba(29, 185, 84, 0.3)',
-                transition: 'transform 0.15s, box-shadow 0.15s',
-              }}
+              style={roundBtn(56, { boxShadow: '0 2px 12px rgba(29, 185, 84, 0.3)' })}
             >
-              {isPlaying ? '⏸' : '▶'}
+              {isPlaying ? <PauseIcon size={28} /> : <PlayIcon size={28} />}
             </button>
 
-            {/* Forward 10s */}
             <button
               onClick={handleSeekForward}
               disabled={!hasStarted}
-              className="border-none cursor-pointer"
+              style={roundBtn(44, { opacity: hasStarted ? 1 : 0.3 })}
+            >
+              <SeekForwardIcon size={22} />
+            </button>
+
+            <button
+              onClick={onLogout}
               style={{
-                background: 'var(--color-primary)',
-                color: '#000',
-                fontSize: '13px',
-                fontWeight: 700,
-                padding: '0',
-                borderRadius: '50%',
-                width: '44px',
-                height: '44px',
+                background: 'none',
+                border: 'none',
+                padding: '8px',
+                cursor: 'pointer',
+                opacity: 0.4,
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                opacity: hasStarted ? 1 : 0.3,
-                transition: 'opacity 0.2s',
-                flexShrink: 0,
               }}
             >
-              +10
-            </button>
-
-            {/* Disconnect */}
-            <button
-              onClick={onLogout}
-              className="border-none cursor-pointer"
-              style={{
-                background: 'none',
-                color: 'var(--color-text-muted)',
-                fontSize: '11px',
-                padding: '8px',
-                opacity: 0.5,
-                transition: 'opacity 0.2s',
-              }}
-            >
-              ✕
+              <CloseIcon size={14} color="var(--color-text-muted)" />
             </button>
           </div>
         ) : (
@@ -340,23 +332,23 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
             }}
             title="Play from beginning"
           >
-            ⏮
+            <RestartIcon size={16} color="var(--color-text)" />
           </button>
           {!hasStarted ? (
             <button
               onClick={handlePlay}
-              className="px-4 py-1.5 rounded-full text-sm font-medium border-none cursor-pointer"
+              className="px-4 py-1.5 rounded-full text-sm font-medium border-none cursor-pointer flex items-center gap-1.5"
               style={{ background: 'var(--color-primary)', color: '#000' }}
             >
-              ▶ Play
+              <PlayIcon size={14} /> Play
             </button>
           ) : (
             <button
               onClick={handleToggle}
-              className="px-4 py-1.5 rounded-full text-sm font-medium border-none cursor-pointer"
+              className="px-4 py-1.5 rounded-full text-sm font-medium border-none cursor-pointer flex items-center gap-1.5"
               style={{ background: 'var(--color-primary)', color: '#000' }}
             >
-              {isPlaying ? '⏸ Pause' : '▶ Resume'}
+              {isPlaying ? <><PauseIcon size={14} /> Pause</> : <><PlayIcon size={14} /> Resume</>}
             </button>
           )}
           <button
