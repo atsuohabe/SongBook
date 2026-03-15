@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react'
 
-export default function AnnotatedWord({ word, showMeanings, vocabEntry, onTap }) {
+export default function AnnotatedWord({ word, showMeanings, showPinyin = true, vocabEntry, onTap }) {
   const [showPopup, setShowPopup] = useState(false)
   const ref = useRef(null)
 
@@ -24,7 +24,7 @@ export default function AnnotatedWord({ word, showMeanings, vocabEntry, onTap })
         <span className="meaning">{word.meaning}</span>
       )}
       <span className="hanzi">{word.hanzi}</span>
-      <span className="pinyin">{word.pinyin}</span>
+      {showPinyin && <span className="pinyin">{word.pinyin}</span>}
     </span>
   )
 }
