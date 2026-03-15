@@ -11,7 +11,7 @@ export default function SongPage() {
   const song = songs.find(s => s.id === songId)
   const vocabMap = useVocabLookup()
 
-  const { isConnected, player, token, isMobile, login, logout, play, pause, resume, getPlaybackState } = useSpotifyContext()
+  const { isConnected, player, token, isMobile, login, logout, play, pause, resume, seekRelative, getPlaybackState } = useSpotifyContext()
   const { activeLineIndex } = useLyricsSync(
     player,
     song,
@@ -65,6 +65,7 @@ export default function SongPage() {
         onPlay={play}
         onPause={pause}
         onResume={resume}
+        onSeekRelative={seekRelative}
         getPlaybackState={getPlaybackState}
       />
 
