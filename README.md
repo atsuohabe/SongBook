@@ -1,16 +1,29 @@
-# React + Vite
+# SongBook - 中国語歌詞学習アプリ
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+中国語の歌を通じて語彙を学ぶWebアプリケーションです。
 
-Currently, two official plugins are available:
+## 機能
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Study Mode**: 歌詞にピンインと英語の意味をオーバーレイ表示（トグル切替可能）
+- **Listening Mode**: Spotify Web Playback SDK連携で歌詞を自動スクロール
+- **単語検索**: taiwan-flashcard 8000+語のデータベースから語彙を検索
+- **単語詳細ポップアップ**: タップでTOCFLレベル・MDBG辞書リンクを表示
+- **曲検索**: タイトル・アーティスト名で検索
+- **レスポンシブデザイン**: デスクトップ・モバイル対応
 
-## React Compiler
+## 収録曲
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 周杰倫「搁浅」(Stranded)
 
-## Expanding the ESLint configuration
+## セットアップ
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## 技術スタック
+
+- React + Vite
+- Tailwind CSS
+- Spotify Web Playback SDK
