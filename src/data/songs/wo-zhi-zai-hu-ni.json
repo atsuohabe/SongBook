@@ -1,0 +1,300 @@
+{
+  "id": "wo-zhi-zai-hu-ni",
+  "title": "我只在乎你",
+  "title_pinyin": "Wǒ Zhǐ Zàihu Nǐ",
+  "title_meaning": "I Only Care About You",
+  "artist": "邓丽君",
+  "artist_pinyin": "Dèng Lìjūn",
+  "artist_en": "Teresa Teng",
+  "album": "我只在乎你",
+  "spotifyTrackUri": "spotify:track:1qSnfG6dFPlAo6kq8OAVED",
+  "lines": [
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "words": [
+        { "hanzi": "如果", "pinyin": "rúguǒ", "meaning": "if" },
+        { "hanzi": "没有", "pinyin": "méiyǒu", "meaning": "hadn't" },
+        { "hanzi": "遇见你", "pinyin": "yùjiàn nǐ", "meaning": "met you" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "将会是", "pinyin": "jiāng huì shì", "meaning": "would be" },
+        { "hanzi": "在哪里", "pinyin": "zài nǎlǐ", "meaning": "where" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "words": [
+        { "hanzi": "日子", "pinyin": "rìzi", "meaning": "days" },
+        { "hanzi": "过得", "pinyin": "guò de", "meaning": "spent" },
+        { "hanzi": "怎么样", "pinyin": "zěnmeyàng", "meaning": "how" },
+        { "hanzi": "人生", "pinyin": "rénshēng", "meaning": "life" },
+        { "hanzi": "是否", "pinyin": "shìfǒu", "meaning": "whether" },
+        { "hanzi": "要", "pinyin": "yào", "meaning": "to" },
+        { "hanzi": "珍惜", "pinyin": "zhēnxī", "meaning": "cherish" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "words": [
+        { "hanzi": "也许", "pinyin": "yěxǔ", "meaning": "perhaps" },
+        { "hanzi": "认识", "pinyin": "rènshi", "meaning": "know" },
+        { "hanzi": "某一人", "pinyin": "mǒu yì rén", "meaning": "someone" },
+        { "hanzi": "过著", "pinyin": "guò zhe", "meaning": "living" },
+        { "hanzi": "平凡的", "pinyin": "píngfán de", "meaning": "ordinary" },
+        { "hanzi": "日子", "pinyin": "rìzi", "meaning": "days" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "words": [
+        { "hanzi": "不知道", "pinyin": "bù zhīdào", "meaning": "don't know" },
+        { "hanzi": "会不会", "pinyin": "huì bù huì", "meaning": "whether" },
+        { "hanzi": "也有", "pinyin": "yě yǒu", "meaning": "also have" },
+        { "hanzi": "爱情", "pinyin": "àiqíng", "meaning": "love" },
+        { "hanzi": "甜如蜜", "pinyin": "tián rú mì", "meaning": "sweet as honey" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "words": [
+        { "hanzi": "任", "pinyin": "rèn", "meaning": "let" },
+        { "hanzi": "时光", "pinyin": "shíguāng", "meaning": "time" },
+        { "hanzi": "匆匆", "pinyin": "cōngcōng", "meaning": "hurriedly" },
+        { "hanzi": "流去", "pinyin": "liú qù", "meaning": "flow away" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "只", "pinyin": "zhǐ", "meaning": "only" },
+        { "hanzi": "在乎你", "pinyin": "zàihu nǐ", "meaning": "care about you" },
+        { "hanzi": "心甘情愿", "pinyin": "xīngānqíngyuàn", "meaning": "willingly" },
+        { "hanzi": "感染", "pinyin": "gǎnrǎn", "meaning": "be touched by" },
+        { "hanzi": "你的", "pinyin": "nǐ de", "meaning": "your" },
+        { "hanzi": "气息", "pinyin": "qìxī", "meaning": "breath" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "words": [
+        { "hanzi": "人生", "pinyin": "rénshēng", "meaning": "life" },
+        { "hanzi": "几何", "pinyin": "jǐhé", "meaning": "how long" },
+        { "hanzi": "能够", "pinyin": "nénggòu", "meaning": "able to" },
+        { "hanzi": "得到", "pinyin": "dédào", "meaning": "find" },
+        { "hanzi": "知己", "pinyin": "zhījǐ", "meaning": "soulmate" },
+        { "hanzi": "失去", "pinyin": "shīqù", "meaning": "lose" },
+        { "hanzi": "生命的", "pinyin": "shēngmìng de", "meaning": "life's" },
+        { "hanzi": "力量", "pinyin": "lìliàng", "meaning": "strength" },
+        { "hanzi": "也", "pinyin": "yě", "meaning": "also" },
+        { "hanzi": "不可惜", "pinyin": "bù kěxī", "meaning": "not a pity" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "words": [
+        { "hanzi": "所以我", "pinyin": "suǒyǐ wǒ", "meaning": "so I" },
+        { "hanzi": "求求你", "pinyin": "qiúqiu nǐ", "meaning": "beg you" },
+        { "hanzi": "别", "pinyin": "bié", "meaning": "don't" },
+        { "hanzi": "让我", "pinyin": "ràng wǒ", "meaning": "let me" },
+        { "hanzi": "离开你", "pinyin": "líkāi nǐ", "meaning": "leave you" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "words": [
+        { "hanzi": "除了你", "pinyin": "chúle nǐ", "meaning": "other than you" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "不能", "pinyin": "bù néng", "meaning": "cannot" },
+        { "hanzi": "感到", "pinyin": "gǎndào", "meaning": "feel" },
+        { "hanzi": "一丝丝", "pinyin": "yì sīsī", "meaning": "a trace of" },
+        { "hanzi": "情意", "pinyin": "qíngyì", "meaning": "affection" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "words": [
+        { "hanzi": "如果", "pinyin": "rúguǒ", "meaning": "if" },
+        { "hanzi": "有", "pinyin": "yǒu", "meaning": "there is" },
+        { "hanzi": "那么", "pinyin": "nàme", "meaning": "such" },
+        { "hanzi": "一天", "pinyin": "yì tiān", "meaning": "a day" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "说", "pinyin": "shuō", "meaning": "say" },
+        { "hanzi": "即将要", "pinyin": "jíjiāng yào", "meaning": "about to" },
+        { "hanzi": "离去", "pinyin": "líqù", "meaning": "leave" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "words": [
+        { "hanzi": "我会", "pinyin": "wǒ huì", "meaning": "I would" },
+        { "hanzi": "迷失", "pinyin": "míshī", "meaning": "lose" },
+        { "hanzi": "我自己", "pinyin": "wǒ zìjǐ", "meaning": "myself" },
+        { "hanzi": "走入", "pinyin": "zǒu rù", "meaning": "walk into" },
+        { "hanzi": "无边", "pinyin": "wúbiān", "meaning": "boundless" },
+        { "hanzi": "人海里", "pinyin": "rénhǎi lǐ", "meaning": "sea of people" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "words": [
+        { "hanzi": "不要", "pinyin": "bùyào", "meaning": "don't need" },
+        { "hanzi": "什么", "pinyin": "shénme", "meaning": "any" },
+        { "hanzi": "诺言", "pinyin": "nuòyán", "meaning": "promises" },
+        { "hanzi": "只要", "pinyin": "zhǐyào", "meaning": "only need" },
+        { "hanzi": "天天", "pinyin": "tiāntiān", "meaning": "every day" },
+        { "hanzi": "在一起", "pinyin": "zài yìqǐ", "meaning": "together" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "不能", "pinyin": "bù néng", "meaning": "cannot" },
+        { "hanzi": "只", "pinyin": "zhǐ", "meaning": "only" },
+        { "hanzi": "依靠", "pinyin": "yīkào", "meaning": "rely on" },
+        { "hanzi": "片片", "pinyin": "piànpiàn", "meaning": "fragments of" },
+        { "hanzi": "回忆", "pinyin": "huíyì", "meaning": "memories" },
+        { "hanzi": "活下去", "pinyin": "huó xiàqù", "meaning": "live on" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "words": [
+        { "hanzi": "任", "pinyin": "rèn", "meaning": "let" },
+        { "hanzi": "时光", "pinyin": "shíguāng", "meaning": "time" },
+        { "hanzi": "匆匆", "pinyin": "cōngcōng", "meaning": "hurriedly" },
+        { "hanzi": "流去", "pinyin": "liú qù", "meaning": "flow away" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "只", "pinyin": "zhǐ", "meaning": "only" },
+        { "hanzi": "在乎你", "pinyin": "zàihu nǐ", "meaning": "care about you" },
+        { "hanzi": "心甘情愿", "pinyin": "xīngānqíngyuàn", "meaning": "willingly" },
+        { "hanzi": "感染", "pinyin": "gǎnrǎn", "meaning": "be touched by" },
+        { "hanzi": "你的", "pinyin": "nǐ de", "meaning": "your" },
+        { "hanzi": "气息", "pinyin": "qìxī", "meaning": "breath" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "words": [
+        { "hanzi": "人生", "pinyin": "rénshēng", "meaning": "life" },
+        { "hanzi": "几何", "pinyin": "jǐhé", "meaning": "how long" },
+        { "hanzi": "能够", "pinyin": "nénggòu", "meaning": "able to" },
+        { "hanzi": "得到", "pinyin": "dédào", "meaning": "find" },
+        { "hanzi": "知己", "pinyin": "zhījǐ", "meaning": "soulmate" },
+        { "hanzi": "失去", "pinyin": "shīqù", "meaning": "lose" },
+        { "hanzi": "生命的", "pinyin": "shēngmìng de", "meaning": "life's" },
+        { "hanzi": "力量", "pinyin": "lìliàng", "meaning": "strength" },
+        { "hanzi": "也", "pinyin": "yě", "meaning": "also" },
+        { "hanzi": "不可惜", "pinyin": "bù kěxī", "meaning": "not a pity" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "words": [
+        { "hanzi": "所以我", "pinyin": "suǒyǐ wǒ", "meaning": "so I" },
+        { "hanzi": "求求你", "pinyin": "qiúqiu nǐ", "meaning": "beg you" },
+        { "hanzi": "别", "pinyin": "bié", "meaning": "don't" },
+        { "hanzi": "让我", "pinyin": "ràng wǒ", "meaning": "let me" },
+        { "hanzi": "离开你", "pinyin": "líkāi nǐ", "meaning": "leave you" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "words": [
+        { "hanzi": "除了你", "pinyin": "chúle nǐ", "meaning": "other than you" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "不能", "pinyin": "bù néng", "meaning": "cannot" },
+        { "hanzi": "感到", "pinyin": "gǎndào", "meaning": "feel" },
+        { "hanzi": "一丝丝", "pinyin": "yì sīsī", "meaning": "a trace of" },
+        { "hanzi": "情意", "pinyin": "qíngyì", "meaning": "affection" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "words": [
+        { "hanzi": "任", "pinyin": "rèn", "meaning": "let" },
+        { "hanzi": "时光", "pinyin": "shíguāng", "meaning": "time" },
+        { "hanzi": "匆匆", "pinyin": "cōngcōng", "meaning": "hurriedly" },
+        { "hanzi": "流去", "pinyin": "liú qù", "meaning": "flow away" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "只", "pinyin": "zhǐ", "meaning": "only" },
+        { "hanzi": "在乎你", "pinyin": "zàihu nǐ", "meaning": "care about you" },
+        { "hanzi": "心甘情愿", "pinyin": "xīngānqíngyuàn", "meaning": "willingly" },
+        { "hanzi": "感染", "pinyin": "gǎnrǎn", "meaning": "be touched by" },
+        { "hanzi": "你的", "pinyin": "nǐ de", "meaning": "your" },
+        { "hanzi": "气息", "pinyin": "qìxī", "meaning": "breath" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "words": [
+        { "hanzi": "人生", "pinyin": "rénshēng", "meaning": "life" },
+        { "hanzi": "几何", "pinyin": "jǐhé", "meaning": "how long" },
+        { "hanzi": "能够", "pinyin": "nénggòu", "meaning": "able to" },
+        { "hanzi": "得到", "pinyin": "dédào", "meaning": "find" },
+        { "hanzi": "知己", "pinyin": "zhījǐ", "meaning": "soulmate" },
+        { "hanzi": "失去", "pinyin": "shīqù", "meaning": "lose" },
+        { "hanzi": "生命的", "pinyin": "shēngmìng de", "meaning": "life's" },
+        { "hanzi": "力量", "pinyin": "lìliàng", "meaning": "strength" },
+        { "hanzi": "也", "pinyin": "yě", "meaning": "also" },
+        { "hanzi": "不可惜", "pinyin": "bù kěxī", "meaning": "not a pity" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "words": [
+        { "hanzi": "所以我", "pinyin": "suǒyǐ wǒ", "meaning": "so I" },
+        { "hanzi": "求求你", "pinyin": "qiúqiu nǐ", "meaning": "beg you" },
+        { "hanzi": "别", "pinyin": "bié", "meaning": "don't" },
+        { "hanzi": "让我", "pinyin": "ràng wǒ", "meaning": "let me" },
+        { "hanzi": "离开你", "pinyin": "líkāi nǐ", "meaning": "leave you" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "words": [
+        { "hanzi": "除了你", "pinyin": "chúle nǐ", "meaning": "other than you" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "不能", "pinyin": "bù néng", "meaning": "cannot" },
+        { "hanzi": "感到", "pinyin": "gǎndào", "meaning": "feel" },
+        { "hanzi": "一丝丝", "pinyin": "yì sīsī", "meaning": "a trace of" },
+        { "hanzi": "情意", "pinyin": "qíngyì", "meaning": "affection" }
+      ]
+    }
+  ]
+}
