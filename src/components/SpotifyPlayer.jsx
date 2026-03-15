@@ -170,35 +170,17 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
         }}
       >
         {song.spotifyTrackUri ? (
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-evenly', maxWidth: '400px', margin: '0 auto' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px', maxWidth: '420px', margin: '0 auto' }}>
             {/* Rewind 10s */}
             <button
               onClick={handleSeekBack}
               disabled={!hasStarted}
               className="border-none cursor-pointer"
               style={{
-                background: 'none',
-                color: 'var(--color-text)',
+                background: 'var(--color-primary)',
+                color: '#000',
                 fontSize: '13px',
-                fontWeight: 500,
-                padding: '10px 14px',
-                borderRadius: '20px',
-                opacity: hasStarted ? 0.85 : 0.3,
-                letterSpacing: '-0.5px',
-                transition: 'opacity 0.2s',
-              }}
-            >
-              ↺ 10
-            </button>
-
-            {/* Play from beginning */}
-            <button
-              onClick={handlePlay}
-              className="border-none cursor-pointer"
-              style={{
-                background: 'rgba(255,255,255,0.08)',
-                color: 'var(--color-text)',
-                fontSize: '18px',
+                fontWeight: 700,
                 padding: '0',
                 borderRadius: '50%',
                 width: '44px',
@@ -206,7 +188,32 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                transition: 'background 0.2s',
+                opacity: hasStarted ? 1 : 0.3,
+                transition: 'opacity 0.2s',
+                flexShrink: 0,
+              }}
+            >
+              -10
+            </button>
+
+            {/* Play from beginning */}
+            <button
+              onClick={handlePlay}
+              className="border-none cursor-pointer"
+              style={{
+                background: 'var(--color-primary)',
+                color: '#000',
+                fontSize: '16px',
+                lineHeight: 1,
+                padding: '0',
+                borderRadius: '50%',
+                width: '44px',
+                height: '44px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                flexShrink: 0,
+                transition: 'opacity 0.2s',
               }}
               title="Play from beginning"
             >
@@ -220,7 +227,8 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
               style={{
                 background: 'var(--color-primary)',
                 color: '#000',
-                fontSize: '22px',
+                fontSize: '24px',
+                lineHeight: 1,
                 padding: '0',
                 borderRadius: '50%',
                 width: '56px',
@@ -242,21 +250,26 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
               disabled={!hasStarted}
               className="border-none cursor-pointer"
               style={{
-                background: 'none',
-                color: 'var(--color-text)',
+                background: 'var(--color-primary)',
+                color: '#000',
                 fontSize: '13px',
-                fontWeight: 500,
-                padding: '10px 14px',
-                borderRadius: '20px',
-                opacity: hasStarted ? 0.85 : 0.3,
-                letterSpacing: '-0.5px',
+                fontWeight: 700,
+                padding: '0',
+                borderRadius: '50%',
+                width: '44px',
+                height: '44px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                opacity: hasStarted ? 1 : 0.3,
                 transition: 'opacity 0.2s',
+                flexShrink: 0,
               }}
             >
-              10 ↻
+              +10
             </button>
 
-            {/* Disconnect - small, tucked to the side */}
+            {/* Disconnect */}
             <button
               onClick={onLogout}
               className="border-none cursor-pointer"
