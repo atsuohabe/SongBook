@@ -1,4 +1,20 @@
-export default function SpotifyPlayer({ song, token, isConnected, onLogin, onPlay }) {
+import { useState, useEffect } from 'react'
+
+export default function SpotifyPlayer({ song, token, player, isConnected, onLogin, onPlay, onPause, onResume }) {
+  const [isPlaying, setIsPlaying] = useState(false)
+  const [hasStarted, setHasStarted] = useState(false)
+
+  useEffect(() => {
+    if (!player) return
+    const onStateChange = (state) => {
+      if (state) {
+        setIsPlaying(!state.paused)
+      }
+    }
+    player.addListener('player_state_changed', onStateChange)
+    return () => player.removeListener('player_state_changed', onStateChange)
+  }, [player])
+
   if (!token) {
     return (
       <div className="text-center py-4 border-b border-white/10" style={{ background: 'var(--color-surface)' }}>
@@ -32,6 +48,15 @@ export default function SpotifyPlayer({ song, token, isConnected, onLogin, onPla
   const handlePlay = () => {
     if (song.spotifyTrackUri) {
       onPlay(song.spotifyTrackUri)
+      setHasStarted(true)
+    }
+  }
+
+  const handleToggle = () => {
+    if (isPlaying) {
+      onPause()
+    } else {
+      onResume()
     }
   }
 
@@ -41,13 +66,25 @@ export default function SpotifyPlayer({ song, token, isConnected, onLogin, onPla
         Spotify Connected
       </span>
       {song.spotifyTrackUri ? (
-        <button
-          onClick={handlePlay}
-          className="px-4 py-1.5 rounded-full text-sm font-medium border-none cursor-pointer"
-          style={{ background: 'var(--color-primary)', color: '#000' }}
-        >
-          Play
-        </button>
+        <div className="flex gap-2">
+          {!hasStarted ? (
+            <button
+              onClick={handlePlay}
+              className="px-4 py-1.5 rounded-full text-sm font-medium border-none cursor-pointer"
+              style={{ background: 'var(--color-primary)', color: '#000' }}
+            >
+              ▶ Play
+            </button>
+          ) : (
+            <button
+              onClick={handleToggle}
+              className="px-4 py-1.5 rounded-full text-sm font-medium border-none cursor-pointer"
+              style={{ background: 'var(--color-primary)', color: '#000' }}
+            >
+              {isPlaying ? '⏸ Pause' : '▶ Resume'}
+            </button>
+          )}
+        </div>
       ) : (
         <span className="text-xs" style={{ color: 'var(--color-text-muted)' }}>
           No Spotify track URI configured for this song

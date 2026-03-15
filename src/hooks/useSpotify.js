@@ -142,5 +142,33 @@ export function useSpotify() {
     }
   }, [token, deviceId])
 
-  return { token, player, isConnected, deviceId, login, play }
+  const pause = useCallback(async () => {
+    if (!token || !deviceId) return
+    try {
+      await fetch(`https://api.spotify.com/v1/me/player/pause?device_id=${deviceId}`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+        },
+      })
+    } catch (e) {
+      console.error('Spotify pause error:', e)
+    }
+  }, [token, deviceId])
+
+  const resume = useCallback(async () => {
+    if (!token || !deviceId) return
+    try {
+      await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+        },
+      })
+    } catch (e) {
+      console.error('Spotify resume error:', e)
+    }
+  }, [token, deviceId])
+
+  return { token, player, isConnected, deviceId, login, play, pause, resume }
 }
