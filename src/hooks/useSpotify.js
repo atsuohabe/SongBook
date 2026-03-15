@@ -1,7 +1,8 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 
 const CLIENT_ID = import.meta.env.VITE_SPOTIFY_CLIENT_ID || ''
-const REDIRECT_URI = window.location.origin + window.location.pathname
+// HashRouter uses the pathname as base; strip trailing hash/search for a clean redirect
+const REDIRECT_URI = window.location.origin + window.location.pathname.replace(/\/$/, '') + '/'
 const SCOPES = 'streaming user-read-email user-read-private user-modify-playback-state user-read-playback-state'
 
 function generateRandomString(length) {

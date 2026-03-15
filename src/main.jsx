@@ -4,11 +4,14 @@ import { HashRouter } from 'react-router-dom'
 import './index.css'
 import './styles/lyrics.css'
 import App from './App.jsx'
+import { SpotifyProvider } from './contexts/SpotifyContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HashRouter>
-      <App />
+      <SpotifyProvider>
+        <App />
+      </SpotifyProvider>
     </HashRouter>
   </StrictMode>,
 )
