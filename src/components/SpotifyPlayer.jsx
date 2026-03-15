@@ -96,6 +96,12 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
     onSeekRelative(10000)
   }
 
+  const handleDisconnect = () => {
+    if (window.confirm('Spotifyとの接続を切断しますか？')) {
+      onLogout()
+    }
+  }
+
   // Shared round button style
   const roundBtn = (size, extra = {}) => ({
     background: 'var(--color-primary)',
@@ -224,12 +230,12 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
           backdropFilter: 'blur(20px)',
           WebkitBackdropFilter: 'blur(20px)',
           borderTop: '1px solid rgba(255,255,255,0.08)',
-          padding: '12px 16px',
-          paddingBottom: 'max(12px, env(safe-area-inset-bottom))',
+          padding: '20px 20px',
+          paddingBottom: 'max(24px, calc(env(safe-area-inset-bottom) + 12px))',
         }}
       >
         {song.spotifyTrackUri ? (
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px', maxWidth: '420px', margin: '0 auto' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '16px', maxWidth: '420px', margin: '0 auto' }}>
             <button
               onClick={handleSeekBack}
               disabled={!hasStarted}
@@ -262,7 +268,7 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
             </button>
 
             <button
-              onClick={onLogout}
+              onClick={handleDisconnect}
               style={{
                 background: 'none',
                 border: 'none',
@@ -283,7 +289,7 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
               Spotify Connected
             </span>
             <button
-              onClick={onLogout}
+              onClick={handleDisconnect}
               className="border-none cursor-pointer"
               style={{
                 background: 'rgba(255,255,255,0.08)',
@@ -371,7 +377,7 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
         </span>
       )}
       <button
-        onClick={onLogout}
+        onClick={handleDisconnect}
         className="px-3 py-1 rounded-full text-xs border-none cursor-pointer"
         style={{ background: 'transparent', color: 'var(--color-text-muted)', border: '1px solid var(--color-text-muted)' }}
       >

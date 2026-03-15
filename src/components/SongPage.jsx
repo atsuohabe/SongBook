@@ -31,7 +31,7 @@ export default function SongPage() {
   }
 
   return (
-    <div style={isMobile ? { paddingBottom: '90px' } : undefined}>
+    <div style={isMobile ? { paddingBottom: '120px' } : undefined}>
       {/* Song Header */}
       <div className="text-center py-6 border-b border-white/10">
         <Link to="/" className="text-sm mb-2 inline-block no-underline" style={{ color: 'var(--color-text-muted)' }}>
