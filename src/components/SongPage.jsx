@@ -31,7 +31,7 @@ export default function SongPage() {
   }
 
   return (
-    <div>
+    <div style={isMobile ? { paddingBottom: '90px' } : undefined}>
       {/* Song Header */}
       <div className="text-center py-6 border-b border-white/10">
         <Link to="/" className="text-sm mb-2 inline-block no-underline" style={{ color: 'var(--color-text-muted)' }}>
@@ -53,21 +53,23 @@ export default function SongPage() {
         </p>
       </div>
 
-      {/* Spotify Player */}
-      <SpotifyPlayer
-        song={song}
-        token={token}
-        player={player}
-        isConnected={isConnected}
-        isMobile={isMobile}
-        onLogin={login}
-        onLogout={logout}
-        onPlay={play}
-        onPause={pause}
-        onResume={resume}
-        onSeekRelative={seekRelative}
-        getPlaybackState={getPlaybackState}
-      />
+      {/* Spotify Player - desktop: inline, mobile: fixed bottom (rendered via portal-like fixed positioning) */}
+      {!isMobile && (
+        <SpotifyPlayer
+          song={song}
+          token={token}
+          player={player}
+          isConnected={isConnected}
+          isMobile={isMobile}
+          onLogin={login}
+          onLogout={logout}
+          onPlay={play}
+          onPause={pause}
+          onResume={resume}
+          onSeekRelative={seekRelative}
+          getPlaybackState={getPlaybackState}
+        />
+      )}
 
       {/* Lyrics */}
       <LyricsView
@@ -75,6 +77,24 @@ export default function SongPage() {
         activeLineIndex={activeLineIndex}
         vocabMap={vocabMap}
       />
+
+      {/* Mobile: fixed bottom player */}
+      {isMobile && (
+        <SpotifyPlayer
+          song={song}
+          token={token}
+          player={player}
+          isConnected={isConnected}
+          isMobile={isMobile}
+          onLogin={login}
+          onLogout={logout}
+          onPlay={play}
+          onPause={pause}
+          onResume={resume}
+          onSeekRelative={seekRelative}
+          getPlaybackState={getPlaybackState}
+        />
+      )}
     </div>
   )
 }
