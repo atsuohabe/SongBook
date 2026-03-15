@@ -389,6 +389,42 @@ export function useSpotify() {
     }
   }, [token, deviceId, apiFetch, findMobileDevice])
 
+  const seek = useCallback(async (positionMs) => {
+    if (!token) return
+    try {
+      if (isMobile) {
+        const device = await findMobileDevice()
+        if (!device) return
+        await apiFetch(`https://api.spotify.com/v1/me/player/seek?position_ms=${positionMs}&device_id=${device.id}`, { method: 'PUT' })
+      } else {
+        if (!deviceId) return
+        await apiFetch(`https://api.spotify.com/v1/me/player/seek?position_ms=${positionMs}&device_id=${deviceId}`, { method: 'PUT' })
+      }
+    } catch (e) {
+      console.error('Spotify seek error:', e)
+    }
+  }, [token, deviceId, apiFetch, findMobileDevice])
+
+  const seekRelative = useCallback(async (deltaMs) => {
+    try {
+      let currentPositionMs = 0
+      if (!isMobile && player) {
+        const state = await player.getCurrentState()
+        if (state) currentPositionMs = state.position
+      } else {
+        const res = await apiFetch('https://api.spotify.com/v1/me/player')
+        if (res && res.status !== 204) {
+          const state = await res.json()
+          if (state) currentPositionMs = state.progress_ms
+        }
+      }
+      const newPosition = Math.max(0, currentPositionMs + deltaMs)
+      await seek(newPosition)
+    } catch (e) {
+      console.error('Spotify seekRelative error:', e)
+    }
+  }, [isMobile, player, apiFetch, seek])
+
   // Mobile: poll playback state via API
   const getPlaybackState = useCallback(async () => {
     if (!token) return null
@@ -403,6 +439,6 @@ export function useSpotify() {
 
   return {
     token, player, isConnected, deviceId, isMobile,
-    login, logout, play, pause, resume, getPlaybackState,
+    login, logout, play, pause, resume, seek, seekRelative, getPlaybackState,
   }
 }
