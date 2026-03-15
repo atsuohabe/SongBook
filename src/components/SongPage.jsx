@@ -13,10 +13,12 @@ export default function SongPage() {
   const vocabMap = useVocabLookup()
   const [mode, setMode] = useState('study')
 
-  const { isConnected, player, token, login, play, pause, resume } = useSpotifyContext()
+  const { isConnected, player, token, isMobile, login, logout, play, pause, resume, getPlaybackState } = useSpotifyContext()
   const { activeLineIndex } = useLyricsSync(
     mode === 'listen' ? player : null,
-    song
+    song,
+    mode === 'listen' ? getPlaybackState : null,
+    isMobile
   )
 
   if (!song) {
@@ -84,10 +86,13 @@ export default function SongPage() {
           token={token}
           player={player}
           isConnected={isConnected}
+          isMobile={isMobile}
           onLogin={login}
+          onLogout={logout}
           onPlay={play}
           onPause={pause}
           onResume={resume}
+          getPlaybackState={getPlaybackState}
         />
       )}
 
