@@ -11,6 +11,10 @@ export default function LyricsView({ song, activeLineIndex, vocabMap }) {
     const saved = localStorage.getItem('songbook-show-pinyin')
     return saved !== null ? JSON.parse(saved) : true
   })
+  const [showTranslation, setShowTranslation] = useState(() => {
+    const saved = localStorage.getItem('songbook-show-translation')
+    return saved !== null ? JSON.parse(saved) : false
+  })
   const [selectedWord, setSelectedWord] = useState(null)
   const [popupPosition, setPopupPosition] = useState(null)
   const lineRefs = useRef([])
@@ -23,6 +27,10 @@ export default function LyricsView({ song, activeLineIndex, vocabMap }) {
   useEffect(() => {
     localStorage.setItem('songbook-show-pinyin', JSON.stringify(showPinyin))
   }, [showPinyin])
+
+  useEffect(() => {
+    localStorage.setItem('songbook-show-translation', JSON.stringify(showTranslation))
+  }, [showTranslation])
 
   // Auto-scroll to active line
   useEffect(() => {
@@ -47,12 +55,14 @@ export default function LyricsView({ song, activeLineIndex, vocabMap }) {
     setPopupPosition(null)
   }, [])
 
+  const hasTranslation = song?.lines?.some(line => line.translation)
+
   if (!song) return null
 
   return (
     <div ref={containerRef} className="relative">
       {/* Controls */}
-      <div className="flex items-center justify-center gap-4 py-3 border-b border-white/10 sticky top-0 z-10" style={{ background: 'var(--color-bg)' }}>
+      <div className="flex items-center justify-center gap-4 py-3 border-b border-white/10 sticky top-0 z-10 flex-wrap" style={{ background: 'var(--color-bg)' }}>
         <button
           onClick={() => setShowMeanings(!showMeanings)}
           className="px-4 py-1.5 rounded-full text-sm font-medium transition-colors border-none cursor-pointer"
@@ -73,6 +83,18 @@ export default function LyricsView({ song, activeLineIndex, vocabMap }) {
         >
           {showPinyin ? 'Pinyin: ON' : 'Pinyin: OFF'}
         </button>
+        {hasTranslation && (
+          <button
+            onClick={() => setShowTranslation(!showTranslation)}
+            className="px-4 py-1.5 rounded-full text-sm font-medium transition-colors border-none cursor-pointer"
+            style={{
+              background: showTranslation ? 'var(--color-primary)' : 'var(--color-surface)',
+              color: showTranslation ? '#000' : 'var(--color-text)',
+            }}
+          >
+            {showTranslation ? 'Translation: ON' : 'Translation: OFF'}
+          </button>
+        )}
       </div>
 
       {/* Lyrics */}
@@ -84,6 +106,7 @@ export default function LyricsView({ song, activeLineIndex, vocabMap }) {
             isActive={i === activeLineIndex}
             showMeanings={showMeanings}
             showPinyin={showPinyin}
+            showTranslation={showTranslation}
             vocabMap={vocabMap}
             onWordTap={handleWordTap}
             lineRef={el => lineRefs.current[i] = el}
