@@ -12,12 +12,13 @@
     {
       "startTime": null,
       "endTime": null,
+      "section": "verse1",
       "words": [
         { "hanzi": "烏雲", "pinyin": "wūyún", "meaning": "dark clouds" },
         { "hanzi": "在", "pinyin": "zài", "meaning": "at" },
         { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "our" },
         { "hanzi": "心裏", "pinyin": "xīnlǐ", "meaning": "in the heart" },
-        { "hanzi": "擱下了", "pinyin": "gē xià le", "meaning": "left behind" },
+        { "hanzi": "擱下", "pinyin": "gē xià", "meaning": "left behind" },
         { "hanzi": "一塊", "pinyin": "yí kuài", "meaning": "a piece of" },
         { "hanzi": "陰影", "pinyin": "yīnyǐng", "meaning": "shadow" }
       ]
@@ -25,59 +26,91 @@
     {
       "startTime": null,
       "endTime": null,
+      "section": "verse1",
       "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
-        { "hanzi": "聽著", "pinyin": "tīng zhe", "meaning": "listening to" },
-        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
-        { "hanzi": "說好", "pinyin": "shuō hǎo", "meaning": "promised" },
-        { "hanzi": "不", "pinyin": "bù", "meaning": "not" },
-        { "hanzi": "哭泣", "pinyin": "kūqì", "meaning": "cry" }
+        { "hanzi": "聆聽", "pinyin": "língtīng", "meaning": "listen to" },
+        { "hanzi": "沉寂", "pinyin": "chénjì", "meaning": "silent" },
+        { "hanzi": "已久的", "pinyin": "yǐ jiǔ de", "meaning": "for a long time" },
+        { "hanzi": "心情", "pinyin": "xīnqíng", "meaning": "feelings" }
       ]
     },
     {
       "startTime": null,
       "endTime": null,
+      "section": "verse1",
       "words": [
-        { "hanzi": "花", "pinyin": "huā", "meaning": "flower" },
-        { "hanzi": "被", "pinyin": "bèi", "meaning": "by (passive)" },
-        { "hanzi": "風", "pinyin": "fēng", "meaning": "wind" },
-        { "hanzi": "吹過", "pinyin": "chuī guò", "meaning": "blown past" },
-        { "hanzi": "舊了", "pinyin": "jiù le", "meaning": "faded" },
-        { "hanzi": "以後的", "pinyin": "yǐhòu de", "meaning": "after" },
-        { "hanzi": "顏色", "pinyin": "yánsè", "meaning": "color" }
+        { "hanzi": "清晰", "pinyin": "qīngxī", "meaning": "clear" },
+        { "hanzi": "透明", "pinyin": "tòumíng", "meaning": "transparent" },
+        { "hanzi": "就像", "pinyin": "jiù xiàng", "meaning": "just like" },
+        { "hanzi": "美麗的", "pinyin": "měilì de", "meaning": "beautiful" },
+        { "hanzi": "風景", "pinyin": "fēngjǐng", "meaning": "scenery" }
       ]
     },
     {
       "startTime": null,
       "endTime": null,
+      "section": "verse1",
       "words": [
-        { "hanzi": "我的", "pinyin": "wǒ de", "meaning": "my" },
-        { "hanzi": "世界", "pinyin": "shìjiè", "meaning": "world" },
-        { "hanzi": "開始", "pinyin": "kāishǐ", "meaning": "begins to" },
-        { "hanzi": "下雪", "pinyin": "xiàxuě", "meaning": "snow" }
+        { "hanzi": "總在", "pinyin": "zǒng zài", "meaning": "always in" },
+        { "hanzi": "回憶裏", "pinyin": "huíyì lǐ", "meaning": "in memories" },
+        { "hanzi": "才", "pinyin": "cái", "meaning": "only then" },
+        { "hanzi": "看的清", "pinyin": "kàn de qīng", "meaning": "can see clearly" }
       ]
     },
     {
       "startTime": null,
       "endTime": null,
+      "section": "prechorus",
       "words": [
-        { "hanzi": "冷風中", "pinyin": "lěng fēng zhōng", "meaning": "in the cold wind" },
-        { "hanzi": "好想你", "pinyin": "hǎo xiǎng nǐ", "meaning": "miss you so much" }
+        { "hanzi": "被", "pinyin": "bèi", "meaning": "(passive)" },
+        { "hanzi": "傷透的", "pinyin": "shāng tòu de", "meaning": "deeply hurt" },
+        { "hanzi": "心", "pinyin": "xīn", "meaning": "heart" },
+        { "hanzi": "能不能夠", "pinyin": "néng bù nénggòu", "meaning": "can it" },
+        { "hanzi": "繼續", "pinyin": "jìxù", "meaning": "continue to" },
+        { "hanzi": "愛我", "pinyin": "ài wǒ", "meaning": "love me" }
       ]
     },
     {
       "startTime": null,
       "endTime": null,
+      "section": "prechorus",
       "words": [
-        { "hanzi": "抱著", "pinyin": "bào zhe", "meaning": "holding" },
-        { "hanzi": "遺憾", "pinyin": "yíhàn", "meaning": "regret" },
-        { "hanzi": "暖暖的", "pinyin": "nuǎnnuǎn de", "meaning": "warmly" },
-        { "hanzi": "哭泣", "pinyin": "kūqì", "meaning": "crying" }
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "用力", "pinyin": "yònglì", "meaning": "with force" },
+        { "hanzi": "牽起", "pinyin": "qiān qǐ", "meaning": "take hold of" },
+        { "hanzi": "沒", "pinyin": "méi", "meaning": "without" },
+        { "hanzi": "溫度的", "pinyin": "wēndù de", "meaning": "warmth" },
+        { "hanzi": "雙手", "pinyin": "shuāngshǒu", "meaning": "hands" }
       ]
     },
     {
       "startTime": null,
       "endTime": null,
+      "section": "prechorus",
+      "words": [
+        { "hanzi": "過往", "pinyin": "guòwǎng", "meaning": "past" },
+        { "hanzi": "溫柔", "pinyin": "wēnróu", "meaning": "tenderness" },
+        { "hanzi": "已經", "pinyin": "yǐjīng", "meaning": "already" },
+        { "hanzi": "被", "pinyin": "bèi", "meaning": "by" },
+        { "hanzi": "時間", "pinyin": "shíjiān", "meaning": "time" },
+        { "hanzi": "上鎖", "pinyin": "shàng suǒ", "meaning": "locked away" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus",
+      "words": [
+        { "hanzi": "只剩", "pinyin": "zhǐ shèng", "meaning": "only left with" },
+        { "hanzi": "揮散不去的", "pinyin": "huī sàn bù qù de", "meaning": "lingering" },
+        { "hanzi": "難過", "pinyin": "nánguò", "meaning": "sadness" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus",
       "words": [
         { "hanzi": "緩緩", "pinyin": "huǎnhuǎn", "meaning": "slowly" },
         { "hanzi": "飄落的", "pinyin": "piāoluò de", "meaning": "drifting down" },
@@ -89,6 +122,7 @@
     {
       "startTime": null,
       "endTime": null,
+      "section": "chorus",
       "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
         { "hanzi": "點燃", "pinyin": "diǎnrán", "meaning": "light up" },
@@ -101,10 +135,18 @@
     {
       "startTime": null,
       "endTime": null,
+      "section": "chorus",
       "words": [
         { "hanzi": "極光", "pinyin": "jíguāng", "meaning": "aurora" },
         { "hanzi": "掠奪", "pinyin": "lüèduó", "meaning": "seize" },
-        { "hanzi": "天邊", "pinyin": "tiānbiān", "meaning": "horizon" },
+        { "hanzi": "天邊", "pinyin": "tiānbiān", "meaning": "horizon" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus",
+      "words": [
         { "hanzi": "北風", "pinyin": "běifēng", "meaning": "north wind" },
         { "hanzi": "掠過", "pinyin": "lüè guò", "meaning": "sweep past" },
         { "hanzi": "想你的", "pinyin": "xiǎng nǐ de", "meaning": "missing you" },
@@ -114,6 +156,7 @@
     {
       "startTime": null,
       "endTime": null,
+      "section": "chorus",
       "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
         { "hanzi": "把", "pinyin": "bǎ", "meaning": "" },
@@ -125,6 +168,7 @@
     {
       "startTime": null,
       "endTime": null,
+      "section": "chorus",
       "words": [
         { "hanzi": "卻", "pinyin": "què", "meaning": "but" },
         { "hanzi": "換不回", "pinyin": "huàn bù huí", "meaning": "cannot get back" },
@@ -136,77 +180,7 @@
     {
       "startTime": null,
       "endTime": null,
-      "words": [
-        { "hanzi": "翻著", "pinyin": "fān zhe", "meaning": "flipping through" },
-        { "hanzi": "我們的", "pinyin": "wǒmen de", "meaning": "our" },
-        { "hanzi": "照片", "pinyin": "zhàopiàn", "meaning": "photos" }
-      ]
-    },
-    {
-      "startTime": null,
-      "endTime": null,
-      "words": [
-        { "hanzi": "想念", "pinyin": "xiǎngniàn", "meaning": "missing" },
-        { "hanzi": "若隱若現", "pinyin": "ruòyǐn ruòxiàn", "meaning": "faintly visible" }
-      ]
-    },
-    {
-      "startTime": null,
-      "endTime": null,
-      "words": [
-        { "hanzi": "去年的", "pinyin": "qùnián de", "meaning": "last year's" },
-        { "hanzi": "冬天", "pinyin": "dōngtiān", "meaning": "winter" }
-      ]
-    },
-    {
-      "startTime": null,
-      "endTime": null,
-      "words": [
-        { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
-        { "hanzi": "笑得", "pinyin": "xiào de", "meaning": "smiled" },
-        { "hanzi": "很甜", "pinyin": "hěn tián", "meaning": "so sweetly" }
-      ]
-    },
-    {
-      "startTime": null,
-      "endTime": null,
-      "words": [
-        { "hanzi": "看著", "pinyin": "kàn zhe", "meaning": "watching" },
-        { "hanzi": "你", "pinyin": "nǐ", "meaning": "your" },
-        { "hanzi": "哭泣的", "pinyin": "kūqì de", "meaning": "crying" },
-        { "hanzi": "臉", "pinyin": "liǎn", "meaning": "face" }
-      ]
-    },
-    {
-      "startTime": null,
-      "endTime": null,
-      "words": [
-        { "hanzi": "對著", "pinyin": "duì zhe", "meaning": "facing" },
-        { "hanzi": "我", "pinyin": "wǒ", "meaning": "me" },
-        { "hanzi": "說再見", "pinyin": "shuō zàijiàn", "meaning": "say goodbye" }
-      ]
-    },
-    {
-      "startTime": null,
-      "endTime": null,
-      "words": [
-        { "hanzi": "來不及", "pinyin": "láibùjí", "meaning": "too late to" },
-        { "hanzi": "聽見", "pinyin": "tīngjiàn", "meaning": "hear" }
-      ]
-    },
-    {
-      "startTime": null,
-      "endTime": null,
-      "words": [
-        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
-        { "hanzi": "已", "pinyin": "yǐ", "meaning": "already" },
-        { "hanzi": "走得", "pinyin": "zǒu de", "meaning": "gone" },
-        { "hanzi": "很遠", "pinyin": "hěn yuǎn", "meaning": "far away" }
-      ]
-    },
-    {
-      "startTime": null,
-      "endTime": null,
+      "section": "chorus2",
       "words": [
         { "hanzi": "緩緩", "pinyin": "huǎnhuǎn", "meaning": "slowly" },
         { "hanzi": "飄落的", "pinyin": "piāoluò de", "meaning": "drifting down" },
@@ -218,80 +192,31 @@
     {
       "startTime": null,
       "endTime": null,
-      "words": [
-        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
-        { "hanzi": "點燃", "pinyin": "diǎnrán", "meaning": "light up" },
-        { "hanzi": "燭火", "pinyin": "zhúhuǒ", "meaning": "candlelight" },
-        { "hanzi": "溫暖", "pinyin": "wēnnuǎn", "meaning": "warm" },
-        { "hanzi": "歲末的", "pinyin": "suìmò de", "meaning": "year-end" },
-        { "hanzi": "秋天", "pinyin": "qiūtiān", "meaning": "autumn" }
-      ]
-    },
-    {
-      "startTime": null,
-      "endTime": null,
-      "words": [
-        { "hanzi": "極光", "pinyin": "jíguāng", "meaning": "aurora" },
-        { "hanzi": "掠奪", "pinyin": "lüèduó", "meaning": "seize" },
-        { "hanzi": "天邊", "pinyin": "tiānbiān", "meaning": "horizon" },
-        { "hanzi": "北風", "pinyin": "běifēng", "meaning": "north wind" },
-        { "hanzi": "掠過", "pinyin": "lüè guò", "meaning": "sweep past" },
-        { "hanzi": "想你的", "pinyin": "xiǎng nǐ de", "meaning": "missing you" },
-        { "hanzi": "容顏", "pinyin": "róngyán", "meaning": "face" }
-      ]
-    },
-    {
-      "startTime": null,
-      "endTime": null,
-      "words": [
-        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
-        { "hanzi": "把", "pinyin": "bǎ", "meaning": "" },
-        { "hanzi": "愛", "pinyin": "ài", "meaning": "love" },
-        { "hanzi": "燒成了", "pinyin": "shāo chéng le", "meaning": "burned into" },
-        { "hanzi": "落葉", "pinyin": "luòyè", "meaning": "fallen leaves" }
-      ]
-    },
-    {
-      "startTime": null,
-      "endTime": null,
-      "words": [
-        { "hanzi": "卻", "pinyin": "què", "meaning": "but" },
-        { "hanzi": "換不回", "pinyin": "huàn bù huí", "meaning": "cannot get back" },
-        { "hanzi": "熟悉的", "pinyin": "shúxī de", "meaning": "familiar" },
-        { "hanzi": "那張", "pinyin": "nà zhāng", "meaning": "that" },
-        { "hanzi": "臉", "pinyin": "liǎn", "meaning": "face" }
-      ]
-    },
-    {
-      "startTime": null,
-      "endTime": null,
-      "words": [
-        { "hanzi": "緩緩", "pinyin": "huǎnhuǎn", "meaning": "slowly" },
-        { "hanzi": "飄落的", "pinyin": "piāoluò de", "meaning": "drifting down" },
-        { "hanzi": "楓葉", "pinyin": "fēngyè", "meaning": "maple leaf" },
-        { "hanzi": "像", "pinyin": "xiàng", "meaning": "like" },
-        { "hanzi": "思念", "pinyin": "sīniàn", "meaning": "longing" }
-      ]
-    },
-    {
-      "startTime": null,
-      "endTime": null,
+      "section": "chorus2",
       "words": [
         { "hanzi": "為何", "pinyin": "wèihé", "meaning": "why" },
         { "hanzi": "挽回", "pinyin": "wǎnhuí", "meaning": "win back" },
         { "hanzi": "要", "pinyin": "yào", "meaning": "must" },
         { "hanzi": "趕在", "pinyin": "gǎn zài", "meaning": "rush before" },
         { "hanzi": "冬天", "pinyin": "dōngtiān", "meaning": "winter" },
-        { "hanzi": "來之前", "pinyin": "lái zhīqián", "meaning": "comes" }
+        { "hanzi": "來之前", "pinyin": "lái zhīqián", "meaning": "arrives" }
       ]
     },
     {
       "startTime": null,
       "endTime": null,
+      "section": "chorus2",
       "words": [
         { "hanzi": "愛你", "pinyin": "ài nǐ", "meaning": "loving you" },
         { "hanzi": "穿越", "pinyin": "chuānyuè", "meaning": "transcends" },
-        { "hanzi": "時間", "pinyin": "shíjiān", "meaning": "time" },
+        { "hanzi": "時間", "pinyin": "shíjiān", "meaning": "time" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "words": [
         { "hanzi": "兩行", "pinyin": "liǎng háng", "meaning": "two lines of" },
         { "hanzi": "來自", "pinyin": "láizì", "meaning": "from" },
         { "hanzi": "秋末的", "pinyin": "qiūmò de", "meaning": "late autumn's" },
@@ -301,11 +226,274 @@
     {
       "startTime": null,
       "endTime": null,
+      "section": "chorus2",
       "words": [
         { "hanzi": "讓", "pinyin": "ràng", "meaning": "let" },
         { "hanzi": "愛", "pinyin": "ài", "meaning": "love" },
         { "hanzi": "滲透了", "pinyin": "shèntòu le", "meaning": "seeped through" },
-        { "hanzi": "地面", "pinyin": "dìmiàn", "meaning": "the ground" },
+        { "hanzi": "地面", "pinyin": "dìmiàn", "meaning": "the ground" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "要的", "pinyin": "yào de", "meaning": "want" },
+        { "hanzi": "只是", "pinyin": "zhǐshì", "meaning": "just" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "在我身邊", "pinyin": "zài wǒ shēnbiān", "meaning": "by my side" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus2",
+      "words": [
+        { "hanzi": "被", "pinyin": "bèi", "meaning": "(passive)" },
+        { "hanzi": "傷透的", "pinyin": "shāng tòu de", "meaning": "deeply hurt" },
+        { "hanzi": "心", "pinyin": "xīn", "meaning": "heart" },
+        { "hanzi": "能不能夠", "pinyin": "néng bù nénggòu", "meaning": "can it" },
+        { "hanzi": "繼續", "pinyin": "jìxù", "meaning": "continue to" },
+        { "hanzi": "愛我", "pinyin": "ài wǒ", "meaning": "love me" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus2",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "用力", "pinyin": "yònglì", "meaning": "with force" },
+        { "hanzi": "牽起", "pinyin": "qiān qǐ", "meaning": "take hold of" },
+        { "hanzi": "沒", "pinyin": "méi", "meaning": "without" },
+        { "hanzi": "溫度的", "pinyin": "wēndù de", "meaning": "warmth" },
+        { "hanzi": "雙手", "pinyin": "shuāngshǒu", "meaning": "hands" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus2",
+      "words": [
+        { "hanzi": "過往", "pinyin": "guòwǎng", "meaning": "past" },
+        { "hanzi": "溫柔", "pinyin": "wēnróu", "meaning": "tenderness" },
+        { "hanzi": "已經", "pinyin": "yǐjīng", "meaning": "already" },
+        { "hanzi": "被", "pinyin": "bèi", "meaning": "by" },
+        { "hanzi": "時間", "pinyin": "shíjiān", "meaning": "time" },
+        { "hanzi": "上鎖", "pinyin": "shàng suǒ", "meaning": "locked away" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus2",
+      "words": [
+        { "hanzi": "只剩", "pinyin": "zhǐ shèng", "meaning": "only left with" },
+        { "hanzi": "揮散不去的", "pinyin": "huī sàn bù qù de", "meaning": "lingering" },
+        { "hanzi": "難過", "pinyin": "nánguò", "meaning": "sadness" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "words": [
+        { "hanzi": "在", "pinyin": "zài", "meaning": "at" },
+        { "hanzi": "山腰間", "pinyin": "shānyāo jiān", "meaning": "on the mountainside" },
+        { "hanzi": "飄逸的", "pinyin": "piāoyì de", "meaning": "drifting" },
+        { "hanzi": "紅雨", "pinyin": "hóng yǔ", "meaning": "red rain" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "words": [
+        { "hanzi": "隨著", "pinyin": "suízhe", "meaning": "following" },
+        { "hanzi": "北風", "pinyin": "běifēng", "meaning": "north wind" },
+        { "hanzi": "凋零", "pinyin": "diāolíng", "meaning": "wither" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "輕輕", "pinyin": "qīngqīng", "meaning": "gently" },
+        { "hanzi": "搖曳", "pinyin": "yáoyè", "meaning": "sway" },
+        { "hanzi": "風鈴", "pinyin": "fēnglíng", "meaning": "wind chime" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "words": [
+        { "hanzi": "想", "pinyin": "xiǎng", "meaning": "wanting to" },
+        { "hanzi": "喚醒", "pinyin": "huànxǐng", "meaning": "awaken" },
+        { "hanzi": "被", "pinyin": "bèi", "meaning": "" },
+        { "hanzi": "遺棄的", "pinyin": "yíqì de", "meaning": "abandoned" },
+        { "hanzi": "愛情", "pinyin": "àiqíng", "meaning": "love" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "words": [
+        { "hanzi": "雪花", "pinyin": "xuěhuā", "meaning": "snowflakes" },
+        { "hanzi": "已", "pinyin": "yǐ", "meaning": "already" },
+        { "hanzi": "鋪滿了", "pinyin": "pū mǎn le", "meaning": "covered" },
+        { "hanzi": "地", "pinyin": "dì", "meaning": "ground" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "words": [
+        { "hanzi": "深怕", "pinyin": "shēn pà", "meaning": "deeply afraid" },
+        { "hanzi": "窗外", "pinyin": "chuāng wài", "meaning": "outside the window" },
+        { "hanzi": "楓葉", "pinyin": "fēngyè", "meaning": "maple leaves" },
+        { "hanzi": "已", "pinyin": "yǐ", "meaning": "already" },
+        { "hanzi": "結成冰", "pinyin": "jié chéng bīng", "meaning": "frozen into ice" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "words": [
+        { "hanzi": "緩緩", "pinyin": "huǎnhuǎn", "meaning": "slowly" },
+        { "hanzi": "飄落的", "pinyin": "piāoluò de", "meaning": "drifting down" },
+        { "hanzi": "楓葉", "pinyin": "fēngyè", "meaning": "maple leaf" },
+        { "hanzi": "像", "pinyin": "xiàng", "meaning": "like" },
+        { "hanzi": "思念", "pinyin": "sīniàn", "meaning": "longing" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "點燃", "pinyin": "diǎnrán", "meaning": "light up" },
+        { "hanzi": "燭火", "pinyin": "zhúhuǒ", "meaning": "candlelight" },
+        { "hanzi": "溫暖", "pinyin": "wēnnuǎn", "meaning": "warm" },
+        { "hanzi": "歲末的", "pinyin": "suìmò de", "meaning": "year-end" },
+        { "hanzi": "秋天", "pinyin": "qiūtiān", "meaning": "autumn" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "words": [
+        { "hanzi": "極光", "pinyin": "jíguāng", "meaning": "aurora" },
+        { "hanzi": "掠奪", "pinyin": "lüèduó", "meaning": "seize" },
+        { "hanzi": "天邊", "pinyin": "tiānbiān", "meaning": "horizon" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "words": [
+        { "hanzi": "北風", "pinyin": "běifēng", "meaning": "north wind" },
+        { "hanzi": "掠過", "pinyin": "lüè guò", "meaning": "sweep past" },
+        { "hanzi": "想你的", "pinyin": "xiǎng nǐ de", "meaning": "missing you" },
+        { "hanzi": "容顏", "pinyin": "róngyán", "meaning": "face" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "把", "pinyin": "bǎ", "meaning": "" },
+        { "hanzi": "愛", "pinyin": "ài", "meaning": "love" },
+        { "hanzi": "燒成了", "pinyin": "shāo chéng le", "meaning": "burned into" },
+        { "hanzi": "落葉", "pinyin": "luòyè", "meaning": "fallen leaves" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "words": [
+        { "hanzi": "卻", "pinyin": "què", "meaning": "but" },
+        { "hanzi": "換不回", "pinyin": "huàn bù huí", "meaning": "cannot get back" },
+        { "hanzi": "熟悉的", "pinyin": "shúxī de", "meaning": "familiar" },
+        { "hanzi": "那張", "pinyin": "nà zhāng", "meaning": "that" },
+        { "hanzi": "臉", "pinyin": "liǎn", "meaning": "face" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus4",
+      "words": [
+        { "hanzi": "緩緩", "pinyin": "huǎnhuǎn", "meaning": "slowly" },
+        { "hanzi": "飄落的", "pinyin": "piāoluò de", "meaning": "drifting down" },
+        { "hanzi": "楓葉", "pinyin": "fēngyè", "meaning": "maple leaf" },
+        { "hanzi": "像", "pinyin": "xiàng", "meaning": "like" },
+        { "hanzi": "思念", "pinyin": "sīniàn", "meaning": "longing" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus4",
+      "words": [
+        { "hanzi": "為何", "pinyin": "wèihé", "meaning": "why" },
+        { "hanzi": "挽回", "pinyin": "wǎnhuí", "meaning": "win back" },
+        { "hanzi": "要", "pinyin": "yào", "meaning": "must" },
+        { "hanzi": "趕在", "pinyin": "gǎn zài", "meaning": "rush before" },
+        { "hanzi": "冬天", "pinyin": "dōngtiān", "meaning": "winter" },
+        { "hanzi": "來之前", "pinyin": "lái zhīqián", "meaning": "arrives" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus4",
+      "words": [
+        { "hanzi": "愛你", "pinyin": "ài nǐ", "meaning": "loving you" },
+        { "hanzi": "穿越", "pinyin": "chuānyuè", "meaning": "transcends" },
+        { "hanzi": "時間", "pinyin": "shíjiān", "meaning": "time" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus4",
+      "words": [
+        { "hanzi": "兩行", "pinyin": "liǎng háng", "meaning": "two lines of" },
+        { "hanzi": "來自", "pinyin": "láizì", "meaning": "from" },
+        { "hanzi": "秋末的", "pinyin": "qiūmò de", "meaning": "late autumn's" },
+        { "hanzi": "眼淚", "pinyin": "yǎnlèi", "meaning": "tears" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus4",
+      "words": [
+        { "hanzi": "讓", "pinyin": "ràng", "meaning": "let" },
+        { "hanzi": "愛", "pinyin": "ài", "meaning": "love" },
+        { "hanzi": "滲透了", "pinyin": "shèntòu le", "meaning": "seeped through" },
+        { "hanzi": "地面", "pinyin": "dìmiàn", "meaning": "the ground" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus4",
+      "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
         { "hanzi": "要的", "pinyin": "yào de", "meaning": "want" },
         { "hanzi": "只是", "pinyin": "zhǐshì", "meaning": "just" },
