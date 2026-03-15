@@ -1,0 +1,128 @@
+.annotated-word {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px 6px;
+  margin: 2px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  position: relative;
+}
+
+.annotated-word:hover {
+  background-color: var(--color-highlight);
+}
+
+.annotated-word .meaning {
+  font-size: 0.65rem;
+  color: var(--color-meaning);
+  line-height: 1.2;
+  min-height: 1em;
+  white-space: nowrap;
+}
+
+.annotated-word .hanzi {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--color-text);
+}
+
+.annotated-word .pinyin {
+  font-size: 0.75rem;
+  color: var(--color-pinyin);
+  line-height: 1.2;
+}
+
+.lyric-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 12px 8px;
+  margin: 4px 0;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.lyric-line.active {
+  background-color: var(--color-active-line);
+  transform: scale(1.02);
+}
+
+.lyric-line.active .annotated-word .hanzi {
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Word detail popup */
+.word-popup {
+  position: fixed;
+  z-index: 50;
+  background: var(--color-surface);
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 16px;
+  min-width: 200px;
+  max-width: 300px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.word-popup .popup-hanzi {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.word-popup .popup-pinyin {
+  color: var(--color-pinyin);
+  font-size: 1rem;
+  margin-top: 4px;
+}
+
+.word-popup .popup-meaning {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.word-popup .popup-level {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  background: var(--color-primary);
+  color: #000;
+  font-weight: 600;
+}
+
+.word-popup .popup-link {
+  display: block;
+  margin-top: 8px;
+  color: var(--color-pinyin);
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.word-popup .popup-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .annotated-word .hanzi {
+    font-size: 1.25rem;
+  }
+
+  .annotated-word .meaning {
+    font-size: 0.55rem;
+  }
+
+  .annotated-word .pinyin {
+    font-size: 0.65rem;
+  }
+
+  .annotated-word {
+    padding: 2px 4px;
+    margin: 1px;
+  }
+}
