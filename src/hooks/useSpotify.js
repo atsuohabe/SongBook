@@ -286,12 +286,27 @@ export function useSpotify() {
     return res
   }, [token, scheduleRefresh])
 
+  // Mobile: find an available Spotify device
+  const findMobileDevice = useCallback(async () => {
+    const res = await apiFetch('https://api.spotify.com/v1/me/player/devices')
+    if (!res) return null
+    const data = await res.json()
+    if (!data.devices || data.devices.length === 0) return null
+    // Prefer the active device, otherwise use the first available
+    return data.devices.find(d => d.is_active) || data.devices[0]
+  }, [apiFetch])
+
   const play = useCallback(async (trackUri) => {
     if (!token) return
     try {
       if (isMobile) {
-        // Mobile: play on the user's active Spotify device
-        await apiFetch('https://api.spotify.com/v1/me/player/play', {
+        // Mobile: find a device to play on
+        const device = await findMobileDevice()
+        if (!device) {
+          alert('Spotifyアプリを開いてから再試行してください\nPlease open the Spotify app and try again')
+          return
+        }
+        await apiFetch(`https://api.spotify.com/v1/me/player/play?device_id=${device.id}`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ uris: [trackUri] }),
@@ -307,13 +322,15 @@ export function useSpotify() {
     } catch (e) {
       console.error('Spotify play error:', e)
     }
-  }, [token, deviceId, apiFetch])
+  }, [token, deviceId, apiFetch, findMobileDevice])
 
   const pause = useCallback(async () => {
     if (!token) return
     try {
       if (isMobile) {
-        await apiFetch('https://api.spotify.com/v1/me/player/pause', { method: 'PUT' })
+        const device = await findMobileDevice()
+        if (!device) return
+        await apiFetch(`https://api.spotify.com/v1/me/player/pause?device_id=${device.id}`, { method: 'PUT' })
       } else {
         if (!deviceId) return
         await apiFetch(`https://api.spotify.com/v1/me/player/pause?device_id=${deviceId}`, { method: 'PUT' })
@@ -321,13 +338,15 @@ export function useSpotify() {
     } catch (e) {
       console.error('Spotify pause error:', e)
     }
-  }, [token, deviceId, apiFetch])
+  }, [token, deviceId, apiFetch, findMobileDevice])
 
   const resume = useCallback(async () => {
     if (!token) return
     try {
       if (isMobile) {
-        await apiFetch('https://api.spotify.com/v1/me/player/play', { method: 'PUT' })
+        const device = await findMobileDevice()
+        if (!device) return
+        await apiFetch(`https://api.spotify.com/v1/me/player/play?device_id=${device.id}`, { method: 'PUT' })
       } else {
         if (!deviceId) return
         await apiFetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, { method: 'PUT' })
@@ -335,7 +354,7 @@ export function useSpotify() {
     } catch (e) {
       console.error('Spotify resume error:', e)
     }
-  }, [token, deviceId, apiFetch])
+  }, [token, deviceId, apiFetch, findMobileDevice])
 
   // Mobile: poll playback state via API
   const getPlaybackState = useCallback(async () => {
