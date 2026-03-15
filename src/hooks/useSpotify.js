@@ -6,8 +6,8 @@ const REDIRECT_URI = window.location.origin + window.location.pathname.replace(/
 const SCOPES = 'streaming user-read-email user-read-private user-modify-playback-state user-read-playback-state'
 const TOKEN_KEY = 'songbook_spotify_token'
 
-// Mobile detection: Web Playback SDK is not supported on mobile browsers
-const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+// Initial mobile hint from user-agent; refined at runtime if SDK fails
+const isMobileUA = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
 
 function generateRandomString(length) {
   const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~'
@@ -76,6 +76,7 @@ export function useSpotify() {
   const [player, setPlayer] = useState(null)
   const [isConnected, setIsConnected] = useState(false)
   const [deviceId, setDeviceId] = useState(null)
+  const [isMobile, setIsMobile] = useState(isMobileUA)
   const playerRef = useRef(null)
   const refreshTimerRef = useRef(null)
 
@@ -150,6 +151,19 @@ export function useSpotify() {
     }
   }, [scheduleRefresh])
 
+  // Fall back to mobile (API-based) mode: disconnect SDK and mark connected
+  const fallbackToMobile = useCallback(() => {
+    console.warn('Web Playback SDK not supported, falling back to API-based playback')
+    if (playerRef.current) {
+      playerRef.current.disconnect()
+      playerRef.current = null
+      setPlayer(null)
+    }
+    setDeviceId(null)
+    setIsMobile(true)
+    setIsConnected(true)
+  }, [])
+
   // Desktop: Initialize Spotify Web Playback SDK
   useEffect(() => {
     if (!token || isMobile) return
@@ -180,6 +194,12 @@ export function useSpotify() {
 
       p.addListener('initialization_error', ({ message }) => {
         console.error('Spotify init error:', message)
+        fallbackToMobile()
+      })
+
+      p.addListener('playback_error', ({ message }) => {
+        console.error('Spotify playback error:', message)
+        fallbackToMobile()
       })
 
       p.addListener('authentication_error', ({ message }) => {
@@ -188,9 +208,20 @@ export function useSpotify() {
         clearTokenData()
       })
 
+      // If SDK connects but no 'ready' event within 5s, fall back
+      const readyTimeout = setTimeout(() => {
+        if (!playerRef.current) return
+        // Check if we got a device_id; if not, SDK isn't working
+        if (!deviceId) {
+          fallbackToMobile()
+        }
+      }, 5000)
+
       p.connect()
       playerRef.current = p
       setPlayer(p)
+
+      return () => clearTimeout(readyTimeout)
     }
 
     return () => {
@@ -200,14 +231,14 @@ export function useSpotify() {
         setPlayer(null)
       }
     }
-  }, [token])
+  }, [token, isMobile, fallbackToMobile])
 
   // Mobile: mark as connected once we have a token (no SDK needed)
   useEffect(() => {
     if (isMobile && token) {
       setIsConnected(true)
     }
-  }, [token])
+  }, [isMobile, token])
 
   // Cleanup refresh timer
   useEffect(() => {
@@ -286,14 +317,16 @@ export function useSpotify() {
     return res
   }, [token, scheduleRefresh])
 
-  // Mobile: find an available Spotify device
+  // Mobile: find an available Spotify device (exclude the web SDK device which can't play audio on mobile)
   const findMobileDevice = useCallback(async () => {
     const res = await apiFetch('https://api.spotify.com/v1/me/player/devices')
     if (!res) return null
     const data = await res.json()
     if (!data.devices || data.devices.length === 0) return null
-    // Prefer the active device, otherwise use the first available
-    return data.devices.find(d => d.is_active) || data.devices[0]
+    // Filter out the SongBook Player (web SDK device that can't output audio on mobile)
+    const usable = data.devices.filter(d => d.name !== 'SongBook Player')
+    if (usable.length === 0) return null
+    return usable.find(d => d.is_active) || usable[0]
   }, [apiFetch])
 
   const play = useCallback(async (trackUri) => {
