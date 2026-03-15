@@ -4,7 +4,7 @@ import songs from '../data/songs/index'
 import LyricsView from './LyricsView'
 import SpotifyPlayer from './SpotifyPlayer'
 import { useVocabLookup } from '../hooks/useVocabLookup'
-import { useSpotify } from '../hooks/useSpotify'
+import { useSpotifyContext } from '../contexts/SpotifyContext'
 import { useLyricsSync } from '../hooks/useLyricsSync'
 
 export default function SongPage() {
@@ -13,7 +13,7 @@ export default function SongPage() {
   const vocabMap = useVocabLookup()
   const [mode, setMode] = useState('study')
 
-  const { isConnected, player, token, login, play } = useSpotify()
+  const { isConnected, player, token, login, play } = useSpotifyContext()
   const { activeLineIndex } = useLyricsSync(
     mode === 'listen' ? player : null,
     song
