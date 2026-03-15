@@ -1,11 +1,13 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 
-export default function SpotifyPlayer({ song, token, player, isConnected, onLogin, onPlay, onPause, onResume }) {
+export default function SpotifyPlayer({ song, token, player, isConnected, isMobile, onLogin, onLogout, onPlay, onPause, onResume, getPlaybackState }) {
   const [isPlaying, setIsPlaying] = useState(false)
   const [hasStarted, setHasStarted] = useState(false)
+  const pollRef = useRef(null)
 
+  // Desktop: listen to SDK player state changes
   useEffect(() => {
-    if (!player) return
+    if (!player || isMobile) return
     const onStateChange = (state) => {
       if (state) {
         setIsPlaying(!state.paused)
@@ -13,7 +15,19 @@ export default function SpotifyPlayer({ song, token, player, isConnected, onLogi
     }
     player.addListener('player_state_changed', onStateChange)
     return () => player.removeListener('player_state_changed', onStateChange)
-  }, [player])
+  }, [player, isMobile])
+
+  // Mobile: poll playback state
+  useEffect(() => {
+    if (!isMobile || !token || !hasStarted) return
+    pollRef.current = setInterval(async () => {
+      const state = await getPlaybackState?.()
+      if (state) {
+        setIsPlaying(state.is_playing)
+      }
+    }, 1000)
+    return () => clearInterval(pollRef.current)
+  }, [isMobile, token, hasStarted, getPlaybackState])
 
   if (!token) {
     return (
@@ -29,7 +43,9 @@ export default function SpotifyPlayer({ song, token, player, isConnected, onLogi
           Connect Spotify
         </button>
         <p className="text-xs mt-2" style={{ color: 'var(--color-text-muted)' }}>
-          Requires Spotify Premium
+          {isMobile
+            ? 'Spotify app must be open on this device'
+            : 'Requires Spotify Premium'}
         </p>
       </div>
     )
@@ -90,6 +106,13 @@ export default function SpotifyPlayer({ song, token, player, isConnected, onLogi
           No Spotify track URI configured for this song
         </span>
       )}
+      <button
+        onClick={onLogout}
+        className="px-3 py-1 rounded-full text-xs border-none cursor-pointer"
+        style={{ background: 'transparent', color: 'var(--color-text-muted)', border: '1px solid var(--color-text-muted)' }}
+      >
+        Disconnect
+      </button>
     </div>
   )
 }

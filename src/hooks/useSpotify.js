@@ -4,6 +4,10 @@ const CLIENT_ID = import.meta.env.VITE_SPOTIFY_CLIENT_ID || ''
 // HashRouter uses the pathname as base; strip trailing hash/search for a clean redirect
 const REDIRECT_URI = window.location.origin + window.location.pathname.replace(/\/$/, '') + '/'
 const SCOPES = 'streaming user-read-email user-read-private user-modify-playback-state user-read-playback-state'
+const TOKEN_KEY = 'songbook_spotify_token'
+
+// Mobile detection: Web Playback SDK is not supported on mobile browsers
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
 
 function generateRandomString(length) {
   const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~'
@@ -21,12 +25,96 @@ async function sha256(plain) {
     .replace(/=+$/, '')
 }
 
+function saveTokenData(data) {
+  const tokenData = {
+    access_token: data.access_token,
+    refresh_token: data.refresh_token,
+    expires_at: Date.now() + data.expires_in * 1000,
+  }
+  localStorage.setItem(TOKEN_KEY, JSON.stringify(tokenData))
+  return tokenData
+}
+
+function loadTokenData() {
+  try {
+    const raw = localStorage.getItem(TOKEN_KEY)
+    if (!raw) return null
+    return JSON.parse(raw)
+  } catch {
+    return null
+  }
+}
+
+function clearTokenData() {
+  localStorage.removeItem(TOKEN_KEY)
+}
+
+async function refreshAccessToken(refreshToken) {
+  const res = await fetch('https://accounts.spotify.com/api/token', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams({
+      client_id: CLIENT_ID,
+      grant_type: 'refresh_token',
+      refresh_token: refreshToken,
+    }),
+  })
+  const data = await res.json()
+  if (data.access_token) {
+    // Spotify may or may not return a new refresh_token
+    return saveTokenData({
+      access_token: data.access_token,
+      refresh_token: data.refresh_token || refreshToken,
+      expires_in: data.expires_in,
+    })
+  }
+  throw new Error(data.error || 'Token refresh failed')
+}
+
 export function useSpotify() {
   const [token, setToken] = useState(null)
   const [player, setPlayer] = useState(null)
   const [isConnected, setIsConnected] = useState(false)
   const [deviceId, setDeviceId] = useState(null)
   const playerRef = useRef(null)
+  const refreshTimerRef = useRef(null)
+
+  // Schedule token refresh 5 minutes before expiry
+  const scheduleRefresh = useCallback((tokenData) => {
+    if (refreshTimerRef.current) clearTimeout(refreshTimerRef.current)
+    const msUntilExpiry = tokenData.expires_at - Date.now()
+    const refreshIn = Math.max(msUntilExpiry - 5 * 60 * 1000, 0)
+    refreshTimerRef.current = setTimeout(async () => {
+      try {
+        const newData = await refreshAccessToken(tokenData.refresh_token)
+        setToken(newData.access_token)
+        scheduleRefresh(newData)
+      } catch (e) {
+        console.error('Token refresh failed:', e)
+        setToken(null)
+        clearTokenData()
+      }
+    }, refreshIn)
+  }, [])
+
+  // Restore token from localStorage on mount
+  useEffect(() => {
+    const stored = loadTokenData()
+    if (!stored) return
+
+    if (stored.expires_at > Date.now()) {
+      setToken(stored.access_token)
+      scheduleRefresh(stored)
+    } else if (stored.refresh_token) {
+      // Token expired, try refresh
+      refreshAccessToken(stored.refresh_token)
+        .then(newData => {
+          setToken(newData.access_token)
+          scheduleRefresh(newData)
+        })
+        .catch(() => clearTokenData())
+    }
+  }, [scheduleRefresh])
 
   // Handle OAuth callback
   useEffect(() => {
@@ -49,7 +137,9 @@ export function useSpotify() {
           .then(r => r.json())
           .then(data => {
             if (data.access_token) {
+              const tokenData = saveTokenData(data)
               setToken(data.access_token)
+              scheduleRefresh(tokenData)
               sessionStorage.removeItem('spotify_code_verifier')
               // Clean URL
               window.history.replaceState({}, '', window.location.pathname + window.location.hash)
@@ -58,11 +148,11 @@ export function useSpotify() {
           .catch(console.error)
       }
     }
-  }, [])
+  }, [scheduleRefresh])
 
-  // Initialize Spotify Web Playback SDK
+  // Desktop: Initialize Spotify Web Playback SDK
   useEffect(() => {
-    if (!token) return
+    if (!token || isMobile) return
 
     const script = document.createElement('script')
     script.src = 'https://sdk.scdn.co/spotify-player.js'
@@ -71,7 +161,11 @@ export function useSpotify() {
     window.onSpotifyWebPlaybackSDKReady = () => {
       const p = new window.Spotify.Player({
         name: 'SongBook Player',
-        getOAuthToken: cb => cb(token),
+        getOAuthToken: cb => {
+          // Always provide fresh token from localStorage
+          const stored = loadTokenData()
+          cb(stored ? stored.access_token : token)
+        },
         volume: 0.5,
       })
 
@@ -91,6 +185,7 @@ export function useSpotify() {
       p.addListener('authentication_error', ({ message }) => {
         console.error('Spotify auth error:', message)
         setToken(null)
+        clearTokenData()
       })
 
       p.connect()
@@ -101,9 +196,25 @@ export function useSpotify() {
     return () => {
       if (playerRef.current) {
         playerRef.current.disconnect()
+        playerRef.current = null
+        setPlayer(null)
       }
     }
   }, [token])
+
+  // Mobile: mark as connected once we have a token (no SDK needed)
+  useEffect(() => {
+    if (isMobile && token) {
+      setIsConnected(true)
+    }
+  }, [token])
+
+  // Cleanup refresh timer
+  useEffect(() => {
+    return () => {
+      if (refreshTimerRef.current) clearTimeout(refreshTimerRef.current)
+    }
+  }, [])
 
   const login = useCallback(async () => {
     if (!CLIENT_ID) {
@@ -126,49 +237,120 @@ export function useSpotify() {
     window.location.href = `https://accounts.spotify.com/authorize?${params}`
   }, [])
 
+  const logout = useCallback(() => {
+    if (playerRef.current) {
+      playerRef.current.disconnect()
+      playerRef.current = null
+      setPlayer(null)
+    }
+    setToken(null)
+    setIsConnected(false)
+    setDeviceId(null)
+    clearTokenData()
+    if (refreshTimerRef.current) clearTimeout(refreshTimerRef.current)
+  }, [])
+
+  // Helper for authenticated API calls with auto-refresh on 401
+  const apiFetch = useCallback(async (url, options = {}) => {
+    const stored = loadTokenData()
+    const currentToken = stored ? stored.access_token : token
+    if (!currentToken) return null
+
+    let res = await fetch(url, {
+      ...options,
+      headers: {
+        ...options.headers,
+        'Authorization': `Bearer ${currentToken}`,
+      },
+    })
+
+    // If 401, try refreshing the token once
+    if (res.status === 401 && stored?.refresh_token) {
+      try {
+        const newData = await refreshAccessToken(stored.refresh_token)
+        setToken(newData.access_token)
+        scheduleRefresh(newData)
+        res = await fetch(url, {
+          ...options,
+          headers: {
+            ...options.headers,
+            'Authorization': `Bearer ${newData.access_token}`,
+          },
+        })
+      } catch {
+        setToken(null)
+        clearTokenData()
+        return null
+      }
+    }
+    return res
+  }, [token, scheduleRefresh])
+
   const play = useCallback(async (trackUri) => {
-    if (!token || !deviceId) return
+    if (!token) return
     try {
-      await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
-        method: 'PUT',
-        headers: {
-          'Authorization': `Bearer ${token}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ uris: [trackUri] }),
-      })
+      if (isMobile) {
+        // Mobile: play on the user's active Spotify device
+        await apiFetch('https://api.spotify.com/v1/me/player/play', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ uris: [trackUri] }),
+        })
+      } else {
+        if (!deviceId) return
+        await apiFetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ uris: [trackUri] }),
+        })
+      }
     } catch (e) {
       console.error('Spotify play error:', e)
     }
-  }, [token, deviceId])
+  }, [token, deviceId, apiFetch])
 
   const pause = useCallback(async () => {
-    if (!token || !deviceId) return
+    if (!token) return
     try {
-      await fetch(`https://api.spotify.com/v1/me/player/pause?device_id=${deviceId}`, {
-        method: 'PUT',
-        headers: {
-          'Authorization': `Bearer ${token}`,
-        },
-      })
+      if (isMobile) {
+        await apiFetch('https://api.spotify.com/v1/me/player/pause', { method: 'PUT' })
+      } else {
+        if (!deviceId) return
+        await apiFetch(`https://api.spotify.com/v1/me/player/pause?device_id=${deviceId}`, { method: 'PUT' })
+      }
     } catch (e) {
       console.error('Spotify pause error:', e)
     }
-  }, [token, deviceId])
+  }, [token, deviceId, apiFetch])
 
   const resume = useCallback(async () => {
-    if (!token || !deviceId) return
+    if (!token) return
     try {
-      await fetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
-        method: 'PUT',
-        headers: {
-          'Authorization': `Bearer ${token}`,
-        },
-      })
+      if (isMobile) {
+        await apiFetch('https://api.spotify.com/v1/me/player/play', { method: 'PUT' })
+      } else {
+        if (!deviceId) return
+        await apiFetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, { method: 'PUT' })
+      }
     } catch (e) {
       console.error('Spotify resume error:', e)
     }
-  }, [token, deviceId])
+  }, [token, deviceId, apiFetch])
 
-  return { token, player, isConnected, deviceId, login, play, pause, resume }
+  // Mobile: poll playback state via API
+  const getPlaybackState = useCallback(async () => {
+    if (!token) return null
+    try {
+      const res = await apiFetch('https://api.spotify.com/v1/me/player')
+      if (!res || res.status === 204) return null
+      return await res.json()
+    } catch {
+      return null
+    }
+  }, [token, apiFetch])
+
+  return {
+    token, player, isConnected, deviceId, isMobile,
+    login, logout, play, pause, resume, getPlaybackState,
+  }
 }
