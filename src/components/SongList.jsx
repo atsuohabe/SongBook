@@ -1,9 +1,30 @@
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import songs from '../data/songs/index'
 
 export default function SongList() {
   const [query, setQuery] = useState('')
+  const [updating, setUpdating] = useState(false)
+
+  const handleUpdate = useCallback(async () => {
+    setUpdating(true)
+    try {
+      // Clear all caches
+      if ('caches' in window) {
+        const keys = await caches.keys()
+        await Promise.all(keys.map(key => caches.delete(key)))
+      }
+      // Unregister service workers if any
+      if ('serviceWorker' in navigator) {
+        const registrations = await navigator.serviceWorker.getRegistrations()
+        await Promise.all(registrations.map(r => r.unregister()))
+      }
+      // Force reload from server
+      window.location.reload()
+    } catch {
+      window.location.reload()
+    }
+  }, [])
 
   const filtered = songs.filter(song =>
     song.title.includes(query) ||
@@ -33,11 +54,13 @@ export default function SongList() {
             onMouseEnter={e => e.currentTarget.style.background = 'var(--color-surface-hover)'}
             onMouseLeave={e => e.currentTarget.style.background = 'var(--color-surface)'}
           >
-            <div className="flex items-baseline gap-3">
+            <div>
               <span className="text-xl font-medium text-white">{song.title}</span>
+            </div>
+            <div className="mt-0.5">
               <span className="text-sm" style={{ color: 'var(--color-pinyin)' }}>{song.title_pinyin}</span>
               {song.title_meaning && (
-                <span className="text-sm" style={{ color: 'var(--color-meaning)' }}>({song.title_meaning})</span>
+                <span className="text-sm ml-2" style={{ color: 'var(--color-meaning)' }}>({song.title_meaning})</span>
               )}
             </div>
             <div className="mt-1 text-sm" style={{ color: 'var(--color-text-muted)' }}>
@@ -50,6 +73,21 @@ export default function SongList() {
             No songs found
           </p>
         )}
+      </div>
+
+      {/* Update Button */}
+      <div className="text-center mt-8 mb-4">
+        <button
+          onClick={handleUpdate}
+          disabled={updating}
+          className="px-4 py-2 rounded-lg text-sm border-none cursor-pointer transition-colors"
+          style={{
+            background: 'var(--color-surface)',
+            color: 'var(--color-text-muted)',
+          }}
+        >
+          {updating ? '更新中...' : 'SongBookを更新する'}
+        </button>
       </div>
     </div>
   )

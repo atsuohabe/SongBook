@@ -13,6 +13,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "If I had never met you, where would I be",
       "words": [
         { "hanzi": "如果", "pinyin": "rúguǒ", "meaning": "if" },
         { "hanzi": "没有", "pinyin": "méiyǒu", "meaning": "hadn't" },
@@ -26,6 +27,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "How would my days be spent, would I know to cherish life",
       "words": [
         { "hanzi": "日子", "pinyin": "rìzi", "meaning": "days" },
         { "hanzi": "过得", "pinyin": "guò de", "meaning": "spent" },
@@ -40,6 +42,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "Perhaps I'd know someone, living ordinary days",
       "words": [
         { "hanzi": "也许", "pinyin": "yěxǔ", "meaning": "perhaps" },
         { "hanzi": "认识", "pinyin": "rènshi", "meaning": "know" },
@@ -53,6 +56,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "I wonder if there would also be love as sweet as honey",
       "words": [
         { "hanzi": "不知道", "pinyin": "bù zhīdào", "meaning": "don't know" },
         { "hanzi": "会不会", "pinyin": "huì bù huì", "meaning": "whether" },
@@ -65,6 +69,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus1",
+      "translation": "Let time rush by — I only care about you, willingly breathing in your presence",
       "words": [
         { "hanzi": "任", "pinyin": "rèn", "meaning": "let" },
         { "hanzi": "时光", "pinyin": "shíguāng", "meaning": "time" },
@@ -83,6 +88,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus1",
+      "translation": "How rare in life to find a soulmate; even losing life's strength would not be a pity",
       "words": [
         { "hanzi": "人生", "pinyin": "rénshēng", "meaning": "life" },
         { "hanzi": "几何", "pinyin": "jǐhé", "meaning": "how long" },
@@ -100,6 +106,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus1",
+      "translation": "So I beg you, don't make me leave you",
       "words": [
         { "hanzi": "所以我", "pinyin": "suǒyǐ wǒ", "meaning": "so I" },
         { "hanzi": "求求你", "pinyin": "qiúqiu nǐ", "meaning": "beg you" },
@@ -112,6 +119,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus1",
+      "translation": "Without you, I cannot feel even a trace of love",
       "words": [
         { "hanzi": "除了你", "pinyin": "chúle nǐ", "meaning": "other than you" },
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
@@ -125,6 +133,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse2",
+      "translation": "If one day you say you are about to leave",
       "words": [
         { "hanzi": "如果", "pinyin": "rúguǒ", "meaning": "if" },
         { "hanzi": "有", "pinyin": "yǒu", "meaning": "there is" },
@@ -140,6 +149,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse2",
+      "translation": "I would lose myself, wandering into the endless sea of people",
       "words": [
         { "hanzi": "我会", "pinyin": "wǒ huì", "meaning": "I would" },
         { "hanzi": "迷失", "pinyin": "míshī", "meaning": "lose" },
@@ -153,6 +163,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse2",
+      "translation": "I don't need any promises, just to be together every day",
       "words": [
         { "hanzi": "不要", "pinyin": "bùyào", "meaning": "don't need" },
         { "hanzi": "什么", "pinyin": "shénme", "meaning": "any" },
@@ -166,6 +177,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse2",
+      "translation": "I cannot live on only fragments of memories",
       "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
         { "hanzi": "不能", "pinyin": "bù néng", "meaning": "cannot" },
@@ -180,6 +192,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus2",
+      "translation": "Let time rush by — I only care about you, willingly breathing in your presence",
       "words": [
         { "hanzi": "任", "pinyin": "rèn", "meaning": "let" },
         { "hanzi": "时光", "pinyin": "shíguāng", "meaning": "time" },
@@ -198,6 +211,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus2",
+      "translation": "How rare in life to find a soulmate; even losing life's strength would not be a pity",
       "words": [
         { "hanzi": "人生", "pinyin": "rénshēng", "meaning": "life" },
         { "hanzi": "几何", "pinyin": "jǐhé", "meaning": "how long" },
@@ -215,6 +229,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus2",
+      "translation": "So I beg you, don't make me leave you",
       "words": [
         { "hanzi": "所以我", "pinyin": "suǒyǐ wǒ", "meaning": "so I" },
         { "hanzi": "求求你", "pinyin": "qiúqiu nǐ", "meaning": "beg you" },
@@ -227,6 +242,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus2",
+      "translation": "Without you, I cannot feel even a trace of love",
       "words": [
         { "hanzi": "除了你", "pinyin": "chúle nǐ", "meaning": "other than you" },
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
@@ -240,6 +256,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus3",
+      "translation": "Let time rush by — I only care about you, willingly breathing in your presence",
       "words": [
         { "hanzi": "任", "pinyin": "rèn", "meaning": "let" },
         { "hanzi": "时光", "pinyin": "shíguāng", "meaning": "time" },
@@ -258,6 +275,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus3",
+      "translation": "How rare in life to find a soulmate; even losing life's strength would not be a pity",
       "words": [
         { "hanzi": "人生", "pinyin": "rénshēng", "meaning": "life" },
         { "hanzi": "几何", "pinyin": "jǐhé", "meaning": "how long" },
@@ -275,6 +293,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus3",
+      "translation": "So I beg you, don't make me leave you",
       "words": [
         { "hanzi": "所以我", "pinyin": "suǒyǐ wǒ", "meaning": "so I" },
         { "hanzi": "求求你", "pinyin": "qiúqiu nǐ", "meaning": "beg you" },
@@ -287,6 +306,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus3",
+      "translation": "Without you, I cannot feel even a trace of love",
       "words": [
         { "hanzi": "除了你", "pinyin": "chúle nǐ", "meaning": "other than you" },
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
