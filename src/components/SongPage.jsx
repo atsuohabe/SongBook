@@ -39,10 +39,10 @@ export default function SongPage() {
         </Link>
         <h1 className="text-3xl font-semibold text-white m-0">
           {song.title}
-          <span className="ml-2 text-lg font-normal" style={{ color: 'var(--color-pinyin)' }}>
-            {song.title_pinyin}
-          </span>
         </h1>
+        <p className="text-lg mt-1 mb-0" style={{ color: 'var(--color-pinyin)' }}>
+          {song.title_pinyin}
+        </p>
         {song.title_meaning && (
           <p className="text-sm mt-1" style={{ color: 'var(--color-meaning)' }}>
             {song.title_meaning}
