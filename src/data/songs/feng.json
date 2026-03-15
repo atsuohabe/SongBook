@@ -13,6 +13,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "Dark clouds left a shadow in our hearts",
       "words": [
         { "hanzi": "烏雲", "pinyin": "wūyún", "meaning": "dark clouds" },
         { "hanzi": "在", "pinyin": "zài", "meaning": "at" },
@@ -27,6 +28,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "I listen to feelings that have been silent for so long",
       "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
         { "hanzi": "聆聽", "pinyin": "língtīng", "meaning": "listen to" },
@@ -39,6 +41,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "Clear and transparent, just like a beautiful scenery",
       "words": [
         { "hanzi": "清晰", "pinyin": "qīngxī", "meaning": "clear" },
         { "hanzi": "透明", "pinyin": "tòumíng", "meaning": "transparent" },
@@ -51,6 +54,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "Only seen clearly in memories",
       "words": [
         { "hanzi": "總在", "pinyin": "zǒng zài", "meaning": "always in" },
         { "hanzi": "回憶裏", "pinyin": "huíyì lǐ", "meaning": "in memories" },
@@ -62,6 +66,7 @@
       "startTime": null,
       "endTime": null,
       "section": "prechorus",
+      "translation": "Can a deeply wounded heart still continue to love me",
       "words": [
         { "hanzi": "被", "pinyin": "bèi", "meaning": "(passive)" },
         { "hanzi": "傷透的", "pinyin": "shāng tòu de", "meaning": "deeply hurt" },
@@ -75,6 +80,7 @@
       "startTime": null,
       "endTime": null,
       "section": "prechorus",
+      "translation": "I tightly hold your hands that have lost their warmth",
       "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
         { "hanzi": "用力", "pinyin": "yònglì", "meaning": "with force" },
@@ -88,6 +94,7 @@
       "startTime": null,
       "endTime": null,
       "section": "prechorus",
+      "translation": "Past tenderness has already been locked away by time",
       "words": [
         { "hanzi": "過往", "pinyin": "guòwǎng", "meaning": "past" },
         { "hanzi": "溫柔", "pinyin": "wēnróu", "meaning": "tenderness" },
@@ -101,6 +108,7 @@
       "startTime": null,
       "endTime": null,
       "section": "prechorus",
+      "translation": "Only lingering sadness remains",
       "words": [
         { "hanzi": "只剩", "pinyin": "zhǐ shèng", "meaning": "only left with" },
         { "hanzi": "揮散不去的", "pinyin": "huī sàn bù qù de", "meaning": "lingering" },
@@ -111,6 +119,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus",
+      "translation": "Slowly drifting maple leaves, like longing",
       "words": [
         { "hanzi": "緩緩", "pinyin": "huǎnhuǎn", "meaning": "slowly" },
         { "hanzi": "飄落的", "pinyin": "piāoluò de", "meaning": "drifting down" },
@@ -123,6 +132,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus",
+      "translation": "I light a candle to warm the autumn of year's end",
       "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
         { "hanzi": "點燃", "pinyin": "diǎnrán", "meaning": "light up" },
@@ -136,6 +146,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus",
+      "translation": "The aurora seizes the horizon",
       "words": [
         { "hanzi": "極光", "pinyin": "jíguāng", "meaning": "aurora" },
         { "hanzi": "掠奪", "pinyin": "lüèduó", "meaning": "seize" },
@@ -146,6 +157,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus",
+      "translation": "The north wind sweeps past the face that misses you",
       "words": [
         { "hanzi": "北風", "pinyin": "běifēng", "meaning": "north wind" },
         { "hanzi": "掠過", "pinyin": "lüè guò", "meaning": "sweep past" },
@@ -157,6 +169,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus",
+      "translation": "I burned my love into fallen leaves",
       "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
         { "hanzi": "把", "pinyin": "bǎ", "meaning": "" },
@@ -169,6 +182,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus",
+      "translation": "But cannot get back that familiar face",
       "words": [
         { "hanzi": "卻", "pinyin": "què", "meaning": "but" },
         { "hanzi": "換不回", "pinyin": "huàn bù huí", "meaning": "cannot get back" },
@@ -181,6 +195,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus2",
+      "translation": "Slowly drifting maple leaves, like longing",
       "words": [
         { "hanzi": "緩緩", "pinyin": "huǎnhuǎn", "meaning": "slowly" },
         { "hanzi": "飄落的", "pinyin": "piāoluò de", "meaning": "drifting down" },
@@ -193,6 +208,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus2",
+      "translation": "Why must winning you back be rushed before winter comes",
       "words": [
         { "hanzi": "為何", "pinyin": "wèihé", "meaning": "why" },
         { "hanzi": "挽回", "pinyin": "wǎnhuí", "meaning": "win back" },
@@ -206,6 +222,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus2",
+      "translation": "Loving you transcends time",
       "words": [
         { "hanzi": "愛你", "pinyin": "ài nǐ", "meaning": "loving you" },
         { "hanzi": "穿越", "pinyin": "chuānyuè", "meaning": "transcends" },
@@ -216,6 +233,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus2",
+      "translation": "Two lines of tears from the end of autumn",
       "words": [
         { "hanzi": "兩行", "pinyin": "liǎng háng", "meaning": "two lines of" },
         { "hanzi": "來自", "pinyin": "láizì", "meaning": "from" },
@@ -227,6 +245,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus2",
+      "translation": "Let love seep through the ground",
       "words": [
         { "hanzi": "讓", "pinyin": "ràng", "meaning": "let" },
         { "hanzi": "愛", "pinyin": "ài", "meaning": "love" },
@@ -238,6 +257,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus2",
+      "translation": "All I want is you by my side",
       "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
         { "hanzi": "要的", "pinyin": "yào de", "meaning": "want" },
@@ -250,6 +270,7 @@
       "startTime": null,
       "endTime": null,
       "section": "prechorus2",
+      "translation": "Can a deeply wounded heart still continue to love me",
       "words": [
         { "hanzi": "被", "pinyin": "bèi", "meaning": "(passive)" },
         { "hanzi": "傷透的", "pinyin": "shāng tòu de", "meaning": "deeply hurt" },
@@ -263,6 +284,7 @@
       "startTime": null,
       "endTime": null,
       "section": "prechorus2",
+      "translation": "I tightly hold your hands that have lost their warmth",
       "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
         { "hanzi": "用力", "pinyin": "yònglì", "meaning": "with force" },
@@ -276,6 +298,7 @@
       "startTime": null,
       "endTime": null,
       "section": "prechorus2",
+      "translation": "Past tenderness has already been locked away by time",
       "words": [
         { "hanzi": "過往", "pinyin": "guòwǎng", "meaning": "past" },
         { "hanzi": "溫柔", "pinyin": "wēnróu", "meaning": "tenderness" },
@@ -289,6 +312,7 @@
       "startTime": null,
       "endTime": null,
       "section": "prechorus2",
+      "translation": "Only lingering sadness remains",
       "words": [
         { "hanzi": "只剩", "pinyin": "zhǐ shèng", "meaning": "only left with" },
         { "hanzi": "揮散不去的", "pinyin": "huī sàn bù qù de", "meaning": "lingering" },
@@ -299,6 +323,7 @@
       "startTime": null,
       "endTime": null,
       "section": "bridge",
+      "translation": "Red rain drifting on the mountainside",
       "words": [
         { "hanzi": "在", "pinyin": "zài", "meaning": "at" },
         { "hanzi": "山腰間", "pinyin": "shānyāo jiān", "meaning": "on the mountainside" },
@@ -310,6 +335,7 @@
       "startTime": null,
       "endTime": null,
       "section": "bridge",
+      "translation": "Withering with the north wind",
       "words": [
         { "hanzi": "隨著", "pinyin": "suízhe", "meaning": "following" },
         { "hanzi": "北風", "pinyin": "běifēng", "meaning": "north wind" },
@@ -320,6 +346,7 @@
       "startTime": null,
       "endTime": null,
       "section": "bridge",
+      "translation": "I gently sway the wind chime",
       "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
         { "hanzi": "輕輕", "pinyin": "qīngqīng", "meaning": "gently" },
@@ -331,6 +358,7 @@
       "startTime": null,
       "endTime": null,
       "section": "bridge",
+      "translation": "Hoping to awaken an abandoned love",
       "words": [
         { "hanzi": "想", "pinyin": "xiǎng", "meaning": "wanting to" },
         { "hanzi": "喚醒", "pinyin": "huànxǐng", "meaning": "awaken" },
@@ -343,6 +371,7 @@
       "startTime": null,
       "endTime": null,
       "section": "bridge",
+      "translation": "Snowflakes have already covered the ground",
       "words": [
         { "hanzi": "雪花", "pinyin": "xuěhuā", "meaning": "snowflakes" },
         { "hanzi": "已", "pinyin": "yǐ", "meaning": "already" },
@@ -354,6 +383,7 @@
       "startTime": null,
       "endTime": null,
       "section": "bridge",
+      "translation": "Deeply afraid the maple leaves outside have frozen to ice",
       "words": [
         { "hanzi": "深怕", "pinyin": "shēn pà", "meaning": "deeply afraid" },
         { "hanzi": "窗外", "pinyin": "chuāng wài", "meaning": "outside the window" },
@@ -366,6 +396,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus3",
+      "translation": "Slowly drifting maple leaves, like longing",
       "words": [
         { "hanzi": "緩緩", "pinyin": "huǎnhuǎn", "meaning": "slowly" },
         { "hanzi": "飄落的", "pinyin": "piāoluò de", "meaning": "drifting down" },
@@ -378,6 +409,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus3",
+      "translation": "I light a candle to warm the autumn of year's end",
       "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
         { "hanzi": "點燃", "pinyin": "diǎnrán", "meaning": "light up" },
@@ -391,6 +423,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus3",
+      "translation": "The aurora seizes the horizon",
       "words": [
         { "hanzi": "極光", "pinyin": "jíguāng", "meaning": "aurora" },
         { "hanzi": "掠奪", "pinyin": "lüèduó", "meaning": "seize" },
@@ -401,6 +434,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus3",
+      "translation": "The north wind sweeps past the face that misses you",
       "words": [
         { "hanzi": "北風", "pinyin": "běifēng", "meaning": "north wind" },
         { "hanzi": "掠過", "pinyin": "lüè guò", "meaning": "sweep past" },
@@ -412,6 +446,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus3",
+      "translation": "I burned my love into fallen leaves",
       "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
         { "hanzi": "把", "pinyin": "bǎ", "meaning": "" },
@@ -424,6 +459,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus3",
+      "translation": "But cannot get back that familiar face",
       "words": [
         { "hanzi": "卻", "pinyin": "què", "meaning": "but" },
         { "hanzi": "換不回", "pinyin": "huàn bù huí", "meaning": "cannot get back" },
@@ -436,6 +472,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus4",
+      "translation": "Slowly drifting maple leaves, like longing",
       "words": [
         { "hanzi": "緩緩", "pinyin": "huǎnhuǎn", "meaning": "slowly" },
         { "hanzi": "飄落的", "pinyin": "piāoluò de", "meaning": "drifting down" },
@@ -448,6 +485,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus4",
+      "translation": "Why must winning you back be rushed before winter comes",
       "words": [
         { "hanzi": "為何", "pinyin": "wèihé", "meaning": "why" },
         { "hanzi": "挽回", "pinyin": "wǎnhuí", "meaning": "win back" },
@@ -461,6 +499,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus4",
+      "translation": "Loving you transcends time",
       "words": [
         { "hanzi": "愛你", "pinyin": "ài nǐ", "meaning": "loving you" },
         { "hanzi": "穿越", "pinyin": "chuānyuè", "meaning": "transcends" },
@@ -471,6 +510,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus4",
+      "translation": "Two lines of tears from the end of autumn",
       "words": [
         { "hanzi": "兩行", "pinyin": "liǎng háng", "meaning": "two lines of" },
         { "hanzi": "來自", "pinyin": "láizì", "meaning": "from" },
@@ -482,6 +522,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus4",
+      "translation": "Let love seep through the ground",
       "words": [
         { "hanzi": "讓", "pinyin": "ràng", "meaning": "let" },
         { "hanzi": "愛", "pinyin": "ài", "meaning": "love" },
@@ -493,6 +534,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus4",
+      "translation": "All I want is you by my side",
       "words": [
         { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
         { "hanzi": "要的", "pinyin": "yào de", "meaning": "want" },

@@ -13,6 +13,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "I want to protect everything about you",
       "words": [
         { "hanzi": "想", "pinyin": "xiǎng", "meaning": "want to" },
         { "hanzi": "守護你", "pinyin": "shǒuhù nǐ", "meaning": "protect you" },
@@ -23,6 +24,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "To answer your embracing tenderness",
       "words": [
         { "hanzi": "回應你", "pinyin": "huíyìng nǐ", "meaning": "respond to you" },
         { "hanzi": "包容的", "pinyin": "bāoróng de", "meaning": "embracing" },
@@ -33,6 +35,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "I want to spend my whole life by your side — that is my",
       "words": [
         { "hanzi": "想", "pinyin": "xiǎng", "meaning": "want to" },
         { "hanzi": "用盡", "pinyin": "yòng jìn", "meaning": "use up" },
@@ -47,6 +50,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "Dream of dawn light and twilight",
       "words": [
         { "hanzi": "曙光", "pinyin": "shǔguāng", "meaning": "dawn light" },
         { "hanzi": "和", "pinyin": "hé", "meaning": "and" },
@@ -58,6 +62,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "Brief as fireworks falling in my arms",
       "words": [
         { "hanzi": "短暫", "pinyin": "duǎnzàn", "meaning": "brief" },
         { "hanzi": "如", "pinyin": "rú", "meaning": "like" },
@@ -71,6 +76,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "Rushed toward the stars but can't reach the heart",
       "words": [
         { "hanzi": "奔向了", "pinyin": "bēn xiàng le", "meaning": "rushed toward" },
         { "hanzi": "星空", "pinyin": "xīngkōng", "meaning": "starry sky" },
@@ -82,6 +88,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse1",
+      "translation": "What reason is there that I must let go",
       "words": [
         { "hanzi": "有", "pinyin": "yǒu", "meaning": "is there" },
         { "hanzi": "什麼", "pinyin": "shénme", "meaning": "what" },
@@ -95,6 +102,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus1",
+      "translation": "Who made our hearts as distant as the sun and the earth",
       "words": [
         { "hanzi": "誰要", "pinyin": "shéi yào", "meaning": "who wanted" },
         { "hanzi": "我們的心", "pinyin": "wǒmen de xīn", "meaning": "our hearts" },
@@ -108,6 +116,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus1",
+      "translation": "How did it end up that you love me yet don't belong to me",
       "words": [
         { "hanzi": "怎會", "pinyin": "zěn huì", "meaning": "how could" },
         { "hanzi": "走到", "pinyin": "zǒu dào", "meaning": "come to" },
@@ -122,6 +131,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus1",
+      "translation": "Who made time rush on, able only to shine but never to touch",
       "words": [
         { "hanzi": "誰要", "pinyin": "shéi yào", "meaning": "who wanted" },
         { "hanzi": "時間", "pinyin": "shíjiān", "meaning": "time" },
@@ -136,6 +146,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus1",
+      "translation": "The closest we were, how did we keep orbiting and orbiting until we missed each other",
       "words": [
         { "hanzi": "最靠近的", "pinyin": "zuì kàojìn de", "meaning": "the closest" },
         { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
@@ -150,6 +161,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse2",
+      "translation": "In the vast galaxy",
       "words": [
         { "hanzi": "在", "pinyin": "zài", "meaning": "in" },
         { "hanzi": "偌大", "pinyin": "ruòdà", "meaning": "vast" },
@@ -160,6 +172,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse2",
+      "translation": "Never imagined we'd cross paths like shooting stars",
       "words": [
         { "hanzi": "沒想過", "pinyin": "méi xiǎng guò", "meaning": "never thought" },
         { "hanzi": "像", "pinyin": "xiàng", "meaning": "like" },
@@ -171,6 +184,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse2",
+      "translation": "How can I forgive myself — the one who made you cry is me",
       "words": [
         { "hanzi": "該", "pinyin": "gāi", "meaning": "should" },
         { "hanzi": "怎麼", "pinyin": "zěnme", "meaning": "how" },
@@ -184,6 +198,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse2",
+      "translation": "Sorry I never had the chance to say",
       "words": [
         { "hanzi": "抱歉", "pinyin": "bàoqiàn", "meaning": "sorry" },
         { "hanzi": "沒有", "pinyin": "méiyǒu", "meaning": "didn't have" },
@@ -195,6 +210,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse2",
+      "translation": "My most longed-for dream is you waiting for me",
       "words": [
         { "hanzi": "最", "pinyin": "zuì", "meaning": "most" },
         { "hanzi": "渴望的", "pinyin": "kěwàng de", "meaning": "longed-for" },
@@ -208,6 +224,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse2",
+      "translation": "Blazing in the starry sky, fading in the heart",
       "words": [
         { "hanzi": "轟烈", "pinyin": "hōngliè", "meaning": "intensely" },
         { "hanzi": "在", "pinyin": "zài", "meaning": "in" },
@@ -221,6 +238,7 @@
       "startTime": null,
       "endTime": null,
       "section": "verse2",
+      "translation": "The most unforgettable person is one you've missed forever",
       "words": [
         { "hanzi": "最", "pinyin": "zuì", "meaning": "most" },
         { "hanzi": "難忘的", "pinyin": "nánwàng de", "meaning": "unforgettable" },
@@ -234,6 +252,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus2",
+      "translation": "Who made our hearts as distant as the sun and the earth",
       "words": [
         { "hanzi": "誰要", "pinyin": "shéi yào", "meaning": "who wanted" },
         { "hanzi": "我們的心", "pinyin": "wǒmen de xīn", "meaning": "our hearts" },
@@ -247,6 +266,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus2",
+      "translation": "How did it end up that you love me yet don't belong to me",
       "words": [
         { "hanzi": "怎麼", "pinyin": "zěnme", "meaning": "how" },
         { "hanzi": "走到", "pinyin": "zǒu dào", "meaning": "come to" },
@@ -261,6 +281,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus2",
+      "translation": "Who made time rush on, able only to shine but never to touch",
       "words": [
         { "hanzi": "誰要", "pinyin": "shéi yào", "meaning": "who wanted" },
         { "hanzi": "時間", "pinyin": "shíjiān", "meaning": "time" },
@@ -275,6 +296,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus2",
+      "translation": "The closest we were, how did we keep orbiting until we went our separate ways",
       "words": [
         { "hanzi": "最靠近的", "pinyin": "zuì kàojìn de", "meaning": "the closest" },
         { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
@@ -288,6 +310,7 @@
       "startTime": null,
       "endTime": null,
       "section": "bridge",
+      "translation": "We always have to be deeply hurt before we understand what we want",
       "words": [
         { "hanzi": "人", "pinyin": "rén", "meaning": "people" },
         { "hanzi": "總要", "pinyin": "zǒng yào", "meaning": "always have to" },
@@ -303,6 +326,7 @@
       "startTime": null,
       "endTime": null,
       "section": "bridge",
+      "translation": "I can't bear to see you unhappy",
       "words": [
         { "hanzi": "捨不得", "pinyin": "shě bù dé", "meaning": "can't bear" },
         { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
@@ -314,6 +338,7 @@
       "startTime": null,
       "endTime": null,
       "section": "bridge",
+      "translation": "If there is sadness, please leave it to me",
       "words": [
         { "hanzi": "如果", "pinyin": "rúguǒ", "meaning": "if" },
         { "hanzi": "悲傷", "pinyin": "bēishāng", "meaning": "sadness" },
@@ -325,6 +350,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus3",
+      "translation": "It turns out our hearts are as stubborn as the sun and the earth",
       "words": [
         { "hanzi": "原來", "pinyin": "yuánlái", "meaning": "it turns out" },
         { "hanzi": "我們的心", "pinyin": "wǒmen de xīn", "meaning": "our hearts" },
@@ -338,6 +364,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus3",
+      "translation": "Thought we'd completely separated, completely let go, yet never truly left",
       "words": [
         { "hanzi": "以為", "pinyin": "yǐwéi", "meaning": "thought" },
         { "hanzi": "徹底", "pinyin": "chèdǐ", "meaning": "completely" },
@@ -352,6 +379,7 @@
       "startTime": null,
       "endTime": null,
       "section": "chorus3",
+      "translation": "We simply missed each other; no one was wrong, we both tried hard to love",
       "words": [
         { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
         { "hanzi": "只是", "pinyin": "zhǐshì", "meaning": "just" },
@@ -367,6 +395,7 @@
       "startTime": null,
       "endTime": null,
       "section": "outro",
+      "translation": "The most distant of us, don't look back — keep walking toward happiness",
       "words": [
         { "hanzi": "最遙遠的", "pinyin": "zuì yáoyuǎn de", "meaning": "the most distant" },
         { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },

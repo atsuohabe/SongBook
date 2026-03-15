@@ -1,5 +1,4 @@
 import { useParams, Link } from 'react-router-dom'
-import { useState } from 'react'
 import songs from '../data/songs/index'
 import LyricsView from './LyricsView'
 import SpotifyPlayer from './SpotifyPlayer'
@@ -11,13 +10,12 @@ export default function SongPage() {
   const { songId } = useParams()
   const song = songs.find(s => s.id === songId)
   const vocabMap = useVocabLookup()
-  const [mode, setMode] = useState('study')
 
   const { isConnected, player, token, isMobile, login, logout, play, pause, resume, getPlaybackState } = useSpotifyContext()
   const { activeLineIndex } = useLyricsSync(
-    mode === 'listen' ? player : null,
+    player,
     song,
-    mode === 'listen' ? getPlaybackState : null,
+    getPlaybackState,
     isMobile
   )
 
@@ -53,53 +51,27 @@ export default function SongPage() {
         <p className="mt-2 text-sm" style={{ color: 'var(--color-text-muted)' }}>
           {song.artist} ({song.artist_pinyin}) {song.artist_en && `- ${song.artist_en}`}
         </p>
-
-        {/* Mode Toggle */}
-        <div className="flex justify-center gap-2 mt-4">
-          <button
-            onClick={() => setMode('study')}
-            className="px-4 py-1.5 rounded-full text-sm font-medium border-none cursor-pointer transition-colors"
-            style={{
-              background: mode === 'study' ? 'var(--color-primary)' : 'var(--color-surface)',
-              color: mode === 'study' ? '#000' : 'var(--color-text)',
-            }}
-          >
-            Study Mode
-          </button>
-          <button
-            onClick={() => setMode('listen')}
-            className="px-4 py-1.5 rounded-full text-sm font-medium border-none cursor-pointer transition-colors"
-            style={{
-              background: mode === 'listen' ? 'var(--color-primary)' : 'var(--color-surface)',
-              color: mode === 'listen' ? '#000' : 'var(--color-text)',
-            }}
-          >
-            Listening Mode
-          </button>
-        </div>
       </div>
 
-      {/* Spotify Player (Listening Mode) */}
-      {mode === 'listen' && (
-        <SpotifyPlayer
-          song={song}
-          token={token}
-          player={player}
-          isConnected={isConnected}
-          isMobile={isMobile}
-          onLogin={login}
-          onLogout={logout}
-          onPlay={play}
-          onPause={pause}
-          onResume={resume}
-          getPlaybackState={getPlaybackState}
-        />
-      )}
+      {/* Spotify Player */}
+      <SpotifyPlayer
+        song={song}
+        token={token}
+        player={player}
+        isConnected={isConnected}
+        isMobile={isMobile}
+        onLogin={login}
+        onLogout={logout}
+        onPlay={play}
+        onPause={pause}
+        onResume={resume}
+        getPlaybackState={getPlaybackState}
+      />
 
       {/* Lyrics */}
       <LyricsView
         song={song}
-        activeLineIndex={mode === 'listen' ? activeLineIndex : null}
+        activeLineIndex={activeLineIndex}
         vocabMap={vocabMap}
       />
     </div>
