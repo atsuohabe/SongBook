@@ -1,0 +1,376 @@
+{
+  "id": "ji-fen-zhi-ji",
+  "title": "幾分之幾",
+  "title_pinyin": "Jǐ Fēn zhī Jǐ",
+  "title_meaning": "A Fraction of",
+  "artist": "盧廣仲",
+  "artist_pinyin": "Lú Guǎngzhòng",
+  "artist_en": "Crowd Lu",
+  "album": "花甲大人轉男孩 電影原聲帶",
+  "spotifyTrackUri": "spotify:track:4F7ZAsndEIJXyFzJUHNlRu",
+  "lines": [
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "words": [
+        { "hanzi": "記得", "pinyin": "jìde", "meaning": "remember" },
+        { "hanzi": "那天", "pinyin": "nà tiān", "meaning": "that day" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "words": [
+        { "hanzi": "太陽", "pinyin": "tàiyáng", "meaning": "sun" },
+        { "hanzi": "壓著", "pinyin": "yā zhe", "meaning": "pressing against" },
+        { "hanzi": "平原", "pinyin": "píngyuán", "meaning": "plains" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "words": [
+        { "hanzi": "風", "pinyin": "fēng", "meaning": "wind" },
+        { "hanzi": "慢慢", "pinyin": "mànmàn", "meaning": "slowly" },
+        { "hanzi": "吹", "pinyin": "chuī", "meaning": "blows" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "words": [
+        { "hanzi": "沒有人", "pinyin": "méiyǒu rén", "meaning": "no one" },
+        { "hanzi": "掉", "pinyin": "diào", "meaning": "shed" },
+        { "hanzi": "眼淚", "pinyin": "yǎnlèi", "meaning": "tears" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "words": [
+        { "hanzi": "一切", "pinyin": "yíqiè", "meaning": "everything" },
+        { "hanzi": "好美", "pinyin": "hǎo měi", "meaning": "so beautiful" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "words": [
+        { "hanzi": "好到", "pinyin": "hǎo dào", "meaning": "so good that" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "可以", "pinyin": "kěyǐ", "meaning": "can" },
+        { "hanzi": "不用", "pinyin": "bùyòng", "meaning": "don't need to" },
+        { "hanzi": "說話", "pinyin": "shuōhuà", "meaning": "speak" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "words": [
+        { "hanzi": "金色的", "pinyin": "jīnsè de", "meaning": "golden" },
+        { "hanzi": "側臉", "pinyin": "cèliǎn", "meaning": "profile" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "words": [
+        { "hanzi": "踩著", "pinyin": "cǎi zhe", "meaning": "wearing" },
+        { "hanzi": "全白", "pinyin": "quán bái", "meaning": "all-white" },
+        { "hanzi": "球鞋", "pinyin": "qiúxié", "meaning": "sneakers" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "words": [
+        { "hanzi": "風", "pinyin": "fēng", "meaning": "wind" },
+        { "hanzi": "繼續", "pinyin": "jìxù", "meaning": "continues to" },
+        { "hanzi": "吹", "pinyin": "chuī", "meaning": "blow" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "words": [
+        { "hanzi": "世界", "pinyin": "shìjiè", "meaning": "world" },
+        { "hanzi": "繼續", "pinyin": "jìxù", "meaning": "continues" },
+        { "hanzi": "作業", "pinyin": "zuòyè", "meaning": "its work" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "words": [
+        { "hanzi": "那麼", "pinyin": "nàme", "meaning": "so" },
+        { "hanzi": "確定", "pinyin": "quèdìng", "meaning": "certain" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "知道", "pinyin": "zhīdào", "meaning": "know" },
+        { "hanzi": "那", "pinyin": "nà", "meaning": "that" },
+        { "hanzi": "就是", "pinyin": "jiùshì", "meaning": "is" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus",
+      "words": [
+        { "hanzi": "那一天", "pinyin": "nà yì tiān", "meaning": "that day" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "走進了", "pinyin": "zǒu jìn le", "meaning": "walked into" },
+        { "hanzi": "我的", "pinyin": "wǒ de", "meaning": "my" },
+        { "hanzi": "生命", "pinyin": "shēngmìng", "meaning": "life" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus",
+      "words": [
+        { "hanzi": "謝謝你", "pinyin": "xièxie nǐ", "meaning": "thank you" },
+        { "hanzi": "成為了", "pinyin": "chéngwéi le", "meaning": "for becoming" },
+        { "hanzi": "我的", "pinyin": "wǒ de", "meaning": "my" },
+        { "hanzi": "幾分之幾", "pinyin": "jǐ fēn zhī jǐ", "meaning": "fraction" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus",
+      "words": [
+        { "hanzi": "閉上", "pinyin": "bì shàng", "meaning": "close" },
+        { "hanzi": "眼睛", "pinyin": "yǎnjīng", "meaning": "eyes" },
+        { "hanzi": "也能", "pinyin": "yě néng", "meaning": "can still" },
+        { "hanzi": "看見", "pinyin": "kànjiàn", "meaning": "see" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus",
+      "words": [
+        { "hanzi": "晴朗的", "pinyin": "qínglǎng de", "meaning": "sunny" },
+        { "hanzi": "南方", "pinyin": "nánfāng", "meaning": "south" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "words": [
+        { "hanzi": "就算", "pinyin": "jiùsuàn", "meaning": "even if" },
+        { "hanzi": "犯錯", "pinyin": "fàncuò", "meaning": "make mistakes" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "words": [
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "拿", "pinyin": "ná", "meaning": "use" },
+        { "hanzi": "歲月", "pinyin": "suìyuè", "meaning": "years" },
+        { "hanzi": "等我", "pinyin": "děng wǒ", "meaning": "wait for me" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "words": [
+        { "hanzi": "就算", "pinyin": "jiùsuàn", "meaning": "even if" },
+        { "hanzi": "停留", "pinyin": "tíngliú", "meaning": "stay" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "words": [
+        { "hanzi": "還有", "pinyin": "háiyǒu", "meaning": "there is still" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "和", "pinyin": "hé", "meaning": "and" },
+        { "hanzi": "夜空", "pinyin": "yèkōng", "meaning": "night sky" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "算", "pinyin": "suàn", "meaning": "count as" },
+        { "hanzi": "什麼", "pinyin": "shénme", "meaning": "what" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "words": [
+        { "hanzi": "讓你", "pinyin": "ràng nǐ", "meaning": "make you" },
+        { "hanzi": "無條件的", "pinyin": "wú tiáojiàn de", "meaning": "unconditionally" },
+        { "hanzi": "為我", "pinyin": "wèi wǒ", "meaning": "for me" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "words": [
+        { "hanzi": "那一天", "pinyin": "nà yì tiān", "meaning": "that day" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "走進了", "pinyin": "zǒu jìn le", "meaning": "walked into" },
+        { "hanzi": "我的", "pinyin": "wǒ de", "meaning": "my" },
+        { "hanzi": "生命", "pinyin": "shēngmìng", "meaning": "life" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "words": [
+        { "hanzi": "謝謝你", "pinyin": "xièxie nǐ", "meaning": "thank you" },
+        { "hanzi": "成為了", "pinyin": "chéngwéi le", "meaning": "for becoming" },
+        { "hanzi": "我的", "pinyin": "wǒ de", "meaning": "my" },
+        { "hanzi": "幾分之幾", "pinyin": "jǐ fēn zhī jǐ", "meaning": "fraction" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "words": [
+        { "hanzi": "如果", "pinyin": "rúguǒ", "meaning": "if" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "又", "pinyin": "yòu", "meaning": "again" },
+        { "hanzi": "更", "pinyin": "gèng", "meaning": "more" },
+        { "hanzi": "完整", "pinyin": "wánzhěng", "meaning": "complete" },
+        { "hanzi": "一點", "pinyin": "yìdiǎn", "meaning": "a little" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "words": [
+        { "hanzi": "也是", "pinyin": "yěshì", "meaning": "it is also" },
+        { "hanzi": "因為", "pinyin": "yīnwèi", "meaning": "because of" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "words": [
+        { "hanzi": "某一天", "pinyin": "mǒu yì tiān", "meaning": "one day" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "離開了", "pinyin": "líkāi le", "meaning": "left" },
+        { "hanzi": "我的", "pinyin": "wǒ de", "meaning": "my" },
+        { "hanzi": "生命", "pinyin": "shēngmìng", "meaning": "life" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "words": [
+        { "hanzi": "謝謝你", "pinyin": "xièxie nǐ", "meaning": "thank you" },
+        { "hanzi": "曾經是", "pinyin": "céngjīng shì", "meaning": "for once being" },
+        { "hanzi": "我的", "pinyin": "wǒ de", "meaning": "my" },
+        { "hanzi": "幾分之幾", "pinyin": "jǐ fēn zhī jǐ", "meaning": "fraction" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "words": [
+        { "hanzi": "感覺", "pinyin": "gǎnjué", "meaning": "feel" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "貼著", "pinyin": "tiē zhe", "meaning": "pressed against" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "my" },
+        { "hanzi": "胸口", "pinyin": "xiōngkǒu", "meaning": "chest" },
+        { "hanzi": "呼吸", "pinyin": "hūxī", "meaning": "breathing" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "words": [
+        { "hanzi": "在", "pinyin": "zài", "meaning": "in" },
+        { "hanzi": "那一個", "pinyin": "nà yí gè", "meaning": "that one" },
+        { "hanzi": "回不去的", "pinyin": "huí bù qù de", "meaning": "can't go back to" },
+        { "hanzi": "天明", "pinyin": "tiānmíng", "meaning": "dawn" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "words": [
+        { "hanzi": "我的", "pinyin": "wǒ de", "meaning": "my" },
+        { "hanzi": "幾分之幾", "pinyin": "jǐ fēn zhī jǐ", "meaning": "fraction" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "words": [
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "終於", "pinyin": "zhōngyú", "meaning": "finally" },
+        { "hanzi": "還是", "pinyin": "háishi", "meaning": "still" },
+        { "hanzi": "離開", "pinyin": "líkāi", "meaning": "left" },
+        { "hanzi": "我的", "pinyin": "wǒ de", "meaning": "my" },
+        { "hanzi": "生命", "pinyin": "shēngmìng", "meaning": "life" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "words": [
+        { "hanzi": "留下", "pinyin": "liú xià", "meaning": "leaving behind" },
+        { "hanzi": "每天", "pinyin": "měitiān", "meaning": "every day" },
+        { "hanzi": "都在", "pinyin": "dōu zài", "meaning": "always" },
+        { "hanzi": "變老的", "pinyin": "biàn lǎo de", "meaning": "getting older" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "me" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "words": [
+        { "hanzi": "請", "pinyin": "qǐng", "meaning": "please" },
+        { "hanzi": "記得", "pinyin": "jìde", "meaning": "remember" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "曾經", "pinyin": "céngjīng", "meaning": "once" },
+        { "hanzi": "愛過", "pinyin": "ài guò", "meaning": "loved" }
+      ]
+    }
+  ]
+}

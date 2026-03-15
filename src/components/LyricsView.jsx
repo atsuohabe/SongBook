@@ -7,6 +7,10 @@ export default function LyricsView({ song, activeLineIndex, vocabMap }) {
     const saved = localStorage.getItem('songbook-show-meanings')
     return saved !== null ? JSON.parse(saved) : true
   })
+  const [showPinyin, setShowPinyin] = useState(() => {
+    const saved = localStorage.getItem('songbook-show-pinyin')
+    return saved !== null ? JSON.parse(saved) : true
+  })
   const [selectedWord, setSelectedWord] = useState(null)
   const [popupPosition, setPopupPosition] = useState(null)
   const lineRefs = useRef([])
@@ -15,6 +19,10 @@ export default function LyricsView({ song, activeLineIndex, vocabMap }) {
   useEffect(() => {
     localStorage.setItem('songbook-show-meanings', JSON.stringify(showMeanings))
   }, [showMeanings])
+
+  useEffect(() => {
+    localStorage.setItem('songbook-show-pinyin', JSON.stringify(showPinyin))
+  }, [showPinyin])
 
   // Auto-scroll to active line
   useEffect(() => {
@@ -55,6 +63,16 @@ export default function LyricsView({ song, activeLineIndex, vocabMap }) {
         >
           {showMeanings ? 'Meanings: ON' : 'Meanings: OFF'}
         </button>
+        <button
+          onClick={() => setShowPinyin(!showPinyin)}
+          className="px-4 py-1.5 rounded-full text-sm font-medium transition-colors border-none cursor-pointer"
+          style={{
+            background: showPinyin ? 'var(--color-primary)' : 'var(--color-surface)',
+            color: showPinyin ? '#000' : 'var(--color-text)',
+          }}
+        >
+          {showPinyin ? 'Pinyin: ON' : 'Pinyin: OFF'}
+        </button>
       </div>
 
       {/* Lyrics */}
@@ -65,6 +83,7 @@ export default function LyricsView({ song, activeLineIndex, vocabMap }) {
             line={line}
             isActive={i === activeLineIndex}
             showMeanings={showMeanings}
+            showPinyin={showPinyin}
             vocabMap={vocabMap}
             onWordTap={handleWordTap}
             lineRef={el => lineRefs.current[i] = el}
