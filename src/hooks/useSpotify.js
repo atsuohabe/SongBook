@@ -334,10 +334,17 @@ export function useSpotify() {
     try {
       if (isMobile) {
         // Mobile: find a device to play on
-        const device = await findMobileDevice()
+        let device = await findMobileDevice()
         if (!device) {
-          alert('Spotifyアプリを開いてから再試行してください\nPlease open the Spotify app and try again')
-          return
+          // Try to launch the Spotify app via URI scheme
+          window.location.href = 'spotify:'
+          // Wait a moment for the app to wake up, then retry
+          await new Promise(r => setTimeout(r, 2500))
+          device = await findMobileDevice()
+          if (!device) {
+            alert('Spotifyアプリが見つかりません。Spotifyアプリを起動してから再試行してください。')
+            return
+          }
         }
         await apiFetch(`https://api.spotify.com/v1/me/player/play?device_id=${device.id}`, {
           method: 'PUT',
