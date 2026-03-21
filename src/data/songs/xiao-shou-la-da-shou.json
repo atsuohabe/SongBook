@@ -1,0 +1,503 @@
+{
+  "id": "xiao-shou-la-da-shou",
+  "title": "小手拉大手",
+  "title_pinyin": "Xiǎo Shǒu Lā Dà Shǒu",
+  "title_meaning": "Little Hand Holding Big Hand",
+  "artist": "梁靜茹",
+  "artist_pinyin": "Liáng Jìngrú",
+  "artist_en": "Fish Leong",
+  "album": "親親",
+  "spotifyTrackUri": "spotify:track:4YfDticlwW58vBTV2OB9Z0",
+  "lines": [
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "Still remember the fireworks at that concert, still remember that cool, deep autumn",
+      "words": [
+        { "hanzi": "還", "pinyin": "hái", "meaning": "still" },
+        { "hanzi": "記得", "pinyin": "jìde", "meaning": "remember" },
+        { "hanzi": "那場", "pinyin": "nà chǎng", "meaning": "that (event)" },
+        { "hanzi": "音樂會", "pinyin": "yīnyuèhuì", "meaning": "concert" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "'s" },
+        { "hanzi": "煙火", "pinyin": "yānhuǒ", "meaning": "fireworks" },
+        { "hanzi": "還", "pinyin": "hái", "meaning": "still" },
+        { "hanzi": "記得", "pinyin": "jìde", "meaning": "remember" },
+        { "hanzi": "那個", "pinyin": "nàge", "meaning": "that" },
+        { "hanzi": "涼涼的", "pinyin": "liángliáng de", "meaning": "cool" },
+        { "hanzi": "深秋", "pinyin": "shēnqiū", "meaning": "deep autumn" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "Still remember the crowd pushed you toward me, the amusement park was crowded at just the right time",
+      "words": [
+        { "hanzi": "還", "pinyin": "hái", "meaning": "still" },
+        { "hanzi": "記得", "pinyin": "jìde", "meaning": "remember" },
+        { "hanzi": "人潮", "pinyin": "réncháo", "meaning": "crowd" },
+        { "hanzi": "把", "pinyin": "bǎ", "meaning": "(object marker)" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "推向了", "pinyin": "tuīxiàng le", "meaning": "pushed toward" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "me" },
+        { "hanzi": "遊樂園", "pinyin": "yóulèyuán", "meaning": "amusement park" },
+        { "hanzi": "擁擠的", "pinyin": "yōngjǐ de", "meaning": "crowded" },
+        { "hanzi": "正是時候", "pinyin": "zhèng shì shíhòu", "meaning": "just the right time" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "One night stubbornly staying up waiting, enjoying the luxury of soaking in hot springs together",
+      "words": [
+        { "hanzi": "一個", "pinyin": "yí ge", "meaning": "one" },
+        { "hanzi": "夜晚", "pinyin": "yèwǎn", "meaning": "night" },
+        { "hanzi": "堅持", "pinyin": "jiānchí", "meaning": "stubbornly" },
+        { "hanzi": "不睡的", "pinyin": "bú shuì de", "meaning": "not sleeping" },
+        { "hanzi": "等候", "pinyin": "děnghòu", "meaning": "waiting" },
+        { "hanzi": "一起", "pinyin": "yìqǐ", "meaning": "together" },
+        { "hanzi": "泡溫泉", "pinyin": "pào wēnquán", "meaning": "soak in hot springs" },
+        { "hanzi": "奢侈的", "pinyin": "shēchǐ de", "meaning": "luxurious" },
+        { "hanzi": "享受", "pinyin": "xiǎngshòu", "meaning": "enjoyment" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "Once a foolish confusion in my diary, because your smile transformed into wind",
+      "words": [
+        { "hanzi": "有一次", "pinyin": "yǒu yí cì", "meaning": "once" },
+        { "hanzi": "日記", "pinyin": "rìjì", "meaning": "diary" },
+        { "hanzi": "裏", "pinyin": "lǐ", "meaning": "inside" },
+        { "hanzi": "愚蠢的", "pinyin": "yúchǔn de", "meaning": "foolish" },
+        { "hanzi": "困惑", "pinyin": "kùnhuò", "meaning": "confusion" },
+        { "hanzi": "因為", "pinyin": "yīnwèi", "meaning": "because" },
+        { "hanzi": "你的", "pinyin": "nǐ de", "meaning": "your" },
+        { "hanzi": "微笑", "pinyin": "wēixiào", "meaning": "smile" },
+        { "hanzi": "幻化成", "pinyin": "huànhuà chéng", "meaning": "transformed into" },
+        { "hanzi": "風", "pinyin": "fēng", "meaning": "wind" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus",
+      "translation": "Your great bravery protects me, my little care chatters on and on",
+      "words": [
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "your" },
+        { "hanzi": "大大的", "pinyin": "dàdà de", "meaning": "great" },
+        { "hanzi": "勇敢", "pinyin": "yǒnggǎn", "meaning": "bravery" },
+        { "hanzi": "保護著", "pinyin": "bǎohù zhe", "meaning": "protects" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "me" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "my" },
+        { "hanzi": "小小的", "pinyin": "xiǎoxiǎo de", "meaning": "little" },
+        { "hanzi": "關懷", "pinyin": "guānhuái", "meaning": "care" },
+        { "hanzi": "喋喋不休", "pinyin": "diédié bù xiū", "meaning": "chatters on and on" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus",
+      "translation": "Thankful we walked together for so long, and once again returned to the cool, deep autumn",
+      "words": [
+        { "hanzi": "感謝", "pinyin": "gǎnxiè", "meaning": "thankful" },
+        { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
+        { "hanzi": "一起", "pinyin": "yìqǐ", "meaning": "together" },
+        { "hanzi": "走了", "pinyin": "zǒu le", "meaning": "walked" },
+        { "hanzi": "那麼久", "pinyin": "nàme jiǔ", "meaning": "so long" },
+        { "hanzi": "又", "pinyin": "yòu", "meaning": "again" },
+        { "hanzi": "再一次", "pinyin": "zài yí cì", "meaning": "once more" },
+        { "hanzi": "回到", "pinyin": "huídào", "meaning": "returned to" },
+        { "hanzi": "涼涼", "pinyin": "liángliáng", "meaning": "cool" },
+        { "hanzi": "深秋", "pinyin": "shēnqiū", "meaning": "deep autumn" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "Give you my hand, like a gentle beast, giving freedom to the vastness of the grassland",
+      "words": [
+        { "hanzi": "給", "pinyin": "gěi", "meaning": "give" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "我的手", "pinyin": "wǒ de shǒu", "meaning": "my hand" },
+        { "hanzi": "像", "pinyin": "xiàng", "meaning": "like" },
+        { "hanzi": "溫柔", "pinyin": "wēnróu", "meaning": "gentle" },
+        { "hanzi": "野獸", "pinyin": "yěshòu", "meaning": "wild beast" },
+        { "hanzi": "把", "pinyin": "bǎ", "meaning": "(object marker)" },
+        { "hanzi": "自由", "pinyin": "zìyóu", "meaning": "freedom" },
+        { "hanzi": "交給", "pinyin": "jiāogěi", "meaning": "hand over to" },
+        { "hanzi": "草原的", "pinyin": "cǎoyuán de", "meaning": "grassland's" },
+        { "hanzi": "遼闊", "pinyin": "liáokuò", "meaning": "vastness" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "We hold hands, little hand big hand, go on an outing together, don't think too much today",
+      "words": [
+        { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
+        { "hanzi": "小手", "pinyin": "xiǎo shǒu", "meaning": "little hand" },
+        { "hanzi": "拉", "pinyin": "lā", "meaning": "hold" },
+        { "hanzi": "大手", "pinyin": "dà shǒu", "meaning": "big hand" },
+        { "hanzi": "一起", "pinyin": "yìqǐ", "meaning": "together" },
+        { "hanzi": "郊遊", "pinyin": "jiāoyóu", "meaning": "outing" },
+        { "hanzi": "今天", "pinyin": "jīntiān", "meaning": "today" },
+        { "hanzi": "別", "pinyin": "bié", "meaning": "don't" },
+        { "hanzi": "想", "pinyin": "xiǎng", "meaning": "think" },
+        { "hanzi": "太多", "pinyin": "tài duō", "meaning": "too much" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "You are my dream, like the northern wind, blowing the warm and melancholy south",
+      "words": [
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "是", "pinyin": "shì", "meaning": "are" },
+        { "hanzi": "我的夢", "pinyin": "wǒ de mèng", "meaning": "my dream" },
+        { "hanzi": "像", "pinyin": "xiàng", "meaning": "like" },
+        { "hanzi": "北方的", "pinyin": "běifāng de", "meaning": "northern" },
+        { "hanzi": "風", "pinyin": "fēng", "meaning": "wind" },
+        { "hanzi": "吹著", "pinyin": "chuī zhe", "meaning": "blowing" },
+        { "hanzi": "南方", "pinyin": "nánfāng", "meaning": "south" },
+        { "hanzi": "暖洋洋的", "pinyin": "nuǎnyángyáng de", "meaning": "warm" },
+        { "hanzi": "哀愁", "pinyin": "āichóu", "meaning": "melancholy" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "We hold hands, little hand big hand, keep going today, wave goodbye to yesterday",
+      "words": [
+        { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
+        { "hanzi": "小手", "pinyin": "xiǎo shǒu", "meaning": "little hand" },
+        { "hanzi": "拉", "pinyin": "lā", "meaning": "hold" },
+        { "hanzi": "大手", "pinyin": "dà shǒu", "meaning": "big hand" },
+        { "hanzi": "今天", "pinyin": "jīntiān", "meaning": "today" },
+        { "hanzi": "加油", "pinyin": "jiāyóu", "meaning": "keep going" },
+        { "hanzi": "向", "pinyin": "xiàng", "meaning": "toward" },
+        { "hanzi": "昨天", "pinyin": "zuótiān", "meaning": "yesterday" },
+        { "hanzi": "揮揮手", "pinyin": "huī huī shǒu", "meaning": "wave goodbye" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "Still remember the fireworks at that concert, still remember that cool, deep autumn",
+      "words": [
+        { "hanzi": "還", "pinyin": "hái", "meaning": "still" },
+        { "hanzi": "記得", "pinyin": "jìde", "meaning": "remember" },
+        { "hanzi": "那場", "pinyin": "nà chǎng", "meaning": "that (event)" },
+        { "hanzi": "音樂會", "pinyin": "yīnyuèhuì", "meaning": "concert" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "'s" },
+        { "hanzi": "煙火", "pinyin": "yānhuǒ", "meaning": "fireworks" },
+        { "hanzi": "還", "pinyin": "hái", "meaning": "still" },
+        { "hanzi": "記得", "pinyin": "jìde", "meaning": "remember" },
+        { "hanzi": "那個", "pinyin": "nàge", "meaning": "that" },
+        { "hanzi": "涼涼的", "pinyin": "liángliáng de", "meaning": "cool" },
+        { "hanzi": "深秋", "pinyin": "shēnqiū", "meaning": "deep autumn" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "Still remember the crowd pushed you toward me, the amusement park was crowded at just the right time",
+      "words": [
+        { "hanzi": "還", "pinyin": "hái", "meaning": "still" },
+        { "hanzi": "記得", "pinyin": "jìde", "meaning": "remember" },
+        { "hanzi": "人潮", "pinyin": "réncháo", "meaning": "crowd" },
+        { "hanzi": "把", "pinyin": "bǎ", "meaning": "(object marker)" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "推向了", "pinyin": "tuīxiàng le", "meaning": "pushed toward" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "me" },
+        { "hanzi": "遊樂園", "pinyin": "yóulèyuán", "meaning": "amusement park" },
+        { "hanzi": "擁擠的", "pinyin": "yōngjǐ de", "meaning": "crowded" },
+        { "hanzi": "正是時候", "pinyin": "zhèng shì shíhòu", "meaning": "just the right time" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "One night stubbornly staying up waiting, enjoying the luxury of soaking in hot springs together",
+      "words": [
+        { "hanzi": "一個", "pinyin": "yí ge", "meaning": "one" },
+        { "hanzi": "夜晚", "pinyin": "yèwǎn", "meaning": "night" },
+        { "hanzi": "堅持", "pinyin": "jiānchí", "meaning": "stubbornly" },
+        { "hanzi": "不睡的", "pinyin": "bú shuì de", "meaning": "not sleeping" },
+        { "hanzi": "等候", "pinyin": "děnghòu", "meaning": "waiting" },
+        { "hanzi": "一起", "pinyin": "yìqǐ", "meaning": "together" },
+        { "hanzi": "泡溫泉", "pinyin": "pào wēnquán", "meaning": "soak in hot springs" },
+        { "hanzi": "奢侈的", "pinyin": "shēchǐ de", "meaning": "luxurious" },
+        { "hanzi": "享受", "pinyin": "xiǎngshòu", "meaning": "enjoyment" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "Once a foolish confusion in my diary, because your smile transformed into wind",
+      "words": [
+        { "hanzi": "有一次", "pinyin": "yǒu yí cì", "meaning": "once" },
+        { "hanzi": "日記", "pinyin": "rìjì", "meaning": "diary" },
+        { "hanzi": "裏", "pinyin": "lǐ", "meaning": "inside" },
+        { "hanzi": "愚蠢的", "pinyin": "yúchǔn de", "meaning": "foolish" },
+        { "hanzi": "困惑", "pinyin": "kùnhuò", "meaning": "confusion" },
+        { "hanzi": "因為", "pinyin": "yīnwèi", "meaning": "because" },
+        { "hanzi": "你的", "pinyin": "nǐ de", "meaning": "your" },
+        { "hanzi": "微笑", "pinyin": "wēixiào", "meaning": "smile" },
+        { "hanzi": "幻化成", "pinyin": "huànhuà chéng", "meaning": "transformed into" },
+        { "hanzi": "風", "pinyin": "fēng", "meaning": "wind" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus2",
+      "translation": "Your great bravery protects me, my little care chatters on and on",
+      "words": [
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "your" },
+        { "hanzi": "大大的", "pinyin": "dàdà de", "meaning": "great" },
+        { "hanzi": "勇敢", "pinyin": "yǒnggǎn", "meaning": "bravery" },
+        { "hanzi": "保護著", "pinyin": "bǎohù zhe", "meaning": "protects" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "me" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "my" },
+        { "hanzi": "小小的", "pinyin": "xiǎoxiǎo de", "meaning": "little" },
+        { "hanzi": "關懷", "pinyin": "guānhuái", "meaning": "care" },
+        { "hanzi": "喋喋不休", "pinyin": "diédié bù xiū", "meaning": "chatters on and on" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus2",
+      "translation": "Thankful we walked together for so long, and once again returned to the cool, deep autumn",
+      "words": [
+        { "hanzi": "感謝", "pinyin": "gǎnxiè", "meaning": "thankful" },
+        { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
+        { "hanzi": "一起", "pinyin": "yìqǐ", "meaning": "together" },
+        { "hanzi": "走了", "pinyin": "zǒu le", "meaning": "walked" },
+        { "hanzi": "那麼久", "pinyin": "nàme jiǔ", "meaning": "so long" },
+        { "hanzi": "又", "pinyin": "yòu", "meaning": "again" },
+        { "hanzi": "再一次", "pinyin": "zài yí cì", "meaning": "once more" },
+        { "hanzi": "回到", "pinyin": "huídào", "meaning": "returned to" },
+        { "hanzi": "涼涼", "pinyin": "liángliáng", "meaning": "cool" },
+        { "hanzi": "深秋", "pinyin": "shēnqiū", "meaning": "deep autumn" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "Give you my hand, like a gentle beast, we've always been walking forward like this",
+      "words": [
+        { "hanzi": "給", "pinyin": "gěi", "meaning": "give" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "我的手", "pinyin": "wǒ de shǒu", "meaning": "my hand" },
+        { "hanzi": "像", "pinyin": "xiàng", "meaning": "like" },
+        { "hanzi": "溫柔", "pinyin": "wēnróu", "meaning": "gentle" },
+        { "hanzi": "野獸", "pinyin": "yěshòu", "meaning": "wild beast" },
+        { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
+        { "hanzi": "一直", "pinyin": "yìzhí", "meaning": "always" },
+        { "hanzi": "就", "pinyin": "jiù", "meaning": "just" },
+        { "hanzi": "這樣", "pinyin": "zhèyàng", "meaning": "like this" },
+        { "hanzi": "向前走", "pinyin": "xiàng qián zǒu", "meaning": "walk forward" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "We hold hands, little hand big hand, go on an outing together, don't think too much today",
+      "words": [
+        { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
+        { "hanzi": "小手", "pinyin": "xiǎo shǒu", "meaning": "little hand" },
+        { "hanzi": "拉", "pinyin": "lā", "meaning": "hold" },
+        { "hanzi": "大手", "pinyin": "dà shǒu", "meaning": "big hand" },
+        { "hanzi": "一起", "pinyin": "yìqǐ", "meaning": "together" },
+        { "hanzi": "郊遊", "pinyin": "jiāoyóu", "meaning": "outing" },
+        { "hanzi": "今天", "pinyin": "jīntiān", "meaning": "today" },
+        { "hanzi": "別", "pinyin": "bié", "meaning": "don't" },
+        { "hanzi": "想", "pinyin": "xiǎng", "meaning": "think" },
+        { "hanzi": "太多", "pinyin": "tài duō", "meaning": "too much" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "You are my dream, like the northern wind, blowing the warm and melancholy south",
+      "words": [
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "是", "pinyin": "shì", "meaning": "are" },
+        { "hanzi": "我的夢", "pinyin": "wǒ de mèng", "meaning": "my dream" },
+        { "hanzi": "像", "pinyin": "xiàng", "meaning": "like" },
+        { "hanzi": "北方的", "pinyin": "běifāng de", "meaning": "northern" },
+        { "hanzi": "風", "pinyin": "fēng", "meaning": "wind" },
+        { "hanzi": "吹著", "pinyin": "chuī zhe", "meaning": "blowing" },
+        { "hanzi": "南方", "pinyin": "nánfāng", "meaning": "south" },
+        { "hanzi": "暖洋洋的", "pinyin": "nuǎnyángyáng de", "meaning": "warm" },
+        { "hanzi": "哀愁", "pinyin": "āichóu", "meaning": "melancholy" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "We hold hands, little hand big hand, keep going today, wave goodbye to yesterday",
+      "words": [
+        { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
+        { "hanzi": "小手", "pinyin": "xiǎo shǒu", "meaning": "little hand" },
+        { "hanzi": "拉", "pinyin": "lā", "meaning": "hold" },
+        { "hanzi": "大手", "pinyin": "dà shǒu", "meaning": "big hand" },
+        { "hanzi": "今天", "pinyin": "jīntiān", "meaning": "today" },
+        { "hanzi": "加油", "pinyin": "jiāyóu", "meaning": "keep going" },
+        { "hanzi": "向", "pinyin": "xiàng", "meaning": "toward" },
+        { "hanzi": "昨天", "pinyin": "zuótiān", "meaning": "yesterday" },
+        { "hanzi": "揮揮手", "pinyin": "huī huī shǒu", "meaning": "wave goodbye" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "interlude",
+      "translation": "",
+      "words": [
+        { "hanzi": "→→●間奏●←←", "pinyin": "", "meaning": "interlude" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "interlude",
+      "translation": "",
+      "words": [
+        { "hanzi": "LALALA...", "pinyin": "", "meaning": "" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "interlude2",
+      "translation": "",
+      "words": [
+        { "hanzi": "→→●間奏●←←", "pinyin": "", "meaning": "interlude" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "translation": "Give you my hand, like a gentle beast, we've always been walking forward like this",
+      "words": [
+        { "hanzi": "給", "pinyin": "gěi", "meaning": "give" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "我的手", "pinyin": "wǒ de shǒu", "meaning": "my hand" },
+        { "hanzi": "像", "pinyin": "xiàng", "meaning": "like" },
+        { "hanzi": "溫柔", "pinyin": "wēnróu", "meaning": "gentle" },
+        { "hanzi": "野獸", "pinyin": "yěshòu", "meaning": "wild beast" },
+        { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
+        { "hanzi": "一直", "pinyin": "yìzhí", "meaning": "always" },
+        { "hanzi": "就", "pinyin": "jiù", "meaning": "just" },
+        { "hanzi": "這樣", "pinyin": "zhèyàng", "meaning": "like this" },
+        { "hanzi": "向前走", "pinyin": "xiàng qián zǒu", "meaning": "walk forward" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "translation": "We hold hands, little hand big hand, go on an outing together, don't think too much today",
+      "words": [
+        { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
+        { "hanzi": "小手", "pinyin": "xiǎo shǒu", "meaning": "little hand" },
+        { "hanzi": "拉", "pinyin": "lā", "meaning": "hold" },
+        { "hanzi": "大手", "pinyin": "dà shǒu", "meaning": "big hand" },
+        { "hanzi": "一起", "pinyin": "yìqǐ", "meaning": "together" },
+        { "hanzi": "郊遊", "pinyin": "jiāoyóu", "meaning": "outing" },
+        { "hanzi": "今天", "pinyin": "jīntiān", "meaning": "today" },
+        { "hanzi": "別", "pinyin": "bié", "meaning": "don't" },
+        { "hanzi": "想", "pinyin": "xiǎng", "meaning": "think" },
+        { "hanzi": "太多", "pinyin": "tài duō", "meaning": "too much" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "translation": "OH~LALALALALA... like the northern wind, blowing the warm and melancholy south",
+      "words": [
+        { "hanzi": "OH~LALALALALA...", "pinyin": "", "meaning": "" },
+        { "hanzi": "像", "pinyin": "xiàng", "meaning": "like" },
+        { "hanzi": "北方的", "pinyin": "běifāng de", "meaning": "northern" },
+        { "hanzi": "風", "pinyin": "fēng", "meaning": "wind" },
+        { "hanzi": "吹著", "pinyin": "chuī zhe", "meaning": "blowing" },
+        { "hanzi": "南方", "pinyin": "nánfāng", "meaning": "south" },
+        { "hanzi": "暖洋洋的", "pinyin": "nuǎnyángyáng de", "meaning": "warm" },
+        { "hanzi": "哀愁", "pinyin": "āichóu", "meaning": "melancholy" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "translation": "We hold hands, little hand big hand, keep going today, wave goodbye to yesterday",
+      "words": [
+        { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
+        { "hanzi": "小手", "pinyin": "xiǎo shǒu", "meaning": "little hand" },
+        { "hanzi": "拉", "pinyin": "lā", "meaning": "hold" },
+        { "hanzi": "大手", "pinyin": "dà shǒu", "meaning": "big hand" },
+        { "hanzi": "今天", "pinyin": "jīntiān", "meaning": "today" },
+        { "hanzi": "加油", "pinyin": "jiāyóu", "meaning": "keep going" },
+        { "hanzi": "向", "pinyin": "xiàng", "meaning": "toward" },
+        { "hanzi": "昨天", "pinyin": "zuótiān", "meaning": "yesterday" },
+        { "hanzi": "揮揮手", "pinyin": "huī huī shǒu", "meaning": "wave goodbye" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "translation": "We hold hands, little hand big hand, keep going for me today, can't bear to wave goodbye",
+      "words": [
+        { "hanzi": "我們", "pinyin": "wǒmen", "meaning": "we" },
+        { "hanzi": "小手", "pinyin": "xiǎo shǒu", "meaning": "little hand" },
+        { "hanzi": "拉", "pinyin": "lā", "meaning": "hold" },
+        { "hanzi": "大手", "pinyin": "dà shǒu", "meaning": "big hand" },
+        { "hanzi": "今天", "pinyin": "jīntiān", "meaning": "today" },
+        { "hanzi": "為我", "pinyin": "wèi wǒ", "meaning": "for me" },
+        { "hanzi": "加油", "pinyin": "jiāyóu", "meaning": "keep going" },
+        { "hanzi": "捨不得", "pinyin": "shěbude", "meaning": "can't bear to" },
+        { "hanzi": "揮揮手", "pinyin": "huī huī shǒu", "meaning": "wave goodbye" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "translation": "",
+      "words": [
+        { "hanzi": "LALALA ....", "pinyin": "", "meaning": "" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "translation": "It's over~~~~",
+      "words": [
+        { "hanzi": "結束囉～～～～", "pinyin": "jiéshù lo", "meaning": "it's over" }
+      ]
+    }
+  ]
+}
