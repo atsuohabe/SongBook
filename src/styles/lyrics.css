@@ -67,11 +67,12 @@
 }
 
 .lyric-line.active .lyric-translation {
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--color-text);
+  opacity: 0.8;
 }
 
 .lyric-line.active .annotated-word .hanzi {
-  color: #fff;
+  color: var(--color-text);
   font-weight: 600;
 }
 
@@ -80,12 +81,12 @@
   position: fixed;
   z-index: 50;
   background: var(--color-surface);
-  border: 1px solid #333;
+  border: 1px solid var(--color-border);
   border-radius: 12px;
   padding: 16px;
   min-width: 200px;
   max-width: 300px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
 }
 
 .word-popup .popup-hanzi {

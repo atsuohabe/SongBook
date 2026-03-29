@@ -62,7 +62,7 @@ export default function LyricsView({ song, activeLineIndex, vocabMap }) {
   return (
     <div ref={containerRef} className="relative">
       {/* Controls */}
-      <div className="flex items-center justify-center gap-4 py-3 border-b border-white/10 sticky top-0 z-10 flex-wrap" style={{ background: 'var(--color-bg)' }}>
+      <div className="flex items-center justify-center gap-4 py-3 sticky top-0 z-10 flex-wrap" style={{ background: 'var(--color-bg)', borderBottom: '1px solid var(--color-border)' }}>
         <button
           onClick={() => setShowMeanings(!showMeanings)}
           className="px-4 py-1.5 rounded-full text-sm font-medium transition-colors border-none cursor-pointer"

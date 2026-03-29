@@ -131,10 +131,10 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
             left: 0,
             right: 0,
             zIndex: 50,
-            background: 'rgba(26, 26, 46, 0.95)',
+            background: 'var(--color-overlay)',
             backdropFilter: 'blur(20px)',
             WebkitBackdropFilter: 'blur(20px)',
-            borderTop: '1px solid rgba(255,255,255,0.08)',
+            borderTop: '1px solid var(--color-border)',
             padding: '16px 20px',
             paddingBottom: 'max(16px, env(safe-area-inset-bottom))',
             textAlign: 'center',
@@ -163,7 +163,7 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
       )
     }
     return (
-      <div className="text-center py-4 border-b border-white/10" style={{ background: 'var(--color-surface)' }}>
+      <div className="text-center py-4" style={{ background: 'var(--color-surface)', borderBottom: '1px solid var(--color-border)' }}>
         <p className="text-sm mb-3" style={{ color: 'var(--color-text-muted)' }}>
           Connect Spotify to listen while studying
         </p>
@@ -192,10 +192,10 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
             left: 0,
             right: 0,
             zIndex: 50,
-            background: 'rgba(26, 26, 46, 0.95)',
+            background: 'var(--color-overlay)',
             backdropFilter: 'blur(20px)',
             WebkitBackdropFilter: 'blur(20px)',
-            borderTop: '1px solid rgba(255,255,255,0.08)',
+            borderTop: '1px solid var(--color-border)',
             padding: '18px 20px',
             paddingBottom: 'max(18px, env(safe-area-inset-bottom))',
             textAlign: 'center',
@@ -208,7 +208,7 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
       )
     }
     return (
-      <div className="text-center py-4 border-b border-white/10" style={{ background: 'var(--color-surface)' }}>
+      <div className="text-center py-4" style={{ background: 'var(--color-surface)', borderBottom: '1px solid var(--color-border)' }}>
         <p className="text-sm" style={{ color: 'var(--color-text-muted)' }}>
           Connecting to Spotify...
         </p>
@@ -226,10 +226,10 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
           left: 0,
           right: 0,
           zIndex: 50,
-          background: 'rgba(26, 26, 46, 0.95)',
+          background: 'var(--color-overlay)',
           backdropFilter: 'blur(20px)',
           WebkitBackdropFilter: 'blur(20px)',
-          borderTop: '1px solid rgba(255,255,255,0.08)',
+          borderTop: '1px solid var(--color-border)',
           padding: '20px 20px',
           paddingBottom: 'max(24px, calc(env(safe-area-inset-bottom) + 12px))',
         }}
@@ -309,7 +309,7 @@ export default function SpotifyPlayer({ song, token, player, isConnected, isMobi
 
   // --- Connected: Desktop inline bar ---
   return (
-    <div className="flex items-center justify-center gap-4 py-4 border-b border-white/10" style={{ background: 'var(--color-surface)' }}>
+    <div className="flex items-center justify-center gap-4 py-4" style={{ background: 'var(--color-surface)', borderBottom: '1px solid var(--color-border)' }}>
       <span className="text-sm" style={{ color: 'var(--color-primary)' }}>
         Spotify Connected
       </span>
