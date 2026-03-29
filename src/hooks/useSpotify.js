@@ -252,20 +252,25 @@ export function useSpotify() {
       alert('Spotify Client ID not configured. Set VITE_SPOTIFY_CLIENT_ID in .env')
       return
     }
-    const verifier = generateRandomString(128)
-    const challenge = await sha256(verifier)
-    sessionStorage.setItem('spotify_code_verifier', verifier)
+    try {
+      const verifier = generateRandomString(128)
+      const challenge = await sha256(verifier)
+      sessionStorage.setItem('spotify_code_verifier', verifier)
 
-    const params = new URLSearchParams({
-      response_type: 'code',
-      client_id: CLIENT_ID,
-      scope: SCOPES,
-      redirect_uri: REDIRECT_URI,
-      code_challenge_method: 'S256',
-      code_challenge: challenge,
-    })
+      const params = new URLSearchParams({
+        response_type: 'code',
+        client_id: CLIENT_ID,
+        scope: SCOPES,
+        redirect_uri: REDIRECT_URI,
+        code_challenge_method: 'S256',
+        code_challenge: challenge,
+      })
 
-    window.location.href = `https://accounts.spotify.com/authorize?${params}`
+      window.location.href = `https://accounts.spotify.com/authorize?${params}`
+    } catch (e) {
+      console.error('Spotify login error:', e)
+      alert('Spotify認証の開始に失敗しました。ブラウザを再読み込みしてお試しください。')
+    }
   }, [])
 
   const logout = useCallback(() => {
