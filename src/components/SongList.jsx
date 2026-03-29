@@ -5,6 +5,7 @@ import songs from '../data/songs/index'
 export default function SongList() {
   const [query, setQuery] = useState('')
   const [updating, setUpdating] = useState(false)
+  const [copied, setCopied] = useState(false)
 
   const handleUpdate = useCallback(async () => {
     setUpdating(true)
@@ -75,18 +76,34 @@ export default function SongList() {
         )}
       </div>
 
-      {/* Update Button */}
-      <div className="text-center mt-8 mb-4">
+      {/* Update & Share Buttons */}
+      <div className="text-center mt-8 mb-4 space-y-3">
         <button
           onClick={handleUpdate}
           disabled={updating}
-          className="px-4 py-2 rounded-lg text-sm border-none cursor-pointer transition-colors"
+          className="px-4 py-2 rounded-lg text-sm border-none cursor-pointer transition-colors block mx-auto"
           style={{
             background: 'var(--color-surface)',
             color: 'var(--color-text-muted)',
           }}
         >
           {updating ? '更新中...' : 'SongBookを更新する'}
+        </button>
+        <button
+          onClick={() => {
+            const url = window.location.origin + window.location.pathname
+            navigator.clipboard.writeText(url).then(() => {
+              setCopied(true)
+              setTimeout(() => setCopied(false), 2000)
+            })
+          }}
+          className="px-4 py-2 rounded-lg text-sm border-none cursor-pointer transition-colors block mx-auto"
+          style={{
+            background: 'var(--color-surface)',
+            color: copied ? 'var(--color-primary)' : 'var(--color-text-muted)',
+          }}
+        >
+          {copied ? 'URLをコピーしました!' : 'SongBookを共有する'}
         </button>
       </div>
     </div>
