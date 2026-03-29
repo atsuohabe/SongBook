@@ -11,6 +11,22 @@
   --color-meaning: #a0a0a0;
   --color-active-line: #1db95420;
   --color-highlight: #ffeb3b30;
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-overlay: rgba(26, 26, 46, 0.95);
+}
+
+html[data-theme="light"] {
+  --color-bg: #f5f5f5;
+  --color-surface: #ffffff;
+  --color-surface-hover: #f0f0f0;
+  --color-text: #1a1a1a;
+  --color-text-muted: #666;
+  --color-pinyin: #1565c0;
+  --color-meaning: #555;
+  --color-active-line: #1db95418;
+  --color-highlight: #ffeb3b30;
+  --color-border: rgba(0, 0, 0, 0.1);
+  --color-overlay: rgba(255, 255, 255, 0.95);
 }
 
 * {
