@@ -10,7 +10,7 @@ import { useUserSongs } from '../hooks/useUserSongs'
 export default function SongPage() {
   const { songId } = useParams()
   const navigate = useNavigate()
-  const { userSongs, deleteUserSong } = useUserSongs()
+  const { userSongs, deleteUserSong, permanentDeleteSong, hideSong } = useUserSongs()
   const song = songs.find(s => s.id === songId) || userSongs.find(s => s.id === songId)
   const vocabMap = useVocabLookup()
 
@@ -34,8 +34,22 @@ export default function SongPage() {
   }
 
   const handleDelete = () => {
-    if (window.confirm('この曲を削除しますか？')) {
+    if (window.confirm('この曲をゴミ箱に移動しますか？')) {
       deleteUserSong(song.id)
+      navigate('/')
+    }
+  }
+
+  const handlePermanentDelete = () => {
+    if (window.confirm(`「${song.title}」を完全に削除しますか？この操作は取り消せません。`)) {
+      permanentDeleteSong(song.id)
+      navigate('/')
+    }
+  }
+
+  const handleHide = () => {
+    if (window.confirm('この曲を非表示にしますか？曲一覧の「管理」から再表示できます。')) {
+      hideSong(song.id)
       navigate('/')
     }
   }
@@ -64,9 +78,9 @@ export default function SongPage() {
           {song.artist} {song.artist_pinyin && `(${song.artist_pinyin})`} {song.artist_en && `- ${song.artist_en}`}
         </p>
 
-        {/* Edit/Delete buttons for user songs */}
-        {song.isUserSong && (
-          <div className="flex items-center justify-center gap-3 mt-3">
+        {/* Song actions */}
+        {song.isUserSong ? (
+          <div className="flex items-center justify-center gap-3 mt-3 flex-wrap">
             <Link
               to={`/edit-song/${song.id}`}
               className="px-4 py-1.5 rounded-full text-sm font-medium no-underline"
@@ -77,9 +91,26 @@ export default function SongPage() {
             <button
               onClick={handleDelete}
               className="px-4 py-1.5 rounded-full text-sm font-medium border-none cursor-pointer"
+              style={{ background: 'var(--color-surface)', color: 'var(--color-text-muted)', border: '1px solid var(--color-border)' }}
+            >
+              ゴミ箱へ
+            </button>
+            <button
+              onClick={handlePermanentDelete}
+              className="px-4 py-1.5 rounded-full text-sm font-medium border-none cursor-pointer"
               style={{ background: 'var(--color-surface)', color: '#e53935', border: '1px solid var(--color-border)' }}
             >
-              削除
+              完全削除
+            </button>
+          </div>
+        ) : (
+          <div className="flex items-center justify-center mt-3">
+            <button
+              onClick={handleHide}
+              className="px-4 py-1.5 rounded-full text-sm font-medium border-none cursor-pointer"
+              style={{ background: 'var(--color-surface)', color: 'var(--color-text-muted)', border: '1px solid var(--color-border)' }}
+            >
+              この曲を非表示
             </button>
           </div>
         )}
