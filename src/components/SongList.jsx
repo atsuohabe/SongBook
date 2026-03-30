@@ -7,9 +7,16 @@ export default function SongList() {
   const [query, setQuery] = useState('')
   const [updating, setUpdating] = useState(false)
   const [copied, setCopied] = useState(false)
-  const { userSongs } = useUserSongs()
+  const [showManage, setShowManage] = useState(false)
+  const {
+    userSongs, trashedSongs, hiddenSongIds,
+    restoreUserSong, permanentDeleteSong,
+    unhideSong,
+  } = useUserSongs()
 
-  const allSongs = [...songs, ...userSongs]
+  // Filter out hidden built-in songs
+  const visibleBuiltIn = songs.filter(s => !hiddenSongIds.includes(s.id))
+  const allSongs = [...visibleBuiltIn, ...userSongs]
 
   const handleUpdate = useCallback(async () => {
     setUpdating(true)
@@ -38,6 +45,9 @@ export default function SongList() {
       (song.title_meaning || '').toLowerCase().includes(q)
     )
   })
+
+  const hiddenBuiltIn = songs.filter(s => hiddenSongIds.includes(s.id))
+  const hasManageItems = trashedSongs.length > 0 || hiddenBuiltIn.length > 0
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
@@ -96,6 +106,96 @@ export default function SongList() {
           </p>
         )}
       </div>
+
+      {/* Manage: Trash & Hidden Songs */}
+      {hasManageItems && (
+        <div className="mt-8">
+          <button
+            onClick={() => setShowManage(!showManage)}
+            className="w-full px-4 py-2.5 rounded-lg text-sm font-medium border-none cursor-pointer"
+            style={{ background: 'var(--color-surface)', color: 'var(--color-text-muted)' }}
+          >
+            {showManage ? '管理を閉じる' : `管理（ゴミ箱: ${trashedSongs.length}件、非表示: ${hiddenBuiltIn.length}件）`}
+          </button>
+
+          {showManage && (
+            <div className="mt-3 space-y-4">
+              {/* Trashed user songs */}
+              {trashedSongs.length > 0 && (
+                <div>
+                  <h3 className="text-sm font-medium mb-2" style={{ color: 'var(--color-text-muted)' }}>
+                    ゴミ箱（ユーザー曲）
+                  </h3>
+                  <div className="space-y-2">
+                    {trashedSongs.map(song => (
+                      <div
+                        key={song.id}
+                        className="flex items-center justify-between p-3 rounded-lg"
+                        style={{ background: 'var(--color-surface)' }}
+                      >
+                        <div>
+                          <span className="text-sm font-medium" style={{ color: 'var(--color-text)' }}>{song.title}</span>
+                          <span className="text-xs ml-2" style={{ color: 'var(--color-text-muted)' }}>{song.artist}</span>
+                        </div>
+                        <div className="flex gap-2">
+                          <button
+                            onClick={() => restoreUserSong(song.id)}
+                            className="px-3 py-1 rounded-full text-xs border-none cursor-pointer"
+                            style={{ background: 'var(--color-primary)', color: '#000', fontWeight: 600 }}
+                          >
+                            復元
+                          </button>
+                          <button
+                            onClick={() => {
+                              if (window.confirm(`「${song.title}」を完全に削除しますか？この操作は取り消せません。`)) {
+                                permanentDeleteSong(song.id)
+                              }
+                            }}
+                            className="px-3 py-1 rounded-full text-xs border-none cursor-pointer"
+                            style={{ background: 'var(--color-surface-hover)', color: '#e53935', fontWeight: 600 }}
+                          >
+                            完全削除
+                          </button>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Hidden built-in songs */}
+              {hiddenBuiltIn.length > 0 && (
+                <div>
+                  <h3 className="text-sm font-medium mb-2" style={{ color: 'var(--color-text-muted)' }}>
+                    非表示のビルトイン曲
+                  </h3>
+                  <div className="space-y-2">
+                    {hiddenBuiltIn.map(song => (
+                      <div
+                        key={song.id}
+                        className="flex items-center justify-between p-3 rounded-lg"
+                        style={{ background: 'var(--color-surface)' }}
+                      >
+                        <div>
+                          <span className="text-sm font-medium" style={{ color: 'var(--color-text)' }}>{song.title}</span>
+                          <span className="text-xs ml-2" style={{ color: 'var(--color-text-muted)' }}>{song.artist}</span>
+                        </div>
+                        <button
+                          onClick={() => unhideSong(song.id)}
+                          className="px-3 py-1 rounded-full text-xs border-none cursor-pointer"
+                          style={{ background: 'var(--color-primary)', color: '#000', fontWeight: 600 }}
+                        >
+                          再表示
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Update & Share Buttons */}
       <div className="text-center mt-8 mb-4 space-y-3">

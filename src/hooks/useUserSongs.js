@@ -2,6 +2,8 @@ import { useState, useCallback } from 'react'
 import { pinyin } from 'pinyin-pro'
 
 const STORAGE_KEY = 'songbook-user-songs'
+const TRASH_KEY = 'songbook-user-songs-trash'
+const HIDDEN_KEY = 'songbook-hidden-songs'
 
 // Segment Chinese text into words using Intl.Segmenter
 function segmentChinese(text) {
@@ -140,8 +142,36 @@ function saveUserSongs(songs) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(songs))
 }
 
+function loadTrash() {
+  try {
+    const raw = localStorage.getItem(TRASH_KEY)
+    return raw ? JSON.parse(raw) : []
+  } catch {
+    return []
+  }
+}
+
+function saveTrash(songs) {
+  localStorage.setItem(TRASH_KEY, JSON.stringify(songs))
+}
+
+function loadHiddenSongs() {
+  try {
+    const raw = localStorage.getItem(HIDDEN_KEY)
+    return raw ? JSON.parse(raw) : []
+  } catch {
+    return []
+  }
+}
+
+function saveHiddenSongs(ids) {
+  localStorage.setItem(HIDDEN_KEY, JSON.stringify(ids))
+}
+
 export function useUserSongs() {
   const [userSongs, setUserSongs] = useState(loadUserSongs)
+  const [trashedSongs, setTrashedSongs] = useState(loadTrash)
+  const [hiddenSongIds, setHiddenSongIds] = useState(loadHiddenSongs)
 
   const addUserSong = useCallback(async (data, vocabMap) => {
     const { title, artist, artistEn, spotifyUrl, lyricsText } = data
@@ -188,14 +218,67 @@ export function useUserSongs() {
     setUserSongs(updated)
   }, [])
 
+  // Move user song to trash instead of permanent delete
   const deleteUserSong = useCallback((id) => {
     const current = loadUserSongs()
+    const songToTrash = current.find(s => s.id === id)
+    if (songToTrash) {
+      const trash = loadTrash()
+      songToTrash.deletedAt = Date.now()
+      saveTrash([...trash, songToTrash])
+      setTrashedSongs([...trash, songToTrash])
+    }
     const updated = current.filter(s => s.id !== id)
     saveUserSongs(updated)
     setUserSongs(updated)
   }, [])
 
-  return { userSongs, addUserSong, updateUserSong, deleteUserSong }
+  // Restore a user song from trash
+  const restoreUserSong = useCallback((id) => {
+    const trash = loadTrash()
+    const songToRestore = trash.find(s => s.id === id)
+    if (songToRestore) {
+      delete songToRestore.deletedAt
+      const current = loadUserSongs()
+      saveUserSongs([...current, songToRestore])
+      setUserSongs([...current, songToRestore])
+    }
+    const updatedTrash = trash.filter(s => s.id !== id)
+    saveTrash(updatedTrash)
+    setTrashedSongs(updatedTrash)
+  }, [])
+
+  // Permanently delete from trash
+  const permanentDeleteSong = useCallback((id) => {
+    const trash = loadTrash()
+    const updated = trash.filter(s => s.id !== id)
+    saveTrash(updated)
+    setTrashedSongs(updated)
+  }, [])
+
+  // Hide a built-in song
+  const hideSong = useCallback((id) => {
+    const current = loadHiddenSongs()
+    if (!current.includes(id)) {
+      const updated = [...current, id]
+      saveHiddenSongs(updated)
+      setHiddenSongIds(updated)
+    }
+  }, [])
+
+  // Show a previously hidden built-in song
+  const unhideSong = useCallback((id) => {
+    const current = loadHiddenSongs()
+    const updated = current.filter(i => i !== id)
+    saveHiddenSongs(updated)
+    setHiddenSongIds(updated)
+  }, [])
+
+  return {
+    userSongs, addUserSong, updateUserSong, deleteUserSong,
+    trashedSongs, restoreUserSong, permanentDeleteSong,
+    hiddenSongIds, hideSong, unhideSong,
+  }
 }
 
 export { suggestLineBreaks, parseLyricsToLines }
