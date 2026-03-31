@@ -120,6 +120,20 @@ export function useSpotify() {
   // Handle OAuth callback
   useEffect(() => {
     const params = new URLSearchParams(window.location.search)
+
+    // Handle OAuth error (e.g., user denied access, or app in dev mode and user not whitelisted)
+    const error = params.get('error')
+    if (error) {
+      console.error('Spotify OAuth error:', error)
+      if (error === 'access_denied') {
+        alert('Spotifyの認証が拒否されました。\n\nこのアプリは現在開発モードのため、登録済みユーザーのみ利用できます。アプリ管理者にSpotify Developer Dashboardへのユーザー追加を依頼してください。')
+      } else {
+        alert(`Spotify認証エラー: ${error}`)
+      }
+      window.history.replaceState({}, '', window.location.pathname + window.location.hash)
+      return
+    }
+
     const code = params.get('code')
     if (code && CLIENT_ID) {
       const verifier = sessionStorage.getItem('spotify_code_verifier')
@@ -142,11 +156,18 @@ export function useSpotify() {
               setToken(data.access_token)
               scheduleRefresh(tokenData)
               sessionStorage.removeItem('spotify_code_verifier')
-              // Clean URL
+              window.history.replaceState({}, '', window.location.pathname + window.location.hash)
+            } else {
+              console.error('Spotify token exchange failed:', data)
+              alert('Spotifyとの接続に失敗しました。もう一度お試しください。')
               window.history.replaceState({}, '', window.location.pathname + window.location.hash)
             }
           })
-          .catch(console.error)
+          .catch(e => {
+            console.error('Spotify token exchange error:', e)
+            alert('Spotifyとの接続中にエラーが発生しました。')
+            window.history.replaceState({}, '', window.location.pathname + window.location.hash)
+          })
       }
     }
   }, [scheduleRefresh])
@@ -351,18 +372,26 @@ export function useSpotify() {
             return
           }
         }
-        await apiFetch(`https://api.spotify.com/v1/me/player/play?device_id=${device.id}`, {
+        const mRes = await apiFetch(`https://api.spotify.com/v1/me/player/play?device_id=${device.id}`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ uris: [trackUri] }),
         })
+        if (mRes && mRes.status === 403) {
+          alert('再生にはSpotify Premiumが必要です。')
+          return
+        }
       } else {
         if (!deviceId) return
-        await apiFetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
+        const dRes = await apiFetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ uris: [trackUri] }),
         })
+        if (dRes && dRes.status === 403) {
+          alert('再生にはSpotify Premiumが必要です。')
+          return
+        }
       }
     } catch (e) {
       console.error('Spotify play error:', e)
