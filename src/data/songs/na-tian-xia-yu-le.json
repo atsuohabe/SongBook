@@ -1,0 +1,488 @@
+{
+  "id": "na-tian-xia-yu-le",
+  "title": "那天下雨了",
+  "title_pinyin": "Nà Tiān Xià Yǔ Le",
+  "title_meaning": "It Rained That Day",
+  "artist": "周杰倫",
+  "artist_pinyin": "Zhōu Jiélún",
+  "artist_en": "Jay Chou",
+  "album": "",
+  "spotifyTrackUri": "spotify:track:0bWGqfaEeTIvrnKGPJFD18",
+  "lines": [
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "The car slowly moves, you slowly walk over, I actually stared at you in a daze",
+      "words": [
+        { "hanzi": "車子", "pinyin": "chēzi", "meaning": "car" },
+        { "hanzi": "緩緩", "pinyin": "huǎnhuǎn", "meaning": "slowly" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "開", "pinyin": "kāi", "meaning": "drive" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "慢慢", "pinyin": "mànmàn", "meaning": "slowly" },
+        { "hanzi": "走來", "pinyin": "zǒulái", "meaning": "walk over" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "竟然", "pinyin": "jìngrán", "meaning": "unexpectedly" },
+        { "hanzi": "看著", "pinyin": "kàn zhe", "meaning": "looking at" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "發呆", "pinyin": "fādāi", "meaning": "space out / stare blankly" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "You awkwardly say hi, no seat to sit down, I want to tell the person next to me to leave",
+      "words": [
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "尷尬", "pinyin": "gāngà", "meaning": "awkward" },
+        { "hanzi": "Say個Hi", "pinyin": "say ge hi", "meaning": "say a hi" },
+        { "hanzi": "沒", "pinyin": "méi", "meaning": "no" },
+        { "hanzi": "位", "pinyin": "wèi", "meaning": "seat" },
+        { "hanzi": "坐下來", "pinyin": "zuò xiàlái", "meaning": "sit down" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "想", "pinyin": "xiǎng", "meaning": "want to" },
+        { "hanzi": "叫", "pinyin": "jiào", "meaning": "tell" },
+        { "hanzi": "旁邊", "pinyin": "pángbiān", "meaning": "next to" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "離開", "pinyin": "líkāi", "meaning": "leave" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "My ticket is still here, but my heart is outside the window, because you already got off at the platform",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "車票", "pinyin": "chēpiào", "meaning": "ticket" },
+        { "hanzi": "都", "pinyin": "dōu", "meaning": "all" },
+        { "hanzi": "還在", "pinyin": "hái zài", "meaning": "still here" },
+        { "hanzi": "心", "pinyin": "xīn", "meaning": "heart" },
+        { "hanzi": "卻", "pinyin": "què", "meaning": "but" },
+        { "hanzi": "在", "pinyin": "zài", "meaning": "at" },
+        { "hanzi": "窗外", "pinyin": "chuāngwài", "meaning": "outside the window" },
+        { "hanzi": "因為", "pinyin": "yīnwèi", "meaning": "because" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "已", "pinyin": "yǐ", "meaning": "already" },
+        { "hanzi": "下了", "pinyin": "xià le", "meaning": "got off" },
+        { "hanzi": "站台", "pinyin": "zhàntái", "meaning": "platform" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "From afar I watch you nod slightly as the train departs, you say one word and I climb out the window to leave",
+      "words": [
+        { "hanzi": "遠遠", "pinyin": "yuǎnyuǎn", "meaning": "from afar" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "看著", "pinyin": "kàn zhe", "meaning": "watching" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "點點頭", "pinyin": "diǎndiǎn tóu", "meaning": "nod slightly" },
+        { "hanzi": "車", "pinyin": "chē", "meaning": "train" },
+        { "hanzi": "已", "pinyin": "yǐ", "meaning": "already" },
+        { "hanzi": "開", "pinyin": "kāi", "meaning": "depart" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "一句話", "pinyin": "yī jù huà", "meaning": "one sentence" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "爬窗", "pinyin": "pá chuāng", "meaning": "climb out the window" },
+        { "hanzi": "離開", "pinyin": "líkāi", "meaning": "leave" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "Your ID fell out, then I realized, it's that girl from the class next door",
+      "words": [
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "證件", "pinyin": "zhèngjiàn", "meaning": "ID / credentials" },
+        { "hanzi": "掉了", "pinyin": "diào le", "meaning": "fell out" },
+        { "hanzi": "出來", "pinyin": "chūlái", "meaning": "out" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "才", "pinyin": "cái", "meaning": "only then" },
+        { "hanzi": "明白", "pinyin": "míngbái", "meaning": "understand / realize" },
+        { "hanzi": "是", "pinyin": "shì", "meaning": "is" },
+        { "hanzi": "那", "pinyin": "nà", "meaning": "that" },
+        { "hanzi": "隔壁", "pinyin": "gébì", "meaning": "next door" },
+        { "hanzi": "班", "pinyin": "bān", "meaning": "class" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "女孩", "pinyin": "nǚhái", "meaning": "girl" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "So many years and we didn't recognize each other, is it you who got prettier or me who got more handsome",
+      "words": [
+        { "hanzi": "這麼", "pinyin": "zhème", "meaning": "so" },
+        { "hanzi": "多年", "pinyin": "duō nián", "meaning": "many years" },
+        { "hanzi": "彼此", "pinyin": "bǐcǐ", "meaning": "each other" },
+        { "hanzi": "竟然", "pinyin": "jìngrán", "meaning": "unexpectedly" },
+        { "hanzi": "沒", "pinyin": "méi", "meaning": "not" },
+        { "hanzi": "認出來", "pinyin": "rèn chūlái", "meaning": "recognize" },
+        { "hanzi": "是", "pinyin": "shì", "meaning": "is it" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "變美", "pinyin": "biàn měi", "meaning": "become prettier" },
+        { "hanzi": "還是", "pinyin": "háishì", "meaning": "or" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "變帥", "pinyin": "biàn shuài", "meaning": "become more handsome" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "When you pass by, flowers bloom; when you leave, rain comes; this place is perfect for falling in love",
+      "words": [
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "經過", "pinyin": "jīngguò", "meaning": "pass by" },
+        { "hanzi": "花", "pinyin": "huā", "meaning": "flowers" },
+        { "hanzi": "就", "pinyin": "jiù", "meaning": "then" },
+        { "hanzi": "開", "pinyin": "kāi", "meaning": "bloom" },
+        { "hanzi": "離開", "pinyin": "líkāi", "meaning": "leave" },
+        { "hanzi": "雨", "pinyin": "yǔ", "meaning": "rain" },
+        { "hanzi": "就", "pinyin": "jiù", "meaning": "then" },
+        { "hanzi": "來", "pinyin": "lái", "meaning": "come" },
+        { "hanzi": "這裡", "pinyin": "zhèlǐ", "meaning": "here" },
+        { "hanzi": "適合", "pinyin": "shìhé", "meaning": "suitable for" },
+        { "hanzi": "談", "pinyin": "tán", "meaning": "engage in" },
+        { "hanzi": "個", "pinyin": "ge", "meaning": "" },
+        { "hanzi": "戀愛", "pinyin": "liànài", "meaning": "love / romance" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "If I need a dreamy opening line, there's no script more beautiful than you",
+      "words": [
+        { "hanzi": "如果", "pinyin": "rúguǒ", "meaning": "if" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "要", "pinyin": "yào", "meaning": "need" },
+        { "hanzi": "一個", "pinyin": "yí ge", "meaning": "a" },
+        { "hanzi": "夢幻", "pinyin": "mènghuàn", "meaning": "dreamy / fantasy" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "開場白", "pinyin": "kāichǎngbái", "meaning": "opening line" },
+        { "hanzi": "沒有", "pinyin": "méiyǒu", "meaning": "there is no" },
+        { "hanzi": "比", "pinyin": "bǐ", "meaning": "compared to" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "更", "pinyin": "gèng", "meaning": "more" },
+        { "hanzi": "美", "pinyin": "měi", "meaning": "beautiful" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "對白", "pinyin": "duìbái", "meaning": "dialogue / script" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus",
+      "translation": "The snow-white sky waits for a rainbow to appear (rainbow appear), our meeting — whose wish was it (whose wish)",
+      "words": [
+        { "hanzi": "雪白", "pinyin": "xuěbái", "meaning": "snow-white" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "天空", "pinyin": "tiānkōng", "meaning": "sky" },
+        { "hanzi": "等待", "pinyin": "děngdài", "meaning": "wait for" },
+        { "hanzi": "彩虹", "pinyin": "cǎihóng", "meaning": "rainbow" },
+        { "hanzi": "出現", "pinyin": "chūxiàn", "meaning": "appear" },
+        { "hanzi": "（彩虹出現）", "pinyin": "(cǎihóng chūxiàn)", "meaning": "(rainbow appear)" },
+        { "hanzi": "你我", "pinyin": "nǐ wǒ", "meaning": "you and I" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "遇見", "pinyin": "yùjiàn", "meaning": "meeting / encounter" },
+        { "hanzi": "是", "pinyin": "shì", "meaning": "is" },
+        { "hanzi": "誰", "pinyin": "shéi", "meaning": "who" },
+        { "hanzi": "許的願", "pinyin": "xǔ de yuàn", "meaning": "made the wish" },
+        { "hanzi": "（誰許的願）", "pinyin": "(shéi xǔ de yuàn)", "meaning": "(whose wish)" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus",
+      "translation": "The dark night sky, the stars become dazzling (become dazzling), because you appeared by my side",
+      "words": [
+        { "hanzi": "黑黑", "pinyin": "hēihēi", "meaning": "dark" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "夜空", "pinyin": "yèkōng", "meaning": "night sky" },
+        { "hanzi": "繁星", "pinyin": "fánxīng", "meaning": "numerous stars" },
+        { "hanzi": "變得", "pinyin": "biàn de", "meaning": "become" },
+        { "hanzi": "耀眼", "pinyin": "yàoyǎn", "meaning": "dazzling" },
+        { "hanzi": "（變得耀眼）", "pinyin": "(biàn de yàoyǎn)", "meaning": "(become dazzling)" },
+        { "hanzi": "因為", "pinyin": "yīnwèi", "meaning": "because" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "出現", "pinyin": "chūxiàn", "meaning": "appear" },
+        { "hanzi": "在", "pinyin": "zài", "meaning": "at" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "my" },
+        { "hanzi": "身邊", "pinyin": "shēnbiān", "meaning": "side" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse3",
+      "translation": "Your hometown is a bit far, but I have some free time, maybe I can walk a lap with you",
+      "words": [
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "your" },
+        { "hanzi": "老家", "pinyin": "lǎojiā", "meaning": "hometown" },
+        { "hanzi": "有點", "pinyin": "yǒudiǎn", "meaning": "a bit" },
+        { "hanzi": "遠", "pinyin": "yuǎn", "meaning": "far" },
+        { "hanzi": "但", "pinyin": "dàn", "meaning": "but" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "有點", "pinyin": "yǒudiǎn", "meaning": "a bit" },
+        { "hanzi": "閒", "pinyin": "xián", "meaning": "free / idle" },
+        { "hanzi": "也許", "pinyin": "yěxǔ", "meaning": "maybe" },
+        { "hanzi": "能", "pinyin": "néng", "meaning": "can" },
+        { "hanzi": "陪", "pinyin": "péi", "meaning": "accompany" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "走", "pinyin": "zǒu", "meaning": "walk" },
+        { "hanzi": "一圈", "pinyin": "yì quān", "meaning": "a lap / a round" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse3",
+      "translation": "Meet your parents, eat some sesame paste noodles, maybe even play a few rounds of mahjong (I won)",
+      "words": [
+        { "hanzi": "把", "pinyin": "bǎ", "meaning": "" },
+        { "hanzi": "你的", "pinyin": "nǐ de", "meaning": "your" },
+        { "hanzi": "父母", "pinyin": "fùmǔ", "meaning": "parents" },
+        { "hanzi": "都", "pinyin": "dōu", "meaning": "all" },
+        { "hanzi": "見", "pinyin": "jiàn", "meaning": "meet" },
+        { "hanzi": "吃", "pinyin": "chī", "meaning": "eat" },
+        { "hanzi": "幾口", "pinyin": "jǐ kǒu", "meaning": "a few bites" },
+        { "hanzi": "麻醬麵", "pinyin": "májiàng miàn", "meaning": "sesame paste noodles" },
+        { "hanzi": "也許", "pinyin": "yěxǔ", "meaning": "maybe" },
+        { "hanzi": "還", "pinyin": "hái", "meaning": "also" },
+        { "hanzi": "能", "pinyin": "néng", "meaning": "can" },
+        { "hanzi": "打", "pinyin": "dǎ", "meaning": "play" },
+        { "hanzi": "個", "pinyin": "ge", "meaning": "" },
+        { "hanzi": "幾圈", "pinyin": "jǐ quān", "meaning": "a few rounds" },
+        { "hanzi": "（我胡了）", "pinyin": "(wǒ hú le)", "meaning": "(I won [mahjong])" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse3",
+      "translation": "The malt fields in the countryside, a shy face, you mention a secret crush from years ago",
+      "words": [
+        { "hanzi": "鄉間", "pinyin": "xiāngjiān", "meaning": "countryside" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "麥芽田", "pinyin": "màiyá tián", "meaning": "malt field" },
+        { "hanzi": "害羞", "pinyin": "hàixiū", "meaning": "shy" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "臉", "pinyin": "liǎn", "meaning": "face" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "提到", "pinyin": "tídào", "meaning": "mention" },
+        { "hanzi": "多年前", "pinyin": "duō nián qián", "meaning": "many years ago" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "暗戀", "pinyin": "ànliàn", "meaning": "secret crush" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse3",
+      "translation": "You cut out that page from the school yearbook, because I was in the photo",
+      "words": [
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "剪下", "pinyin": "jiǎn xià", "meaning": "cut out" },
+        { "hanzi": "校園", "pinyin": "xiàoyuán", "meaning": "school campus" },
+        { "hanzi": "畢業冊", "pinyin": "bìyè cè", "meaning": "yearbook" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "那一頁", "pinyin": "nà yī yè", "meaning": "that page" },
+        { "hanzi": "是", "pinyin": "shì", "meaning": "is" },
+        { "hanzi": "因為", "pinyin": "yīnwèi", "meaning": "because" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "在", "pinyin": "zài", "meaning": "in" },
+        { "hanzi": "照片", "pinyin": "zhàopiàn", "meaning": "photo" },
+        { "hanzi": "裡面", "pinyin": "lǐmiàn", "meaning": "inside" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "The snow-white sky waits for a rainbow to appear (rainbow appear), our meeting — whose wish was it (whose wish)",
+      "words": [
+        { "hanzi": "雪白", "pinyin": "xuěbái", "meaning": "snow-white" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "天空", "pinyin": "tiānkōng", "meaning": "sky" },
+        { "hanzi": "等待", "pinyin": "děngdài", "meaning": "wait for" },
+        { "hanzi": "彩虹", "pinyin": "cǎihóng", "meaning": "rainbow" },
+        { "hanzi": "出現", "pinyin": "chūxiàn", "meaning": "appear" },
+        { "hanzi": "（彩虹出現）", "pinyin": "(cǎihóng chūxiàn)", "meaning": "(rainbow appear)" },
+        { "hanzi": "你我", "pinyin": "nǐ wǒ", "meaning": "you and I" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "遇見", "pinyin": "yùjiàn", "meaning": "meeting / encounter" },
+        { "hanzi": "是", "pinyin": "shì", "meaning": "is" },
+        { "hanzi": "誰", "pinyin": "shéi", "meaning": "who" },
+        { "hanzi": "許的願", "pinyin": "xǔ de yuàn", "meaning": "made the wish" },
+        { "hanzi": "（誰許的願）", "pinyin": "(shéi xǔ de yuàn)", "meaning": "(whose wish)" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "The dark night sky, the stars become dazzling (become dazzling), because you appeared by my side",
+      "words": [
+        { "hanzi": "黑黑", "pinyin": "hēihēi", "meaning": "dark" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "夜空", "pinyin": "yèkōng", "meaning": "night sky" },
+        { "hanzi": "繁星", "pinyin": "fánxīng", "meaning": "numerous stars" },
+        { "hanzi": "變得", "pinyin": "biàn de", "meaning": "become" },
+        { "hanzi": "耀眼", "pinyin": "yàoyǎn", "meaning": "dazzling" },
+        { "hanzi": "（變得耀眼）", "pinyin": "(biàn de yàoyǎn)", "meaning": "(become dazzling)" },
+        { "hanzi": "因為", "pinyin": "yīnwèi", "meaning": "because" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "出現", "pinyin": "chūxiàn", "meaning": "appear" },
+        { "hanzi": "在", "pinyin": "zài", "meaning": "at" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "my" },
+        { "hanzi": "身邊", "pinyin": "shēnbiān", "meaning": "side" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "translation": "So it turns out, years ago at that bookstore, it was you who lent me the textbook",
+      "words": [
+        { "hanzi": "原來", "pinyin": "yuánlái", "meaning": "so it turns out" },
+        { "hanzi": "多年前", "pinyin": "duō nián qián", "meaning": "many years ago" },
+        { "hanzi": "在", "pinyin": "zài", "meaning": "at" },
+        { "hanzi": "那個", "pinyin": "nàge", "meaning": "that" },
+        { "hanzi": "書店", "pinyin": "shūdiàn", "meaning": "bookstore" },
+        { "hanzi": "借", "pinyin": "jiè", "meaning": "lend" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "me" },
+        { "hanzi": "課本", "pinyin": "kèběn", "meaning": "textbook" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "是", "pinyin": "shì", "meaning": "was" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "translation": "So it turns out, that day when I was caught in the rain, it was also you who held the umbrella for me",
+      "words": [
+        { "hanzi": "原來", "pinyin": "yuánlái", "meaning": "so it turns out" },
+        { "hanzi": "看", "pinyin": "kàn", "meaning": "see" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "被", "pinyin": "bèi", "meaning": "" },
+        { "hanzi": "雨", "pinyin": "yǔ", "meaning": "rain" },
+        { "hanzi": "淋", "pinyin": "lín", "meaning": "get drenched" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "那天", "pinyin": "nà tiān", "meaning": "that day" },
+        { "hanzi": "幫", "pinyin": "bāng", "meaning": "help" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "me" },
+        { "hanzi": "撐傘", "pinyin": "chēng sǎn", "meaning": "hold an umbrella" },
+        { "hanzi": "也是", "pinyin": "yě shì", "meaning": "was also" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse4",
+      "translation": "That day we skipped class, that day the flowers fell, I already saw that classroom",
+      "words": [
+        { "hanzi": "翹課", "pinyin": "qiào kè", "meaning": "skip class" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "那一天", "pinyin": "nà yī tiān", "meaning": "that day" },
+        { "hanzi": "花落", "pinyin": "huā luò", "meaning": "flowers fall" },
+        { "hanzi": "那一天", "pinyin": "nà yī tiān", "meaning": "that day" },
+        { "hanzi": "教室", "pinyin": "jiàoshì", "meaning": "classroom" },
+        { "hanzi": "那間", "pinyin": "nà jiān", "meaning": "that one" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "已", "pinyin": "yǐ", "meaning": "already" },
+        { "hanzi": "看見", "pinyin": "kànjiàn", "meaning": "saw" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse4",
+      "translation": "The rainy day that vanished, I want to be drenched in it again, I should sing 'Sunny Day' to you",
+      "words": [
+        { "hanzi": "消失", "pinyin": "xiāoshī", "meaning": "vanish / disappear" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "下雨天", "pinyin": "xiàyǔ tiān", "meaning": "rainy day" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "想", "pinyin": "xiǎng", "meaning": "want to" },
+        { "hanzi": "再", "pinyin": "zài", "meaning": "again" },
+        { "hanzi": "淋", "pinyin": "lín", "meaning": "get drenched" },
+        { "hanzi": "一遍", "pinyin": "yí biàn", "meaning": "one more time" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "應該", "pinyin": "yīnggāi", "meaning": "should" },
+        { "hanzi": "對", "pinyin": "duì", "meaning": "to" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "唱著", "pinyin": "chàng zhe", "meaning": "sing" },
+        { "hanzi": "晴天", "pinyin": "qíngtiān", "meaning": "Sunny Day (song title)" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "translation": "Walking you to outside your door, I finally realize, you've long had someone who loves you",
+      "words": [
+        { "hanzi": "送", "pinyin": "sòng", "meaning": "walk someone to" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "到", "pinyin": "dào", "meaning": "to" },
+        { "hanzi": "家門外", "pinyin": "jiāmén wài", "meaning": "outside the door" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "才", "pinyin": "cái", "meaning": "only then" },
+        { "hanzi": "明白", "pinyin": "míngbái", "meaning": "realize" },
+        { "hanzi": "原來", "pinyin": "yuánlái", "meaning": "it turns out" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "早已", "pinyin": "zǎoyǐ", "meaning": "long ago already" },
+        { "hanzi": "有人", "pinyin": "yǒu rén", "meaning": "someone" },
+        { "hanzi": "疼愛", "pinyin": "téngài", "meaning": "love dearly" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "translation": "If I could go back to that rainy day, I would have opened the umbrella for you",
+      "words": [
+        { "hanzi": "如果", "pinyin": "rúguǒ", "meaning": "if" },
+        { "hanzi": "回到", "pinyin": "huídào", "meaning": "go back to" },
+        { "hanzi": "過去", "pinyin": "guòqù", "meaning": "the past" },
+        { "hanzi": "那一個", "pinyin": "nà yí ge", "meaning": "that one" },
+        { "hanzi": "下雨天", "pinyin": "xiàyǔ tiān", "meaning": "rainy day" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "會", "pinyin": "huì", "meaning": "would" },
+        { "hanzi": "為了", "pinyin": "wèile", "meaning": "for" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "把", "pinyin": "bǎ", "meaning": "" },
+        { "hanzi": "傘", "pinyin": "sǎn", "meaning": "umbrella" },
+        { "hanzi": "撐開", "pinyin": "chēng kāi", "meaning": "open up" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "translation": "If I could go back to that rainy day, I would never again turn around and leave",
+      "words": [
+        { "hanzi": "如果", "pinyin": "rúguǒ", "meaning": "if" },
+        { "hanzi": "回到", "pinyin": "huídào", "meaning": "go back to" },
+        { "hanzi": "過去", "pinyin": "guòqù", "meaning": "the past" },
+        { "hanzi": "那一個", "pinyin": "nà yí ge", "meaning": "that one" },
+        { "hanzi": "下雨天", "pinyin": "xiàyǔ tiān", "meaning": "rainy day" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "絕不", "pinyin": "jué bù", "meaning": "absolutely will not" },
+        { "hanzi": "再", "pinyin": "zài", "meaning": "again" },
+        { "hanzi": "轉身", "pinyin": "zhuǎnshēn", "meaning": "turn around" },
+        { "hanzi": "離開", "pinyin": "líkāi", "meaning": "leave" }
+      ]
+    }
+  ]
+}
