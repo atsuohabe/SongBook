@@ -1,0 +1,511 @@
+{
+  "id": "tai-yang-zhi-zi",
+  "title": "太陽之子",
+  "title_pinyin": "Tàiyáng zhī Zǐ",
+  "title_meaning": "Child of the Sun",
+  "artist": "周杰倫",
+  "artist_pinyin": "Zhōu Jiélún",
+  "artist_en": "Jay Chou",
+  "album": "",
+  "spotifyTrackUri": "spotify:track:64Odl9Q0nrMjUlCfmBZKCp",
+  "lines": [
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "Who plays the grey-black concerto — Mona Lisa smiling while crying",
+      "words": [
+        { "hanzi": "誰", "pinyin": "shéi", "meaning": "who" },
+        { "hanzi": "彈奏", "pinyin": "tánzòu", "meaning": "play (instrument)" },
+        { "hanzi": "著", "pinyin": "zhe", "meaning": "(continuous aspect)" },
+        { "hanzi": "灰黑", "pinyin": "huīhēi", "meaning": "grey-black" },
+        { "hanzi": "協奏曲", "pinyin": "xiézòuqǔ", "meaning": "concerto" },
+        { "hanzi": "蒙娜麗莎", "pinyin": "Méngnà Lìshā", "meaning": "Mona Lisa" },
+        { "hanzi": "微笑", "pinyin": "wēixiào", "meaning": "smile" },
+        { "hanzi": "著", "pinyin": "zhe", "meaning": "(continuous aspect)" },
+        { "hanzi": "哭泣", "pinyin": "kūqì", "meaning": "cry / weep" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "Before salvation arrives, always silent",
+      "words": [
+        { "hanzi": "救贖", "pinyin": "jiùshú", "meaning": "salvation / redemption" },
+        { "hanzi": "來臨", "pinyin": "láilín", "meaning": "arrive / come" },
+        { "hanzi": "前", "pinyin": "qián", "meaning": "before" },
+        { "hanzi": "始終", "pinyin": "shǐzhōng", "meaning": "always / from beginning to end" },
+        { "hanzi": "不語", "pinyin": "bù yǔ", "meaning": "remain silent" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "(Dissecting the past, whose expression is deliberate, the quill before letting go, a letter pointing to clues)",
+      "words": [
+        { "hanzi": "解剖", "pinyin": "jiěpōu", "meaning": "dissect / analyze" },
+        { "hanzi": "過去", "pinyin": "guòqù", "meaning": "the past" },
+        { "hanzi": "誰", "pinyin": "shéi", "meaning": "who" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "表情", "pinyin": "biǎoqíng", "meaning": "expression" },
+        { "hanzi": "刻意", "pinyin": "kèyì", "meaning": "deliberate / intentional" },
+        { "hanzi": "鬆手", "pinyin": "sōngshǒu", "meaning": "let go" },
+        { "hanzi": "前", "pinyin": "qián", "meaning": "before" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "鵝毛筆", "pinyin": "émáobǐ", "meaning": "quill pen" },
+        { "hanzi": "指向", "pinyin": "zhǐxiàng", "meaning": "point to" },
+        { "hanzi": "線索", "pinyin": "xiànsuǒ", "meaning": "clue" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "信", "pinyin": "xìn", "meaning": "letter" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "The innocence in Shakespeare's writing — Hamlet's singing among the flowers",
+      "words": [
+        { "hanzi": "莎士比亞", "pinyin": "Shāshìbǐyà", "meaning": "Shakespeare" },
+        { "hanzi": "筆下", "pinyin": "bǐxià", "meaning": "in one's writing" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "純真", "pinyin": "chúnzhēn", "meaning": "innocence / purity" },
+        { "hanzi": "哈姆雷特", "pinyin": "Hāmǔléitè", "meaning": "Hamlet" },
+        { "hanzi": "花叢", "pinyin": "huācóng", "meaning": "flower bushes" },
+        { "hanzi": "那", "pinyin": "nà", "meaning": "that" },
+        { "hanzi": "歌聲", "pinyin": "gēshēng", "meaning": "singing voice" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "The torch's light does not follow the script",
+      "words": [
+        { "hanzi": "火炬", "pinyin": "huǒjù", "meaning": "torch" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "光", "pinyin": "guāng", "meaning": "light" },
+        { "hanzi": "不", "pinyin": "bù", "meaning": "not" },
+        { "hanzi": "照著", "pinyin": "zhào zhe", "meaning": "follow / according to" },
+        { "hanzi": "劇本", "pinyin": "jùběn", "meaning": "script / screenplay" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "(Night attacks, bats roar away, good and evil clash in the distance, who joins before dawn)",
+      "words": [
+        { "hanzi": "黑夜", "pinyin": "hēiyè", "meaning": "dark night" },
+        { "hanzi": "來襲", "pinyin": "láixí", "meaning": "attack / strike" },
+        { "hanzi": "蝙蝠", "pinyin": "biānfú", "meaning": "bat" },
+        { "hanzi": "轟然", "pinyin": "hōngrán", "meaning": "with a roar" },
+        { "hanzi": "離去", "pinyin": "líqù", "meaning": "leave / depart" },
+        { "hanzi": "遠方", "pinyin": "yuǎnfāng", "meaning": "distant place" },
+        { "hanzi": "正邪", "pinyin": "zhèngxié", "meaning": "good and evil" },
+        { "hanzi": "在", "pinyin": "zài", "meaning": "" },
+        { "hanzi": "對立", "pinyin": "duìlì", "meaning": "confront / oppose" },
+        { "hanzi": "黎明", "pinyin": "límíng", "meaning": "dawn" },
+        { "hanzi": "前", "pinyin": "qián", "meaning": "before" },
+        { "hanzi": "誰", "pinyin": "shéi", "meaning": "who" },
+        { "hanzi": "參與", "pinyin": "cānyù", "meaning": "participate" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "bridge",
+      "translation": "Daisies and violets scatter in the wind — is what surfaces the truth — Klimt's kiss is a kind of farewell",
+      "words": [
+        { "hanzi": "雛菊", "pinyin": "chújú", "meaning": "daisy" },
+        { "hanzi": "紫羅蘭", "pinyin": "zǐluólán", "meaning": "violet" },
+        { "hanzi": "飄散", "pinyin": "piāosàn", "meaning": "drift / scatter" },
+        { "hanzi": "在", "pinyin": "zài", "meaning": "in" },
+        { "hanzi": "風裡", "pinyin": "fēng lǐ", "meaning": "in the wind" },
+        { "hanzi": "浮出", "pinyin": "fúchū", "meaning": "float up / surface" },
+        { "hanzi": "水面", "pinyin": "shuǐmiàn", "meaning": "water surface" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "是不是", "pinyin": "shì bù shì", "meaning": "is it or not" },
+        { "hanzi": "真理", "pinyin": "zhēnlǐ", "meaning": "truth" },
+        { "hanzi": "克林姆", "pinyin": "Kèlínmǔ", "meaning": "Klimt" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "吻", "pinyin": "wěn", "meaning": "kiss" },
+        { "hanzi": "是", "pinyin": "shì", "meaning": "is" },
+        { "hanzi": "一種", "pinyin": "yī zhǒng", "meaning": "a kind of" },
+        { "hanzi": "別離", "pinyin": "biélí", "meaning": "farewell / parting" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "I am the light, illuminating the distant dark night — I charge, about to crush you",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "就是", "pinyin": "jiùshì", "meaning": "am exactly" },
+        { "hanzi": "光", "pinyin": "guāng", "meaning": "light" },
+        { "hanzi": "照亮", "pinyin": "zhàoliàng", "meaning": "illuminate" },
+        { "hanzi": "遠方", "pinyin": "yuǎnfāng", "meaning": "distant place" },
+        { "hanzi": "黑夜", "pinyin": "hēiyè", "meaning": "dark night" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "闖", "pinyin": "chuǎng", "meaning": "charge / rush" },
+        { "hanzi": "馬上", "pinyin": "mǎshàng", "meaning": "immediately" },
+        { "hanzi": "將", "pinyin": "jiāng", "meaning": "will" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "擊潰", "pinyin": "jīkuì", "meaning": "crush / defeat" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "Like steel, shatter all inner demons — no fear, no retreat, destroy all evil",
+      "words": [
+        { "hanzi": "如", "pinyin": "rú", "meaning": "like" },
+        { "hanzi": "鋼", "pinyin": "gāng", "meaning": "steel" },
+        { "hanzi": "把", "pinyin": "bǎ", "meaning": "(object marker)" },
+        { "hanzi": "心魔", "pinyin": "xīnmó", "meaning": "inner demon" },
+        { "hanzi": "都", "pinyin": "dōu", "meaning": "all" },
+        { "hanzi": "粉碎", "pinyin": "fěnsuì", "meaning": "shatter" },
+        { "hanzi": "不怯", "pinyin": "bù qiè", "meaning": "no fear" },
+        { "hanzi": "不退", "pinyin": "bù tuì", "meaning": "no retreat" },
+        { "hanzi": "將", "pinyin": "jiāng", "meaning": "will" },
+        { "hanzi": "邪惡", "pinyin": "xié'è", "meaning": "evil" },
+        { "hanzi": "都", "pinyin": "dōu", "meaning": "all" },
+        { "hanzi": "滅", "pinyin": "miè", "meaning": "destroy / extinguish" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "Light, illuminating the distant dark night — I charge, nightmares vanish like smoke",
+      "words": [
+        { "hanzi": "光", "pinyin": "guāng", "meaning": "light" },
+        { "hanzi": "照亮", "pinyin": "zhàoliàng", "meaning": "illuminate" },
+        { "hanzi": "遠方", "pinyin": "yuǎnfāng", "meaning": "distant place" },
+        { "hanzi": "黑夜", "pinyin": "hēiyè", "meaning": "dark night" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "闖", "pinyin": "chuǎng", "meaning": "charge / rush" },
+        { "hanzi": "惡夢", "pinyin": "èmèng", "meaning": "nightmare" },
+        { "hanzi": "灰飛煙滅", "pinyin": "huīfēi yānmiè", "meaning": "vanish like smoke" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "I carry on, no matter how hoarse — no fear, no retreat, destroy all evil",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "扛", "pinyin": "káng", "meaning": "carry / shoulder" },
+        { "hanzi": "不管", "pinyin": "bùguǎn", "meaning": "no matter" },
+        { "hanzi": "聲嘶力竭", "pinyin": "shēngsī lìjié", "meaning": "shout oneself hoarse" },
+        { "hanzi": "不怯", "pinyin": "bù qiè", "meaning": "no fear" },
+        { "hanzi": "不退", "pinyin": "bù tuì", "meaning": "no retreat" },
+        { "hanzi": "將", "pinyin": "jiāng", "meaning": "will" },
+        { "hanzi": "邪惡", "pinyin": "xié'è", "meaning": "evil" },
+        { "hanzi": "都", "pinyin": "dōu", "meaning": "all" },
+        { "hanzi": "滅", "pinyin": "miè", "meaning": "destroy / extinguish" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse3",
+      "translation": "The world in the mirror behind the bar — who is the person talking with you",
+      "words": [
+        { "hanzi": "吧台", "pinyin": "bātái", "meaning": "bar counter" },
+        { "hanzi": "後", "pinyin": "hòu", "meaning": "behind" },
+        { "hanzi": "鏡子", "pinyin": "jìngzi", "meaning": "mirror" },
+        { "hanzi": "裡", "pinyin": "lǐ", "meaning": "inside" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "世界", "pinyin": "shìjiè", "meaning": "world" },
+        { "hanzi": "與", "pinyin": "yǔ", "meaning": "with" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "對話", "pinyin": "duìhuà", "meaning": "converse / dialogue" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "人", "pinyin": "rén", "meaning": "person" },
+        { "hanzi": "又是", "pinyin": "yòu shì", "meaning": "and is / who is" },
+        { "hanzi": "誰", "pinyin": "shéi", "meaning": "who" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse3",
+      "translation": "Mixed a cup of bewildering unsolvable mystery",
+      "words": [
+        { "hanzi": "調", "pinyin": "tiáo", "meaning": "mix / blend" },
+        { "hanzi": "了", "pinyin": "le", "meaning": "(completed action)" },
+        { "hanzi": "一杯", "pinyin": "yī bēi", "meaning": "a cup of" },
+        { "hanzi": "迷惑", "pinyin": "míhuò", "meaning": "bewildering / confusing" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "無解", "pinyin": "wújiě", "meaning": "unsolvable" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse3",
+      "translation": "(Bold brushstrokes, the details of this painting, the tones hint at everything, yet the lines are splitting apart)",
+      "words": [
+        { "hanzi": "筆觸", "pinyin": "bǐchù", "meaning": "brushstroke" },
+        { "hanzi": "強烈", "pinyin": "qiángliè", "meaning": "intense / bold" },
+        { "hanzi": "這", "pinyin": "zhè", "meaning": "this" },
+        { "hanzi": "張", "pinyin": "zhāng", "meaning": "(measure word for paintings)" },
+        { "hanzi": "畫", "pinyin": "huà", "meaning": "painting" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "細節", "pinyin": "xìjié", "meaning": "details" },
+        { "hanzi": "色調", "pinyin": "sèdiào", "meaning": "color tone" },
+        { "hanzi": "暗示", "pinyin": "ànshì", "meaning": "hint / imply" },
+        { "hanzi": "著", "pinyin": "zhe", "meaning": "(continuous aspect)" },
+        { "hanzi": "一切", "pinyin": "yīqiè", "meaning": "everything" },
+        { "hanzi": "線條", "pinyin": "xiàntiáo", "meaning": "lines" },
+        { "hanzi": "卻", "pinyin": "què", "meaning": "yet / but" },
+        { "hanzi": "在", "pinyin": "zài", "meaning": "" },
+        { "hanzi": "分裂", "pinyin": "fēnliè", "meaning": "split / fracture" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse4",
+      "translation": "The sunflower burning in the pupils — the lonely night wanderer waiting for heartbreak",
+      "words": [
+        { "hanzi": "瞳孔", "pinyin": "tóngkǒng", "meaning": "pupil (of the eye)" },
+        { "hanzi": "裡", "pinyin": "lǐ", "meaning": "inside" },
+        { "hanzi": "燃燒", "pinyin": "ránshāo", "meaning": "burn" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "向日葵", "pinyin": "xiàngrìkuí", "meaning": "sunflower" },
+        { "hanzi": "孤獨", "pinyin": "gūdú", "meaning": "lonely / solitary" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "夜遊者", "pinyin": "yèyóuzhě", "meaning": "night wanderer" },
+        { "hanzi": "等", "pinyin": "děng", "meaning": "wait" },
+        { "hanzi": "心碎", "pinyin": "xīnsuì", "meaning": "heartbroken" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse4",
+      "translation": "In the chaos of the left ear, setting aside right and wrong",
+      "words": [
+        { "hanzi": "左耳", "pinyin": "zuǒ ěr", "meaning": "left ear" },
+        { "hanzi": "紛亂", "pinyin": "fēnluàn", "meaning": "chaotic / disordered" },
+        { "hanzi": "中", "pinyin": "zhōng", "meaning": "in / among" },
+        { "hanzi": "擱下", "pinyin": "gēxià", "meaning": "set aside / put down" },
+        { "hanzi": "是非", "pinyin": "shìfēi", "meaning": "right and wrong" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse4",
+      "translation": "(Moonlight drooping low, the starry night over the Rhône, someone confessing in the church, who has been drained of blood)",
+      "words": [
+        { "hanzi": "月光", "pinyin": "yuèguāng", "meaning": "moonlight" },
+        { "hanzi": "低垂", "pinyin": "dīchuí", "meaning": "hang low / droop" },
+        { "hanzi": "隆河", "pinyin": "Lónghé", "meaning": "the Rhône (river)" },
+        { "hanzi": "上", "pinyin": "shàng", "meaning": "on / above" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "星夜", "pinyin": "xīngyè", "meaning": "starry night" },
+        { "hanzi": "教堂", "pinyin": "jiàotáng", "meaning": "church" },
+        { "hanzi": "裡", "pinyin": "lǐ", "meaning": "inside" },
+        { "hanzi": "有人", "pinyin": "yǒu rén", "meaning": "someone" },
+        { "hanzi": "告解", "pinyin": "gàojiě", "meaning": "confess (religious)" },
+        { "hanzi": "誰", "pinyin": "shéi", "meaning": "who" },
+        { "hanzi": "被", "pinyin": "bèi", "meaning": "(passive marker)" },
+        { "hanzi": "吸乾", "pinyin": "xīgān", "meaning": "sucked dry" },
+        { "hanzi": "了", "pinyin": "le", "meaning": "(completed action)" },
+        { "hanzi": "血", "pinyin": "xiě", "meaning": "blood" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse5",
+      "translation": "The sound of time's clock being twisted — like an expression folded up",
+      "words": [
+        { "hanzi": "時間", "pinyin": "shíjiān", "meaning": "time" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "鐘", "pinyin": "zhōng", "meaning": "clock" },
+        { "hanzi": "被", "pinyin": "bèi", "meaning": "(passive marker)" },
+        { "hanzi": "扭曲", "pinyin": "niǔqū", "meaning": "twist / distort" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "聲音", "pinyin": "shēngyīn", "meaning": "sound" },
+        { "hanzi": "如同", "pinyin": "rútóng", "meaning": "as if / like" },
+        { "hanzi": "被", "pinyin": "bèi", "meaning": "(passive marker)" },
+        { "hanzi": "摺疊", "pinyin": "zhédié", "meaning": "fold" },
+        { "hanzi": "起來", "pinyin": "qǐlái", "meaning": "up" },
+        { "hanzi": "的", "pinyin": "de", "meaning": "" },
+        { "hanzi": "表情", "pinyin": "biǎoqíng", "meaning": "expression" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse5",
+      "translation": "Yet I press on through the wind",
+      "words": [
+        { "hanzi": "而", "pinyin": "ér", "meaning": "yet / but" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "卻", "pinyin": "què", "meaning": "but / yet" },
+        { "hanzi": "在", "pinyin": "zài", "meaning": "in" },
+        { "hanzi": "風", "pinyin": "fēng", "meaning": "wind" },
+        { "hanzi": "中", "pinyin": "zhōng", "meaning": "in / among" },
+        { "hanzi": "一路", "pinyin": "yīlù", "meaning": "all the way" },
+        { "hanzi": "前行", "pinyin": "qiánxíng", "meaning": "move forward" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "translation": "I am the light, illuminating the distant dark night — I charge, about to crush you",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "就是", "pinyin": "jiùshì", "meaning": "am exactly" },
+        { "hanzi": "光", "pinyin": "guāng", "meaning": "light" },
+        { "hanzi": "照亮", "pinyin": "zhàoliàng", "meaning": "illuminate" },
+        { "hanzi": "遠方", "pinyin": "yuǎnfāng", "meaning": "distant place" },
+        { "hanzi": "黑夜", "pinyin": "hēiyè", "meaning": "dark night" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "闖", "pinyin": "chuǎng", "meaning": "charge / rush" },
+        { "hanzi": "馬上", "pinyin": "mǎshàng", "meaning": "immediately" },
+        { "hanzi": "將", "pinyin": "jiāng", "meaning": "will" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "擊潰", "pinyin": "jīkuì", "meaning": "crush / defeat" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "translation": "Like steel, shatter all inner demons — no fear, no retreat, destroy all evil",
+      "words": [
+        { "hanzi": "如", "pinyin": "rú", "meaning": "like" },
+        { "hanzi": "鋼", "pinyin": "gāng", "meaning": "steel" },
+        { "hanzi": "把", "pinyin": "bǎ", "meaning": "(object marker)" },
+        { "hanzi": "心魔", "pinyin": "xīnmó", "meaning": "inner demon" },
+        { "hanzi": "都", "pinyin": "dōu", "meaning": "all" },
+        { "hanzi": "粉碎", "pinyin": "fěnsuì", "meaning": "shatter" },
+        { "hanzi": "不怯", "pinyin": "bù qiè", "meaning": "no fear" },
+        { "hanzi": "不退", "pinyin": "bù tuì", "meaning": "no retreat" },
+        { "hanzi": "將", "pinyin": "jiāng", "meaning": "will" },
+        { "hanzi": "邪惡", "pinyin": "xié'è", "meaning": "evil" },
+        { "hanzi": "都", "pinyin": "dōu", "meaning": "all" },
+        { "hanzi": "滅", "pinyin": "miè", "meaning": "destroy / extinguish" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus4",
+      "translation": "Light, illuminating the distant dark night — I charge, nightmares vanish like smoke",
+      "words": [
+        { "hanzi": "光", "pinyin": "guāng", "meaning": "light" },
+        { "hanzi": "照亮", "pinyin": "zhàoliàng", "meaning": "illuminate" },
+        { "hanzi": "遠方", "pinyin": "yuǎnfāng", "meaning": "distant place" },
+        { "hanzi": "黑夜", "pinyin": "hēiyè", "meaning": "dark night" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "闖", "pinyin": "chuǎng", "meaning": "charge / rush" },
+        { "hanzi": "惡夢", "pinyin": "èmèng", "meaning": "nightmare" },
+        { "hanzi": "灰飛煙滅", "pinyin": "huīfēi yānmiè", "meaning": "vanish like smoke" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus4",
+      "translation": "I carry on, no matter how hoarse — no fear, no retreat, destroy all evil",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "扛", "pinyin": "káng", "meaning": "carry / shoulder" },
+        { "hanzi": "不管", "pinyin": "bùguǎn", "meaning": "no matter" },
+        { "hanzi": "聲嘶力竭", "pinyin": "shēngsī lìjié", "meaning": "shout oneself hoarse" },
+        { "hanzi": "不怯", "pinyin": "bù qiè", "meaning": "no fear" },
+        { "hanzi": "不退", "pinyin": "bù tuì", "meaning": "no retreat" },
+        { "hanzi": "將", "pinyin": "jiāng", "meaning": "will" },
+        { "hanzi": "邪惡", "pinyin": "xié'è", "meaning": "evil" },
+        { "hanzi": "都", "pinyin": "dōu", "meaning": "all" },
+        { "hanzi": "滅", "pinyin": "miè", "meaning": "destroy / extinguish" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus5",
+      "translation": "I am the light, illuminating the distant dark night — I charge, about to crush you",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "就是", "pinyin": "jiùshì", "meaning": "am exactly" },
+        { "hanzi": "光", "pinyin": "guāng", "meaning": "light" },
+        { "hanzi": "照亮", "pinyin": "zhàoliàng", "meaning": "illuminate" },
+        { "hanzi": "遠方", "pinyin": "yuǎnfāng", "meaning": "distant place" },
+        { "hanzi": "黑夜", "pinyin": "hēiyè", "meaning": "dark night" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "闖", "pinyin": "chuǎng", "meaning": "charge / rush" },
+        { "hanzi": "馬上", "pinyin": "mǎshàng", "meaning": "immediately" },
+        { "hanzi": "將", "pinyin": "jiāng", "meaning": "will" },
+        { "hanzi": "你", "pinyin": "nǐ", "meaning": "you" },
+        { "hanzi": "擊潰", "pinyin": "jīkuì", "meaning": "crush / defeat" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus5",
+      "translation": "Like steel, shatter all inner demons — no fear, no retreat, destroy all evil",
+      "words": [
+        { "hanzi": "如", "pinyin": "rú", "meaning": "like" },
+        { "hanzi": "鋼", "pinyin": "gāng", "meaning": "steel" },
+        { "hanzi": "把", "pinyin": "bǎ", "meaning": "(object marker)" },
+        { "hanzi": "心魔", "pinyin": "xīnmó", "meaning": "inner demon" },
+        { "hanzi": "都", "pinyin": "dōu", "meaning": "all" },
+        { "hanzi": "粉碎", "pinyin": "fěnsuì", "meaning": "shatter" },
+        { "hanzi": "不怯", "pinyin": "bù qiè", "meaning": "no fear" },
+        { "hanzi": "不退", "pinyin": "bù tuì", "meaning": "no retreat" },
+        { "hanzi": "將", "pinyin": "jiāng", "meaning": "will" },
+        { "hanzi": "邪惡", "pinyin": "xié'è", "meaning": "evil" },
+        { "hanzi": "都", "pinyin": "dōu", "meaning": "all" },
+        { "hanzi": "滅", "pinyin": "miè", "meaning": "destroy / extinguish" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus6",
+      "translation": "Light, illuminating the distant dark night — I charge, nightmares vanish like smoke",
+      "words": [
+        { "hanzi": "光", "pinyin": "guāng", "meaning": "light" },
+        { "hanzi": "照亮", "pinyin": "zhàoliàng", "meaning": "illuminate" },
+        { "hanzi": "遠方", "pinyin": "yuǎnfāng", "meaning": "distant place" },
+        { "hanzi": "黑夜", "pinyin": "hēiyè", "meaning": "dark night" },
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "闖", "pinyin": "chuǎng", "meaning": "charge / rush" },
+        { "hanzi": "惡夢", "pinyin": "èmèng", "meaning": "nightmare" },
+        { "hanzi": "灰飛煙滅", "pinyin": "huīfēi yānmiè", "meaning": "vanish like smoke" }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus6",
+      "translation": "I carry on, no matter how hoarse — no fear, no retreat, destroy all evil",
+      "words": [
+        { "hanzi": "我", "pinyin": "wǒ", "meaning": "I" },
+        { "hanzi": "扛", "pinyin": "káng", "meaning": "carry / shoulder" },
+        { "hanzi": "不管", "pinyin": "bùguǎn", "meaning": "no matter" },
+        { "hanzi": "聲嘶力竭", "pinyin": "shēngsī lìjié", "meaning": "shout oneself hoarse" },
+        { "hanzi": "不怯", "pinyin": "bù qiè", "meaning": "no fear" },
+        { "hanzi": "不退", "pinyin": "bù tuì", "meaning": "no retreat" },
+        { "hanzi": "將", "pinyin": "jiāng", "meaning": "will" },
+        { "hanzi": "邪惡", "pinyin": "xié'è", "meaning": "evil" },
+        { "hanzi": "都", "pinyin": "dōu", "meaning": "all" },
+        { "hanzi": "滅", "pinyin": "miè", "meaning": "destroy / extinguish" }
+      ]
+    }
+  ]
+}
