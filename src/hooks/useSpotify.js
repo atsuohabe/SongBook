@@ -355,6 +355,9 @@ export function useSpotify() {
     return usable.find(d => d.is_active) || usable[0]
   }, [apiFetch])
 
+  // Track URIs play directly; album/playlist URIs play as a context (e.g. a single)
+  const playBody = (uri) => (uri.startsWith('spotify:track:') ? { uris: [uri] } : { context_uri: uri })
+
   const play = useCallback(async (trackUri) => {
     if (!token) return
     try {
@@ -375,7 +378,7 @@ export function useSpotify() {
         const mRes = await apiFetch(`https://api.spotify.com/v1/me/player/play?device_id=${device.id}`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ uris: [trackUri] }),
+          body: JSON.stringify(playBody(trackUri)),
         })
         if (mRes && mRes.status === 403) {
           alert('再生にはSpotify Premiumが必要です。')
@@ -386,7 +389,7 @@ export function useSpotify() {
         const dRes = await apiFetch(`https://api.spotify.com/v1/me/player/play?device_id=${deviceId}`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ uris: [trackUri] }),
+          body: JSON.stringify(playBody(trackUri)),
         })
         if (dRes && dRes.status === 403) {
           alert('再生にはSpotify Premiumが必要です。')

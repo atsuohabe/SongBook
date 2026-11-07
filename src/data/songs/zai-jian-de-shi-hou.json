@@ -1,0 +1,995 @@
+{
+  "id": "zai-jian-de-shi-hou",
+  "title": "再見的時候",
+  "title_pinyin": "Zàijiàn de Shíhou",
+  "title_meaning": "When We Say Goodbye",
+  "artist": "洪佩瑜",
+  "artist_pinyin": "Hóng Pèiyú",
+  "artist_en": "Hung Pei-Yu",
+  "album": "",
+  "spotifyTrackUri": "spotify:track:3IBYp3fKyydZ5dDtirLY6P",
+  "lines": [
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "The people I once loved",
+      "words": [
+        {
+          "hanzi": "那些",
+          "pinyin": "nàxiē",
+          "meaning": "those"
+        },
+        {
+          "hanzi": "愛過",
+          "pinyin": "ài guò",
+          "meaning": "have loved"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "meaning": "people"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "Are they all well now?",
+      "words": [
+        {
+          "hanzi": "現在",
+          "pinyin": "xiànzài",
+          "meaning": "now"
+        },
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "meaning": "all"
+        },
+        {
+          "hanzi": "好",
+          "pinyin": "hǎo",
+          "meaning": "well / good"
+        },
+        {
+          "hanzi": "嗎",
+          "pinyin": "ma",
+          "meaning": "(question particle)"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "Do you still remember me?",
+      "words": [
+        {
+          "hanzi": "還",
+          "pinyin": "hái",
+          "meaning": "still"
+        },
+        {
+          "hanzi": "記得",
+          "pinyin": "jìde",
+          "meaning": "remember"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "me"
+        },
+        {
+          "hanzi": "吧",
+          "pinyin": "ba",
+          "meaning": "(suggestion particle)"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "The people I didn't want to miss",
+      "words": [
+        {
+          "hanzi": "不願",
+          "pinyin": "bú yuàn",
+          "meaning": "unwilling"
+        },
+        {
+          "hanzi": "錯過",
+          "pinyin": "cuòguò",
+          "meaning": "miss / let slip by"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "meaning": "people"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "Left behind deep in my heart",
+      "words": [
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "meaning": "in"
+        },
+        {
+          "hanzi": "心底",
+          "pinyin": "xīndǐ",
+          "meaning": "bottom of the heart"
+        },
+        {
+          "hanzi": "留下",
+          "pinyin": "liúxià",
+          "meaning": "leave behind"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "Left behind a flower",
+      "words": [
+        {
+          "hanzi": "留下",
+          "pinyin": "liúxià",
+          "meaning": "leave behind"
+        },
+        {
+          "hanzi": "一朵",
+          "pinyin": "yì duǒ",
+          "meaning": "one (flower)"
+        },
+        {
+          "hanzi": "花",
+          "pinyin": "huā",
+          "meaning": "flower"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus",
+      "translation": "Branches of longing have blossomed",
+      "words": [
+        {
+          "hanzi": "開出了",
+          "pinyin": "kāi chū le",
+          "meaning": "blossomed / grew out"
+        },
+        {
+          "hanzi": "思念",
+          "pinyin": "sīniàn",
+          "meaning": "longing / missing someone"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "枝枒",
+          "pinyin": "zhīyā",
+          "meaning": "branches"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus",
+      "translation": "My most beautiful years",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "I / my"
+        },
+        {
+          "hanzi": "最",
+          "pinyin": "zuì",
+          "meaning": "most"
+        },
+        {
+          "hanzi": "美",
+          "pinyin": "měi",
+          "meaning": "beautiful"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "年華",
+          "pinyin": "niánhuá",
+          "meaning": "years / prime of life"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus",
+      "translation": "Fate will make us, who love each other,",
+      "words": [
+        {
+          "hanzi": "緣分",
+          "pinyin": "yuánfèn",
+          "meaning": "fate / destiny"
+        },
+        {
+          "hanzi": "會",
+          "pinyin": "huì",
+          "meaning": "will"
+        },
+        {
+          "hanzi": "讓",
+          "pinyin": "ràng",
+          "meaning": "make / let"
+        },
+        {
+          "hanzi": "相愛",
+          "pinyin": "xiāng'ài",
+          "meaning": "love each other"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "我們",
+          "pinyin": "wǒmen",
+          "meaning": "we / us"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus",
+      "translation": "Care and worry for one another",
+      "words": [
+        {
+          "hanzi": "互相",
+          "pinyin": "hùxiāng",
+          "meaning": "mutually"
+        },
+        {
+          "hanzi": "牽掛",
+          "pinyin": "qiānguà",
+          "meaning": "worry about / care for"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "When we say goodbye, take my hand",
+      "words": [
+        {
+          "hanzi": "再見",
+          "pinyin": "zàijiàn",
+          "meaning": "goodbye"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "時候",
+          "pinyin": "shíhou",
+          "meaning": "time / when"
+        },
+        {
+          "hanzi": "牽起",
+          "pinyin": "qiān qǐ",
+          "meaning": "take hold of"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "my"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "手",
+          "pinyin": "shǒu",
+          "meaning": "hand"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "Watch the warm sunset as it crosses over the hills",
+      "words": [
+        {
+          "hanzi": "看",
+          "pinyin": "kàn",
+          "meaning": "watch"
+        },
+        {
+          "hanzi": "暖暖",
+          "pinyin": "nuǎnnuǎn",
+          "meaning": "warm"
+        },
+        {
+          "hanzi": "夕陽",
+          "pinyin": "xīyáng",
+          "meaning": "setting sun"
+        },
+        {
+          "hanzi": "它",
+          "pinyin": "tā",
+          "meaning": "it"
+        },
+        {
+          "hanzi": "越過",
+          "pinyin": "yuèguò",
+          "meaning": "cross over"
+        },
+        {
+          "hanzi": "山丘",
+          "pinyin": "shānqiū",
+          "meaning": "hills"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "The world is vast, I want to walk it together with you",
+      "words": [
+        {
+          "hanzi": "世界",
+          "pinyin": "shìjiè",
+          "meaning": "world"
+        },
+        {
+          "hanzi": "遼闊",
+          "pinyin": "liáokuò",
+          "meaning": "vast"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "I"
+        },
+        {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "meaning": "want to"
+        },
+        {
+          "hanzi": "陪",
+          "pinyin": "péi",
+          "meaning": "accompany"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "一起",
+          "pinyin": "yìqǐ",
+          "meaning": "together"
+        },
+        {
+          "hanzi": "走",
+          "pinyin": "zǒu",
+          "meaning": "walk"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "Sadly, time always reaches its end first",
+      "words": [
+        {
+          "hanzi": "可惜",
+          "pinyin": "kěxí",
+          "meaning": "it's a pity / sadly"
+        },
+        {
+          "hanzi": "時間",
+          "pinyin": "shíjiān",
+          "meaning": "time"
+        },
+        {
+          "hanzi": "它",
+          "pinyin": "tā",
+          "meaning": "it"
+        },
+        {
+          "hanzi": "總是",
+          "pinyin": "zǒngshì",
+          "meaning": "always"
+        },
+        {
+          "hanzi": "先",
+          "pinyin": "xiān",
+          "meaning": "first"
+        },
+        {
+          "hanzi": "到",
+          "pinyin": "dào",
+          "meaning": "reach"
+        },
+        {
+          "hanzi": "盡頭",
+          "pinyin": "jìntóu",
+          "meaning": "the end"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus2",
+      "translation": "Branches of longing have blossomed",
+      "words": [
+        {
+          "hanzi": "開出了",
+          "pinyin": "kāi chū le",
+          "meaning": "blossomed / grew out"
+        },
+        {
+          "hanzi": "思念",
+          "pinyin": "sīniàn",
+          "meaning": "longing / missing someone"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "枝枒",
+          "pinyin": "zhīyā",
+          "meaning": "branches"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus2",
+      "translation": "My most beautiful years",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "I / my"
+        },
+        {
+          "hanzi": "最",
+          "pinyin": "zuì",
+          "meaning": "most"
+        },
+        {
+          "hanzi": "美",
+          "pinyin": "měi",
+          "meaning": "beautiful"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "年華",
+          "pinyin": "niánhuá",
+          "meaning": "years / prime of life"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus2",
+      "translation": "Missing you is the promise you gave me",
+      "words": [
+        {
+          "hanzi": "想念",
+          "pinyin": "xiǎngniàn",
+          "meaning": "missing someone"
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "meaning": "is"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "給",
+          "pinyin": "gěi",
+          "meaning": "give"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "me"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "承諾",
+          "pinyin": "chéngnuò",
+          "meaning": "promise"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "prechorus2",
+      "translation": "That's what we agreed on",
+      "words": [
+        {
+          "hanzi": "說好",
+          "pinyin": "shuō hǎo",
+          "meaning": "agreed"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "啊",
+          "pinyin": "a",
+          "meaning": "(exclamation)"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "When we say goodbye, take my hand",
+      "words": [
+        {
+          "hanzi": "再見",
+          "pinyin": "zàijiàn",
+          "meaning": "goodbye"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "時候",
+          "pinyin": "shíhou",
+          "meaning": "time / when"
+        },
+        {
+          "hanzi": "牽起",
+          "pinyin": "qiān qǐ",
+          "meaning": "take hold of"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "my"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "手",
+          "pinyin": "shǒu",
+          "meaning": "hand"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "Watch the warm sunset as it crosses over the hills",
+      "words": [
+        {
+          "hanzi": "看",
+          "pinyin": "kàn",
+          "meaning": "watch"
+        },
+        {
+          "hanzi": "暖暖",
+          "pinyin": "nuǎnnuǎn",
+          "meaning": "warm"
+        },
+        {
+          "hanzi": "夕陽",
+          "pinyin": "xīyáng",
+          "meaning": "setting sun"
+        },
+        {
+          "hanzi": "它",
+          "pinyin": "tā",
+          "meaning": "it"
+        },
+        {
+          "hanzi": "越過",
+          "pinyin": "yuèguò",
+          "meaning": "cross over"
+        },
+        {
+          "hanzi": "山丘",
+          "pinyin": "shānqiū",
+          "meaning": "hills"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "The world is vast, I want to walk it together with you",
+      "words": [
+        {
+          "hanzi": "世界",
+          "pinyin": "shìjiè",
+          "meaning": "world"
+        },
+        {
+          "hanzi": "遼闊",
+          "pinyin": "liáokuò",
+          "meaning": "vast"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "I"
+        },
+        {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "meaning": "want to"
+        },
+        {
+          "hanzi": "陪",
+          "pinyin": "péi",
+          "meaning": "accompany"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "一起",
+          "pinyin": "yìqǐ",
+          "meaning": "together"
+        },
+        {
+          "hanzi": "走",
+          "pinyin": "zǒu",
+          "meaning": "walk"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "Sadly, time always reaches its end first",
+      "words": [
+        {
+          "hanzi": "可惜",
+          "pinyin": "kěxí",
+          "meaning": "it's a pity / sadly"
+        },
+        {
+          "hanzi": "時間",
+          "pinyin": "shíjiān",
+          "meaning": "time"
+        },
+        {
+          "hanzi": "它",
+          "pinyin": "tā",
+          "meaning": "it"
+        },
+        {
+          "hanzi": "總是",
+          "pinyin": "zǒngshì",
+          "meaning": "always"
+        },
+        {
+          "hanzi": "先",
+          "pinyin": "xiān",
+          "meaning": "first"
+        },
+        {
+          "hanzi": "到",
+          "pinyin": "dào",
+          "meaning": "reach"
+        },
+        {
+          "hanzi": "盡頭",
+          "pinyin": "jìntóu",
+          "meaning": "the end"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "translation": "When we say goodbye, kiss my forehead",
+      "words": [
+        {
+          "hanzi": "再見",
+          "pinyin": "zàijiàn",
+          "meaning": "goodbye"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "時候",
+          "pinyin": "shíhou",
+          "meaning": "time / when"
+        },
+        {
+          "hanzi": "親親",
+          "pinyin": "qīnqīn",
+          "meaning": "kiss"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "my"
+        },
+        {
+          "hanzi": "額頭",
+          "pinyin": "étóu",
+          "meaning": "forehead"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "translation": "The clear bright sky will embrace you and me",
+      "words": [
+        {
+          "hanzi": "朗朗",
+          "pinyin": "lǎnglǎng",
+          "meaning": "bright / clear"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "晴空",
+          "pinyin": "qíngkōng",
+          "meaning": "clear sky"
+        },
+        {
+          "hanzi": "會",
+          "pinyin": "huì",
+          "meaning": "will"
+        },
+        {
+          "hanzi": "擁抱",
+          "pinyin": "yōngbào",
+          "meaning": "embrace"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "me"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "translation": "Love is like a gust of wind, it teaches us to let go freely",
+      "words": [
+        {
+          "hanzi": "愛",
+          "pinyin": "ài",
+          "meaning": "love"
+        },
+        {
+          "hanzi": "像",
+          "pinyin": "xiàng",
+          "meaning": "like"
+        },
+        {
+          "hanzi": "陣風",
+          "pinyin": "zhèn fēng",
+          "meaning": "gust of wind"
+        },
+        {
+          "hanzi": "它",
+          "pinyin": "tā",
+          "meaning": "it"
+        },
+        {
+          "hanzi": "讓",
+          "pinyin": "ràng",
+          "meaning": "make / let"
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "meaning": "people"
+        },
+        {
+          "hanzi": "學會",
+          "pinyin": "xuéhuì",
+          "meaning": "learn"
+        },
+        {
+          "hanzi": "灑脫",
+          "pinyin": "sǎtuō",
+          "meaning": "free and easy / unrestrained"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus3",
+      "translation": "I couldn't learn to part with it, but I learned to let go",
+      "words": [
+        {
+          "hanzi": "學不會",
+          "pinyin": "xué bú huì",
+          "meaning": "can't learn"
+        },
+        {
+          "hanzi": "捨得",
+          "pinyin": "shěde",
+          "meaning": "be willing to part with"
+        },
+        {
+          "hanzi": "卻",
+          "pinyin": "què",
+          "meaning": "but"
+        },
+        {
+          "hanzi": "學會了",
+          "pinyin": "xuéhuì le",
+          "meaning": "learned"
+        },
+        {
+          "hanzi": "放手",
+          "pinyin": "fàngshǒu",
+          "meaning": "let go"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "translation": "The people I didn't want to miss",
+      "words": [
+        {
+          "hanzi": "不願",
+          "pinyin": "bú yuàn",
+          "meaning": "unwilling"
+        },
+        {
+          "hanzi": "錯過",
+          "pinyin": "cuòguò",
+          "meaning": "miss / let slip by"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "meaning": "people"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "translation": "Left behind deep in my heart",
+      "words": [
+        {
+          "hanzi": "在",
+          "pinyin": "zài",
+          "meaning": "in"
+        },
+        {
+          "hanzi": "心底",
+          "pinyin": "xīndǐ",
+          "meaning": "bottom of the heart"
+        },
+        {
+          "hanzi": "留下",
+          "pinyin": "liúxià",
+          "meaning": "leave behind"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "translation": "Became a flower",
+      "words": [
+        {
+          "hanzi": "變成",
+          "pinyin": "biànchéng",
+          "meaning": "become"
+        },
+        {
+          "hanzi": "一朵",
+          "pinyin": "yì duǒ",
+          "meaning": "one (flower)"
+        },
+        {
+          "hanzi": "花",
+          "pinyin": "huā",
+          "meaning": "flower"
+        }
+      ]
+    }
+  ]
+}
