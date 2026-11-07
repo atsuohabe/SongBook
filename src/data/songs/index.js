@@ -6,7 +6,8 @@ import woZhiZaiHuNi from './wo-zhi-zai-hu-ni.json'
 import xiaoShouLaDaShou from './xiao-shou-la-da-shou.json'
 import taiYangZhiZi from './tai-yang-zhi-zi.json'
 import naTianXiaYuLe from './na-tian-xia-yu-le.json'
+import zaiJianDeShiHou from './zai-jian-de-shi-hou.json'
 
-const songs = [geQian, feng, jiFenZhiJi, taiYangYuDiQiu, woZhiZaiHuNi, xiaoShouLaDaShou, taiYangZhiZi, naTianXiaYuLe]
+const songs = [geQian, feng, jiFenZhiJi, taiYangYuDiQiu, woZhiZaiHuNi, xiaoShouLaDaShou, taiYangZhiZi, naTianXiaYuLe, zaiJianDeShiHou]
 
 export default songs

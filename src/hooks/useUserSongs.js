@@ -81,10 +81,10 @@ function parseLyricsToLines(text, vocabMap) {
 function parseSpotifyUrl(input) {
   if (!input) return ''
   // Already a URI
-  if (input.startsWith('spotify:track:')) return input
+  if (/^spotify:(track|album):/.test(input)) return input
   // URL format
-  const match = input.match(/open\.spotify\.com\/track\/([a-zA-Z0-9]+)/)
-  if (match) return `spotify:track:${match[1]}`
+  const match = input.match(/open\.spotify\.com\/(?:intl-[a-z-]+\/)?(track|album)\/([a-zA-Z0-9]+)/)
+  if (match) return `spotify:${match[1]}:${match[2]}`
   return ''
 }
 
