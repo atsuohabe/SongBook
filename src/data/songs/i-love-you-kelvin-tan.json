@@ -1,0 +1,1476 @@
+{
+  "id": "i-love-you-kelvin-tan",
+  "title": "I Love You",
+  "title_pinyin": "I Love You",
+  "title_meaning": "I Love You",
+  "artist": "陳偉聯",
+  "artist_pinyin": "Chén Wěilián",
+  "artist_en": "Kelvin Tan",
+  "album": "",
+  "spotifyTrackUri": "spotify:track:186jlTs3mUNpE4T4Pk3axD",
+  "lines": [
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "I love you",
+      "words": [
+        {
+          "hanzi": "I love you",
+          "pinyin": "I love you",
+          "meaning": "I love you"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "So all I can do is say I'm sorry",
+      "words": [
+        {
+          "hanzi": "所以",
+          "pinyin": "suǒyǐ",
+          "meaning": "so"
+        },
+        {
+          "hanzi": "只能",
+          "pinyin": "zhǐ néng",
+          "meaning": "can only"
+        },
+        {
+          "hanzi": "說",
+          "pinyin": "shuō",
+          "meaning": "say"
+        },
+        {
+          "hanzi": "聲",
+          "pinyin": "shēng",
+          "meaning": "(a word / a sound)"
+        },
+        {
+          "hanzi": "對不起",
+          "pinyin": "duìbuqǐ",
+          "meaning": "sorry"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "I have no excuse at all",
+      "words": [
+        {
+          "hanzi": "任何",
+          "pinyin": "rènhé",
+          "meaning": "any"
+        },
+        {
+          "hanzi": "借口",
+          "pinyin": "jièkǒu",
+          "meaning": "excuse"
+        },
+        {
+          "hanzi": "都",
+          "pinyin": "dōu",
+          "meaning": "at all"
+        },
+        {
+          "hanzi": "沒有",
+          "pinyin": "méiyǒu",
+          "meaning": "don't have"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "I love you",
+      "words": [
+        {
+          "hanzi": "I love you",
+          "pinyin": "I love you",
+          "meaning": "I love you"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "It's already too late to truly cherish you",
+      "words": [
+        {
+          "hanzi": "已",
+          "pinyin": "yǐ",
+          "meaning": "already"
+        },
+        {
+          "hanzi": "來不及",
+          "pinyin": "láibují",
+          "meaning": "too late"
+        },
+        {
+          "hanzi": "好好",
+          "pinyin": "hǎohǎo",
+          "meaning": "properly / well"
+        },
+        {
+          "hanzi": "去",
+          "pinyin": "qù",
+          "meaning": "(to)"
+        },
+        {
+          "hanzi": "珍惜",
+          "pinyin": "zhēnxī",
+          "meaning": "cherish"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse1",
+      "translation": "I regret so much",
+      "words": [
+        {
+          "hanzi": "後悔",
+          "pinyin": "hòuhuǐ",
+          "meaning": "regret"
+        },
+        {
+          "hanzi": "很多",
+          "pinyin": "hěn duō",
+          "meaning": "a lot"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "I shouldn't have made you, innocent, shed bewildered tears",
+      "words": [
+        {
+          "hanzi": "不該",
+          "pinyin": "bù gāi",
+          "meaning": "should not"
+        },
+        {
+          "hanzi": "讓",
+          "pinyin": "ràng",
+          "meaning": "make / let"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "無辜",
+          "pinyin": "wúgū",
+          "meaning": "innocent"
+        },
+        {
+          "hanzi": "流下",
+          "pinyin": "liúxià",
+          "meaning": "shed (tears)"
+        },
+        {
+          "hanzi": "失措",
+          "pinyin": "shīcuò",
+          "meaning": "at a loss / bewildered"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "淚",
+          "pinyin": "lèi",
+          "meaning": "tears"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "Heartbreak was a world unknown to you",
+      "words": [
+        {
+          "hanzi": "心碎",
+          "pinyin": "xīnsuì",
+          "meaning": "heartbreak"
+        },
+        {
+          "hanzi": "原",
+          "pinyin": "yuán",
+          "meaning": "originally"
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "meaning": "was"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "陌生",
+          "pinyin": "mòshēng",
+          "meaning": "unfamiliar / strange"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "世界",
+          "pinyin": "shìjiè",
+          "meaning": "world"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "The laughter echoing in the air has long since frozen",
+      "words": [
+        {
+          "hanzi": "空氣",
+          "pinyin": "kōngqì",
+          "meaning": "air"
+        },
+        {
+          "hanzi": "中",
+          "pinyin": "zhōng",
+          "meaning": "in"
+        },
+        {
+          "hanzi": "回蕩",
+          "pinyin": "huídàng",
+          "meaning": "echo / reverberate"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "笑語",
+          "pinyin": "xiàoyǔ",
+          "meaning": "laughter and chatter"
+        },
+        {
+          "hanzi": "早已經",
+          "pinyin": "zǎo yǐjīng",
+          "meaning": "long since"
+        },
+        {
+          "hanzi": "凍結",
+          "pinyin": "dòngjié",
+          "meaning": "freeze"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "How I wish I could love you once more in a dream, hu",
+      "words": [
+        {
+          "hanzi": "多",
+          "pinyin": "duō",
+          "meaning": "how (much)"
+        },
+        {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "meaning": "wish / want"
+        },
+        {
+          "hanzi": "能",
+          "pinyin": "néng",
+          "meaning": "could"
+        },
+        {
+          "hanzi": "再",
+          "pinyin": "zài",
+          "meaning": "again"
+        },
+        {
+          "hanzi": "和",
+          "pinyin": "hé",
+          "meaning": "with"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "夢裡",
+          "pinyin": "mènglǐ",
+          "meaning": "in a dream"
+        },
+        {
+          "hanzi": "愛",
+          "pinyin": "ài",
+          "meaning": "love"
+        },
+        {
+          "hanzi": "多",
+          "pinyin": "duō",
+          "meaning": "more"
+        },
+        {
+          "hanzi": "一次",
+          "pinyin": "yí cì",
+          "meaning": "one time"
+        },
+        {
+          "hanzi": "hu",
+          "pinyin": "hu",
+          "meaning": ""
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "It's so heavy watching you take every step",
+      "words": [
+        {
+          "hanzi": "很",
+          "pinyin": "hěn",
+          "meaning": "very"
+        },
+        {
+          "hanzi": "沉重",
+          "pinyin": "chénzhòng",
+          "meaning": "heavy"
+        },
+        {
+          "hanzi": "看",
+          "pinyin": "kàn",
+          "meaning": "watch"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "走",
+          "pinyin": "zǒu",
+          "meaning": "walk"
+        },
+        {
+          "hanzi": "着",
+          "pinyin": "zhe",
+          "meaning": "(continuous)"
+        },
+        {
+          "hanzi": "每",
+          "pinyin": "měi",
+          "meaning": "every"
+        },
+        {
+          "hanzi": "一步",
+          "pinyin": "yí bù",
+          "meaning": "one step"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "It should have been a road to happiness",
+      "words": [
+        {
+          "hanzi": "它",
+          "pinyin": "tā",
+          "meaning": "it"
+        },
+        {
+          "hanzi": "應該",
+          "pinyin": "yīnggāi",
+          "meaning": "should"
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "meaning": "be"
+        },
+        {
+          "hanzi": "幸福",
+          "pinyin": "xìngfú",
+          "meaning": "happiness"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "路",
+          "pinyin": "lù",
+          "meaning": "road"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "I hardened my heart and pushed you away, hoping you'd leave without looking back",
+      "words": [
+        {
+          "hanzi": "狠心",
+          "pinyin": "hěnxīn",
+          "meaning": "heartlessly / harden one's heart"
+        },
+        {
+          "hanzi": "推開",
+          "pinyin": "tuīkāi",
+          "meaning": "push away"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "meaning": "want"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "離",
+          "pinyin": "lí",
+          "meaning": "leave"
+        },
+        {
+          "hanzi": "得",
+          "pinyin": "de",
+          "meaning": "(manner)"
+        },
+        {
+          "hanzi": "無反顧",
+          "pinyin": "wú fǎngù",
+          "meaning": "without looking back"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "The wound I gave you is tattooed on your heart",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "your"
+        },
+        {
+          "hanzi": "心",
+          "pinyin": "xīn",
+          "meaning": "heart"
+        },
+        {
+          "hanzi": "上",
+          "pinyin": "shàng",
+          "meaning": "on"
+        },
+        {
+          "hanzi": "紋",
+          "pinyin": "wén",
+          "meaning": "tattoo / engrave"
+        },
+        {
+          "hanzi": "着",
+          "pinyin": "zhe",
+          "meaning": "(continuous)"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "I"
+        },
+        {
+          "hanzi": "給",
+          "pinyin": "gěi",
+          "meaning": "give"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "傷",
+          "pinyin": "shāng",
+          "meaning": "wound"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "A beautiful punishment for me",
+      "words": [
+        {
+          "hanzi": "對",
+          "pinyin": "duì",
+          "meaning": "for / to"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "me"
+        },
+        {
+          "hanzi": "絕美",
+          "pinyin": "juéměi",
+          "meaning": "exquisitely beautiful"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "懲罰",
+          "pinyin": "chéngfá",
+          "meaning": "punishment"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "I want to forget, but it's already impossible",
+      "words": [
+        {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "meaning": "want"
+        },
+        {
+          "hanzi": "忘了",
+          "pinyin": "wàng le",
+          "meaning": "forget"
+        },
+        {
+          "hanzi": "已",
+          "pinyin": "yǐ",
+          "meaning": "already"
+        },
+        {
+          "hanzi": "無法",
+          "pinyin": "wúfǎ",
+          "meaning": "unable"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "So having had it once",
+      "words": [
+        {
+          "hanzi": "原來",
+          "pinyin": "yuánlái",
+          "meaning": "so / it turns out"
+        },
+        {
+          "hanzi": "曾經",
+          "pinyin": "céngjīng",
+          "meaning": "once / ever"
+        },
+        {
+          "hanzi": "擁有",
+          "pinyin": "yōngyǒu",
+          "meaning": "have / possess"
+        },
+        {
+          "hanzi": "過",
+          "pinyin": "guò",
+          "meaning": "(experienced)"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus1",
+      "translation": "Hurts even more than losing",
+      "words": [
+        {
+          "hanzi": "還",
+          "pinyin": "hái",
+          "meaning": "even more"
+        },
+        {
+          "hanzi": "比",
+          "pinyin": "bǐ",
+          "meaning": "than"
+        },
+        {
+          "hanzi": "失去",
+          "pinyin": "shīqù",
+          "meaning": "losing"
+        },
+        {
+          "hanzi": "痛苦",
+          "pinyin": "tòngkǔ",
+          "meaning": "painful"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "I love you",
+      "words": [
+        {
+          "hanzi": "I love you",
+          "pinyin": "I love you",
+          "meaning": "I love you"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "My deep love for you has never changed",
+      "words": [
+        {
+          "hanzi": "對",
+          "pinyin": "duì",
+          "meaning": "for"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "摯愛",
+          "pinyin": "zhì'ài",
+          "meaning": "deepest love"
+        },
+        {
+          "hanzi": "從不曾",
+          "pinyin": "cóng bù céng",
+          "meaning": "never once"
+        },
+        {
+          "hanzi": "改變",
+          "pinyin": "gǎibiàn",
+          "meaning": "change"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "I want you to be happy",
+      "words": [
+        {
+          "hanzi": "要",
+          "pinyin": "yào",
+          "meaning": "want"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "快樂",
+          "pinyin": "kuàilè",
+          "meaning": "happy"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "I love you",
+      "words": [
+        {
+          "hanzi": "I love you",
+          "pinyin": "I love you",
+          "meaning": "I love you"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "I so want to tell you, but it's too late",
+      "words": [
+        {
+          "hanzi": "好",
+          "pinyin": "hǎo",
+          "meaning": "so / really"
+        },
+        {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "meaning": "want"
+        },
+        {
+          "hanzi": "對",
+          "pinyin": "duì",
+          "meaning": "to"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "說",
+          "pinyin": "shuō",
+          "meaning": "say"
+        },
+        {
+          "hanzi": "卻",
+          "pinyin": "què",
+          "meaning": "but"
+        },
+        {
+          "hanzi": "來不及",
+          "pinyin": "láibují",
+          "meaning": "too late"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "verse2",
+      "translation": "I already regret too much",
+      "words": [
+        {
+          "hanzi": "後悔",
+          "pinyin": "hòuhuǐ",
+          "meaning": "regret"
+        },
+        {
+          "hanzi": "已",
+          "pinyin": "yǐ",
+          "meaning": "already"
+        },
+        {
+          "hanzi": "太多",
+          "pinyin": "tài duō",
+          "meaning": "too much"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "I shouldn't have made you, innocent, shed bewildered tears",
+      "words": [
+        {
+          "hanzi": "不該",
+          "pinyin": "bù gāi",
+          "meaning": "should not"
+        },
+        {
+          "hanzi": "讓",
+          "pinyin": "ràng",
+          "meaning": "make / let"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "無辜",
+          "pinyin": "wúgū",
+          "meaning": "innocent"
+        },
+        {
+          "hanzi": "流下",
+          "pinyin": "liúxià",
+          "meaning": "shed (tears)"
+        },
+        {
+          "hanzi": "失措",
+          "pinyin": "shīcuò",
+          "meaning": "at a loss / bewildered"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "淚",
+          "pinyin": "lèi",
+          "meaning": "tears"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "Heartbreak was a world unknown to you",
+      "words": [
+        {
+          "hanzi": "心碎",
+          "pinyin": "xīnsuì",
+          "meaning": "heartbreak"
+        },
+        {
+          "hanzi": "原",
+          "pinyin": "yuán",
+          "meaning": "originally"
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "meaning": "was"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "陌生",
+          "pinyin": "mòshēng",
+          "meaning": "unfamiliar / strange"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "世界",
+          "pinyin": "shìjiè",
+          "meaning": "world"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "The laughter echoing in the air has long since frozen",
+      "words": [
+        {
+          "hanzi": "空氣",
+          "pinyin": "kōngqì",
+          "meaning": "air"
+        },
+        {
+          "hanzi": "中",
+          "pinyin": "zhōng",
+          "meaning": "in"
+        },
+        {
+          "hanzi": "回蕩",
+          "pinyin": "huídàng",
+          "meaning": "echo / reverberate"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "笑語",
+          "pinyin": "xiàoyǔ",
+          "meaning": "laughter and chatter"
+        },
+        {
+          "hanzi": "早已經",
+          "pinyin": "zǎo yǐjīng",
+          "meaning": "long since"
+        },
+        {
+          "hanzi": "凍結",
+          "pinyin": "dòngjié",
+          "meaning": "freeze"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "How I wish I could love you once more in a dream, hu",
+      "words": [
+        {
+          "hanzi": "多",
+          "pinyin": "duō",
+          "meaning": "how (much)"
+        },
+        {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "meaning": "wish / want"
+        },
+        {
+          "hanzi": "能",
+          "pinyin": "néng",
+          "meaning": "could"
+        },
+        {
+          "hanzi": "再",
+          "pinyin": "zài",
+          "meaning": "again"
+        },
+        {
+          "hanzi": "和",
+          "pinyin": "hé",
+          "meaning": "with"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "夢裡",
+          "pinyin": "mènglǐ",
+          "meaning": "in a dream"
+        },
+        {
+          "hanzi": "愛",
+          "pinyin": "ài",
+          "meaning": "love"
+        },
+        {
+          "hanzi": "多",
+          "pinyin": "duō",
+          "meaning": "more"
+        },
+        {
+          "hanzi": "一次",
+          "pinyin": "yí cì",
+          "meaning": "one time"
+        },
+        {
+          "hanzi": "hu",
+          "pinyin": "hu",
+          "meaning": ""
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "It's so heavy watching you take every step",
+      "words": [
+        {
+          "hanzi": "很",
+          "pinyin": "hěn",
+          "meaning": "very"
+        },
+        {
+          "hanzi": "沉重",
+          "pinyin": "chénzhòng",
+          "meaning": "heavy"
+        },
+        {
+          "hanzi": "看",
+          "pinyin": "kàn",
+          "meaning": "watch"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "走",
+          "pinyin": "zǒu",
+          "meaning": "walk"
+        },
+        {
+          "hanzi": "着",
+          "pinyin": "zhe",
+          "meaning": "(continuous)"
+        },
+        {
+          "hanzi": "每",
+          "pinyin": "měi",
+          "meaning": "every"
+        },
+        {
+          "hanzi": "一步",
+          "pinyin": "yí bù",
+          "meaning": "one step"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "It should have been a road to happiness",
+      "words": [
+        {
+          "hanzi": "它",
+          "pinyin": "tā",
+          "meaning": "it"
+        },
+        {
+          "hanzi": "應該",
+          "pinyin": "yīnggāi",
+          "meaning": "should"
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "meaning": "be"
+        },
+        {
+          "hanzi": "幸福",
+          "pinyin": "xìngfú",
+          "meaning": "happiness"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "路",
+          "pinyin": "lù",
+          "meaning": "road"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "Hardening my heart and pushing you away was a mistake I can't undo",
+      "words": [
+        {
+          "hanzi": "狠心",
+          "pinyin": "hěnxīn",
+          "meaning": "heartlessly / harden one's heart"
+        },
+        {
+          "hanzi": "推開",
+          "pinyin": "tuīkāi",
+          "meaning": "push away"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "meaning": "was"
+        },
+        {
+          "hanzi": "挽不回",
+          "pinyin": "wǎn bù huí",
+          "meaning": "irreversible / can't be undone"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "錯誤",
+          "pinyin": "cuòwù",
+          "meaning": "mistake"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "The wound I gave you is tattooed on your heart",
+      "words": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "your"
+        },
+        {
+          "hanzi": "心",
+          "pinyin": "xīn",
+          "meaning": "heart"
+        },
+        {
+          "hanzi": "上",
+          "pinyin": "shàng",
+          "meaning": "on"
+        },
+        {
+          "hanzi": "紋",
+          "pinyin": "wén",
+          "meaning": "tattoo / engrave"
+        },
+        {
+          "hanzi": "着",
+          "pinyin": "zhe",
+          "meaning": "(continuous)"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "I"
+        },
+        {
+          "hanzi": "給",
+          "pinyin": "gěi",
+          "meaning": "give"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "傷",
+          "pinyin": "shāng",
+          "meaning": "wound"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "A beautiful punishment for me",
+      "words": [
+        {
+          "hanzi": "對",
+          "pinyin": "duì",
+          "meaning": "for / to"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "me"
+        },
+        {
+          "hanzi": "絕美",
+          "pinyin": "juéměi",
+          "meaning": "exquisitely beautiful"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "懲罰",
+          "pinyin": "chéngfá",
+          "meaning": "punishment"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "I want to forget, but I can't",
+      "words": [
+        {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "meaning": "want"
+        },
+        {
+          "hanzi": "忘了",
+          "pinyin": "wàng le",
+          "meaning": "forget"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "I"
+        },
+        {
+          "hanzi": "無法",
+          "pinyin": "wúfǎ",
+          "meaning": "unable"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "So having had it once",
+      "words": [
+        {
+          "hanzi": "原來",
+          "pinyin": "yuánlái",
+          "meaning": "so / it turns out"
+        },
+        {
+          "hanzi": "曾經",
+          "pinyin": "céngjīng",
+          "meaning": "once / ever"
+        },
+        {
+          "hanzi": "擁有",
+          "pinyin": "yōngyǒu",
+          "meaning": "have / possess"
+        },
+        {
+          "hanzi": "過",
+          "pinyin": "guò",
+          "meaning": "(experienced)"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "chorus2",
+      "translation": "Hurts far more than losing",
+      "words": [
+        {
+          "hanzi": "遠",
+          "pinyin": "yuǎn",
+          "meaning": "far"
+        },
+        {
+          "hanzi": "比",
+          "pinyin": "bǐ",
+          "meaning": "than"
+        },
+        {
+          "hanzi": "失去",
+          "pinyin": "shīqù",
+          "meaning": "losing"
+        },
+        {
+          "hanzi": "痛苦",
+          "pinyin": "tòngkǔ",
+          "meaning": "painful"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "translation": "Your wound is bravely branded on my heart",
+      "words": [
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "my"
+        },
+        {
+          "hanzi": "心",
+          "pinyin": "xīn",
+          "meaning": "heart"
+        },
+        {
+          "hanzi": "上",
+          "pinyin": "shàng",
+          "meaning": "on"
+        },
+        {
+          "hanzi": "勇敢",
+          "pinyin": "yǒnggǎn",
+          "meaning": "bravely"
+        },
+        {
+          "hanzi": "烙",
+          "pinyin": "lào",
+          "meaning": "brand / burn in"
+        },
+        {
+          "hanzi": "着",
+          "pinyin": "zhe",
+          "meaning": "(continuous)"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "your"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "傷",
+          "pinyin": "shāng",
+          "meaning": "wound"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "translation": "Such a beautiful punishment",
+      "words": [
+        {
+          "hanzi": "那麼",
+          "pinyin": "nàme",
+          "meaning": "so / such"
+        },
+        {
+          "hanzi": "絕美",
+          "pinyin": "juéměi",
+          "meaning": "exquisitely beautiful"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": ""
+        },
+        {
+          "hanzi": "懲罰",
+          "pinyin": "chéngfá",
+          "meaning": "punishment"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "translation": "I want to forget, but I can't",
+      "words": [
+        {
+          "hanzi": "想",
+          "pinyin": "xiǎng",
+          "meaning": "want"
+        },
+        {
+          "hanzi": "忘了",
+          "pinyin": "wàng le",
+          "meaning": "forget"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "I"
+        },
+        {
+          "hanzi": "無法",
+          "pinyin": "wúfǎ",
+          "meaning": "unable"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "translation": "So having had it once",
+      "words": [
+        {
+          "hanzi": "原來",
+          "pinyin": "yuánlái",
+          "meaning": "so / it turns out"
+        },
+        {
+          "hanzi": "曾經",
+          "pinyin": "céngjīng",
+          "meaning": "once / ever"
+        },
+        {
+          "hanzi": "擁有",
+          "pinyin": "yōngyǒu",
+          "meaning": "have / possess"
+        },
+        {
+          "hanzi": "過",
+          "pinyin": "guò",
+          "meaning": "(experienced)"
+        }
+      ]
+    },
+    {
+      "startTime": null,
+      "endTime": null,
+      "section": "outro",
+      "translation": "Hurts even more than losing",
+      "words": [
+        {
+          "hanzi": "還",
+          "pinyin": "hái",
+          "meaning": "even more"
+        },
+        {
+          "hanzi": "比",
+          "pinyin": "bǐ",
+          "meaning": "than"
+        },
+        {
+          "hanzi": "失去",
+          "pinyin": "shīqù",
+          "meaning": "losing"
+        },
+        {
+          "hanzi": "痛苦",
+          "pinyin": "tòngkǔ",
+          "meaning": "painful"
+        }
+      ]
+    }
+  ]
+}
